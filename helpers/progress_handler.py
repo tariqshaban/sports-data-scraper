@@ -34,5 +34,10 @@ class ProgressHandler:
             raise ValueError('elapsed cannot be greater than total')
 
         return f'{elapsed}/{total}\t\t' \
-               f'{round(elapsed / total * 100, 2)}%\t\t' \
-               f'ETA: {round(ProgressHandler.__remaining_time, 2)} second(s)'
+               f'{"{:.2f}".format(round(elapsed / total * 100, 2))}%\t\t' \
+               f'ETA: {"{:.2f}".format(round(ProgressHandler.__remaining_time, 2))} second(s)'
+
+    @staticmethod
+    def reset_progress():
+        ProgressHandler.__last_accessed = None
+        ProgressHandler.__remaining_time = None

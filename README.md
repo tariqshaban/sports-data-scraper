@@ -14,6 +14,18 @@ Clone the project from GitHub
 
 `$ git clone https://github.com/tariqshaban/sports-data-scraper.git`
 
+Install numpy
+`pip install numpy`
+
+Install pandas
+`pip install pandas`
+
+Install scipy
+`pip install scipy`
+
+Install requests
+`pip install requests`
+
 No further configuration is required.
 
 
@@ -39,7 +51,7 @@ Report / Findings
 
 ### What tools have been used to scrape data off the web?
 
-Beautiful Soup has been used for scrapping; it contains abstract out-of-the-box methods that help extract information
+Beautiful Soup has been used for scraping; it contains abstract out-of-the-box methods that help extract information
 from the HTML file
 
 > Beautiful Soup is a Python library for pulling
@@ -71,7 +83,7 @@ We successfully collected partial information of the following:
     * Matches Stats (total goals, fouls, etc.)
 * Leagues
     * League Name
-    * League URL (for future scrapping purposes)
+    * League URL (for future scraping purposes)
 * Clubs
     * League Name
     * Club Name
@@ -89,6 +101,7 @@ We successfully collected partial information of the following:
 ### What manipulations have you made for the data?
 
 * Players
+  * Column datatype conversion
   * Replaced blank spaces/empty values with nulls
   * Replaced double dashes with nulls
   * Converted weight from lbs to kg
@@ -98,6 +111,7 @@ We successfully collected partial information of the following:
 * Clubs
     * None
 * Matches
+    * Column datatype conversion
     * Replaced blank spaces/empty values with nulls
     * Replaced double dashes with nulls
     * Dropped rows that contained less than three non-null values

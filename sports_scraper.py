@@ -5,9 +5,10 @@ import numpy as np
 import bs4
 import re
 import requests as requests
-from enums.clubs_enum import ClubsEnum
 from helpers.date_time_handler import DateTimeHandler
 from helpers.progress_handler import ProgressHandler
+from models.club import Club
+from sports_api import SportsApi
 
 
 class SportsScraper:
@@ -18,7 +19,7 @@ class SportsScraper:
 
         :param list[int] season_years: Collect the data from the provided year(s)
         :param list[str] leagues: Specify the desired league(s)
-        :param list[Clubs] clubs: Specify the desired club(s)
+        :param list[Club] clubs: Specify the desired club(s)
         :param bool tolerate_bad_index: Specify to whether throw an exception if a league does not exist or not
         :return: A dataframe containing team players
         """
@@ -33,12 +34,12 @@ class SportsScraper:
             else:
                 leagues_df = leagues_df.loc[leagues]
         if (clubs is None) or (len(clubs) == 0):
-            clubs = [e for e in ClubsEnum]
+            clubs = SportsApi.get_teams_id(leagues=SportsScraper.scrap_leagues()['URL'].tolist())
 
         if not all(isinstance(x, np.int32) or isinstance(x, int) for x in season_years):
             raise ValueError('season_year must be a list of integer')
-        if not all(isinstance(x, ClubsEnum) for x in clubs):
-            raise ValueError('clubs must be a list of clubs_enum')
+        if not all(isinstance(x, Club) for x in clubs):
+            raise ValueError('clubs must be a list of integer')
 
         players_df_goalkeeper = pd.DataFrame()
 
@@ -53,14 +54,14 @@ class SportsScraper:
                     processed += 1
                     res = requests.get(
                         f'https://www.espn.com/soccer/team/squad/_/'
-                        f'id/{club.value}/'
+                        f'id/{club.club_id}/'
                         f'league/{league[0]}/'
                         f'season/{season_year}')
 
                     soup = bs4.BeautifulSoup(res.text, 'html.parser')
                     tables = soup.find_all('table', attrs={'class': 'Table'})
 
-                    if not tables:
+                    if not tables or len(tables) != 2:
                         continue
 
                     for x in np.arange(0, 2):
@@ -70,13 +71,13 @@ class SportsScraper:
                             cols = row.find_all('td')
                             cols = [ele.text.strip() for ele in cols]  # Strips elements
                             if cols:  # If column is not empty
-                                buff = [ele for ele in cols if ele]  # If element is not empty
-                                number_list = re.findall(r'\d+$', buff[0])
+                                buff = [index, club.name] + [ele for ele in cols if ele]  # If element is not empty
+                                number_list = re.findall(r'\d+$', buff[2])
                                 if number_list:  # Checks if there is a number for the player
-                                    buff.insert(1, number_list[0])  # Extract player's number
-                                    buff[0] = re.findall(r'^([^0-9]*)', buff[0])[0]  # Remove player's name number
+                                    buff.insert(3, number_list[0])  # Extract player's number
+                                    buff[2] = re.findall(r'^([^0-9]*)', buff[2])[0]  # Remove player's name number
                                 else:
-                                    buff.insert(1, np.nan)
+                                    buff.insert(3, np.nan)
                                 data.append(buff)
 
                         if x == 0:
@@ -85,15 +86,15 @@ class SportsScraper:
                             players_df_player = players_df_player.append(data)
 
         if players_df_goalkeeper.empty:
-            players_df_goalkeeper = pd.DataFrame(np.empty((0, 16)))
+            players_df_goalkeeper = pd.DataFrame(np.empty((0, 18)))
 
         if players_df_player.empty:
-            players_df_player = pd.DataFrame(np.empty((0, 17)))
+            players_df_player = pd.DataFrame(np.empty((0, 19)))
 
-        players_df_goalkeeper.columns = ['NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
+        players_df_goalkeeper.columns = ['LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
                                          'SV', 'GA', 'A',
                                          'FC', 'FA', 'YC', 'RC']
-        players_df_player.columns = ['NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
+        players_df_player.columns = ['LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
                                      'G', 'A', 'SH', 'ST',
                                      'FC', 'FA', 'YC', 'RC']
 
@@ -109,6 +110,11 @@ class SportsScraper:
             int(x.split("'")[0]) * 30.48 +
             int(x.split("'")[1].split("\"")[0]) * 2.54
         )
+
+        cols = df.columns.drop(['LEAGUE', 'CLUB', 'NAME', 'POS', 'NAT'])
+        df[cols] = df[cols].apply(pd.to_numeric)
+
+        ProgressHandler.reset_progress()
         return df
 
     @staticmethod
@@ -186,6 +192,8 @@ class SportsScraper:
 
         df.columns = ['LEAGUE', 'CLUB']
         df.set_index('LEAGUE', inplace=True)
+
+        ProgressHandler.reset_progress()
         return df
 
     @staticmethod
@@ -281,4 +289,5 @@ class SportsScraper:
             .dropna(thresh=3) \
             .reset_index(drop=True)
 
+        ProgressHandler.reset_progress()
         return [elapsed_matches_df, fixtures_list_df]
