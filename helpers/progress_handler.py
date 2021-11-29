@@ -33,6 +33,6 @@ class ProgressHandler:
         if elapsed > total:
             raise ValueError('elapsed cannot be greater than total')
 
-        return f'{elapsed}/{total} ' \
-               f'({round(elapsed / total * 100, 2)}%, ' \
-               f'ETA:{round(ProgressHandler.__remaining_time, 2)})'
+        return f'{elapsed}/{total}\t\t' \
+               f'{round(elapsed / total * 100, 2)}%\t\t' \
+               f'ETA: {round(ProgressHandler.__remaining_time, 2)} second(s)'

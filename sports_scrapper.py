@@ -201,8 +201,6 @@ class SportsScraper:
         if start_date > end_date:
             raise ValueError('start_date cannot be less than end_date')
 
-        leagues_df = pd.DataFrame(data=[['All Leagues', 'all']], columns=['LEAGUE', 'URL']).set_index('LEAGUE')
-
         elapsed_matches_df = pd.DataFrame()
         fixtures_list_df = pd.DataFrame()
 
@@ -212,47 +210,45 @@ class SportsScraper:
         days_between = DateTimeHandler.get_dates_between(start_date, end_date)
 
         for singleDay in DateTimeHandler.get_dates_between(start_date, end_date):
-            for index, league in leagues_df.iterrows():
-                print(ProgressHandler.show_progress(processed, len(leagues_df['URL']) * len(days_between)))
-                processed += 1
-                res = requests.get(
-                    f'https://www.espn.in/football/fixtures/_/'
-                    f'date/{singleDay}/'
-                    f'league/{league[0]}')
-                soup = bs4.BeautifulSoup(res.text, 'html.parser')
-                tables = soup.find_all('tbody')
+            print(ProgressHandler.show_progress(processed, len(days_between)))
+            processed += 1
+            res = requests.get(
+                f'https://www.espn.in/football/fixtures/_/'
+                f'date/{singleDay}')
+            soup = bs4.BeautifulSoup(res.text, 'html.parser')
+            tables = soup.find_all('tbody')
 
-                if not tables:
-                    continue
+            if not tables:
+                continue
 
-                for table in tables:
-                    rows = table.find_all('tr')
-                    for row in rows:
-                        cols = row.find_all('td')
-                        if cols:  # If column is not empty
-                            arr = []
-                            for col in np.arange(0, len(cols)):
-                                if cols[col].find('small'):
-                                    continue
-                                if col == 0:
-                                    team1 = cols[col].find('span').text
-                                    result = cols[col].find_all('a')[-1].text
-                                    arr.append(team1)
-                                    arr.append(result)
-                                elif col == 1:
-                                    team2 = cols[col].find_all('span')[-1].text
-                                    arr.append(team2)
-                                elif col == 2:
-                                    if cols[col].get('data-date'):
-                                        date = datetime.datetime.strptime(cols[col].get('data-date'), '%Y-%m-%dT%H:%MZ')
-                                        local_date = DateTimeHandler.datetime_from_utc_to_local(date)
-                                        arr.append(
-                                            '{:d}:{:02d}'.format(local_date.hour, local_date.minute))
-                                    else:
-                                        arr.append(cols[col].find('a').text)
+            for table in tables:
+                rows = table.find_all('tr')
+                for row in rows:
+                    cols = row.find_all('td')
+                    if cols:  # If column is not empty
+                        arr = []
+                        for col in np.arange(0, len(cols)):
+                            if cols[col].find('small'):
+                                continue
+                            if col == 0:
+                                team1 = cols[col].find('span').text
+                                result = cols[col].find_all('a')[-1].text
+                                arr.append(team1)
+                                arr.append(result)
+                            elif col == 1:
+                                team2 = cols[col].find_all('span')[-1].text
+                                arr.append(team2)
+                            elif col == 2:
+                                if cols[col].get('data-date'):
+                                    date = datetime.datetime.strptime(cols[col].get('data-date'), '%Y-%m-%dT%H:%MZ')
+                                    local_date = DateTimeHandler.datetime_from_utc_to_local(date)
+                                    arr.append(
+                                        '{:d}:{:02d}'.format(local_date.hour, local_date.minute))
                                 else:
-                                    arr.append(cols[col].text)
-                            data.append(arr)
+                                    arr.append(cols[col].find('a').text)
+                            else:
+                                arr.append(cols[col].text)
+                        data.append(arr)
 
             data = list(filter(lambda x: len(x) != 0, data))
 
