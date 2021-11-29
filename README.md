@@ -86,6 +86,22 @@ We successfully collected partial information of the following:
         * Time
         * TV Channel
 
+### What manipulations have you made for the data?
+
+* Players
+  * Replaced blank spaces/empty values with nulls
+  * Replaced double dashes with nulls
+  * Converted weight from lbs to kg
+  * Converted height from ft to meters
+* Leagues
+    * None
+* Clubs
+    * None
+* Matches
+    * Replaced blank spaces/empty values with nulls
+    * Replaced double dashes with nulls
+    * Dropped rows that contained less than three non-null values
+
 ### What illustrations have you made?
 
 ***TBA***
