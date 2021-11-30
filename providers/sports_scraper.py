@@ -189,7 +189,11 @@ class SportsScraper:
             scraped_clubs = SportsScraper.get_clubs()
 
         if (clubs is not None) and (len(clubs) != 0):
-            scraped_clubs = list(filter(lambda x: x.name in clubs, scraped_clubs))
+            scraped_clubs = list(
+                filter(lambda x:
+                       x.name in clubs and
+                       x.league.name in [x.name for x in scraped_leagues]
+                       , scraped_clubs))
 
         if not all(isinstance(x, np.int32) or isinstance(x, int) for x in season_years):
             raise ValueError('season_year must be a list of integer')
@@ -204,44 +208,43 @@ class SportsScraper:
 
         processed = 0
         for season_year in season_years:
-            for league in scraped_leagues:
-                for club in scraped_clubs:
-                    print(ProgressHandler.show_progress(processed,
-                                                        len(season_years) * len(scraped_leagues) * len(scraped_clubs)))
-                    processed += 1
-                    res = requests.get(
-                        f'https://www.espn.com/soccer/team/squad/_/'
-                        f'id/{club.club_id}/'
-                        f'league/{league.url}/'
-                        f'season/{season_year}')
+            for club in scraped_clubs:
+                print(ProgressHandler.show_progress(processed,
+                                                    len(season_years) * len(scraped_clubs)))
+                processed += 1
+                res = requests.get(
+                    f'https://www.espn.com/soccer/team/squad/_/'
+                    f'id/{club.club_id}/'
+                    f'league/{club.league.url}/'
+                    f'season/{season_year}')
 
-                    soup = bs4.BeautifulSoup(res.text, 'html.parser')
-                    tables = soup.find_all('table', attrs={'class': 'Table'})
+                soup = bs4.BeautifulSoup(res.text, 'html.parser')
+                tables = soup.find_all('table', attrs={'class': 'Table'})
 
-                    if not tables or len(tables) != 2:
-                        continue
+                if not tables or len(tables) != 2:
+                    continue
 
-                    for x in np.arange(0, 2):
-                        data = []
-                        rows = tables[x].find_all('tr')
-                        for row in rows:
-                            cols = row.find_all('td')
-                            cols = [ele.text.strip() for ele in cols]  # Strips elements
-                            if cols:  # If column is not empty
-                                buff = [league.name, club.name] + [ele for ele in cols if
-                                                                   ele]  # If element is not empty
-                                number_list = re.findall(r'\d+$', buff[2])
-                                if number_list:  # Checks if there is a number for the player
-                                    buff.insert(3, number_list[0])  # Extract player's number
-                                    buff[2] = re.findall(r'^([^0-9]*)', buff[2])[0]  # Remove player's name number
-                                else:
-                                    buff.insert(3, np.nan)
-                                data.append(buff)
+                for x in np.arange(0, 2):
+                    data = []
+                    rows = tables[x].find_all('tr')
+                    for row in rows:
+                        cols = row.find_all('td')
+                        cols = [ele.text.strip() for ele in cols]  # Strips elements
+                        if cols:  # If column is not empty
+                            buff = [club.league.name, club.name] + [ele for ele in cols if
+                                                                    ele]  # If element is not empty
+                            number_list = re.findall(r'\d+$', buff[2])
+                            if number_list:  # Checks if there is a number for the player
+                                buff.insert(3, number_list[0])  # Extract player's number
+                                buff[2] = re.findall(r'^([^0-9]*)', buff[2])[0]  # Remove player's name number
+                            else:
+                                buff.insert(3, np.nan)
+                            data.append(buff)
 
-                        if x == 0:
-                            players_df_goalkeeper = players_df_goalkeeper.append(data)
-                        else:
-                            players_df_player = players_df_player.append(data)
+                    if x == 0:
+                        players_df_goalkeeper = players_df_goalkeeper.append(data)
+                    else:
+                        players_df_player = players_df_player.append(data)
 
         if players_df_goalkeeper.empty:
             players_df_goalkeeper = pd.DataFrame(np.empty((0, 18)))
@@ -338,9 +341,6 @@ class SportsScraper:
                         data.append(arr)
 
             data = list(filter(lambda x: len(x) != 0, data))
-
-            # elapsed_matches_list = list(filter(lambda x: len(x) == 6, data))
-            # fixtures_list = list(filter(lambda x: len(x) != 6, data))
 
             elapsed_matches_list = list(filter(lambda x: x[3] != 'LIVE' or ':' not in x[3], data))
             fixtures_list = list(filter(lambda x: x[3] == 'LIVE' or ':' in x[3], data))

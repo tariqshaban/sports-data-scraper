@@ -13,26 +13,25 @@ class PlotsProvider:
 
     Methods
     -------
-        plot_players_nationality_uefa_super_cup_league_known_clubs_2020():
-            Shows players nationalities in the UEFA super cup league in 2020 (for selected known clubs) as a plot
+        plot_players_nationality_uefa_champions_league_2020():
+            Shows players nationalities in the UEFA Champions League in 2020 as a plot.
     """
 
     @staticmethod
-    def plot_players_nationality_uefa_super_cup_league_known_clubs_2020():
+    def plot_players_nationality_uefa_champions_league_2020():
         """
-        Shows players nationalities in the UEFA super cup league in 2020 (for selected known clubs) as a plot.
+        Shows players nationalities in the UEFA Champions League in 2020 as a plot.
 
         :return: An array of two dataframe containing match results (0: Elapsed, 1: Fixtures)
         """
 
-        # current_year = datetime.date.today().year
-        # season_years = [current_year]
+        # season_years = [datetime.date.today().year]
         # leagues = SportsScraper.scrap_leagues().index.tolist()
-        # clubs = [e for e in ClubsEnum]
+        # clubs = SportsScraper.get_clubs()
 
         season_years = [2020]
-        leagues = ['UEFA Super Cup']
-        clubs = SportsScraper.get_clubs()
+        leagues = ['UEFA Champions League']
+        clubs = [x.name for x in SportsScraper.get_clubs(fast_fetch=True)]
 
         df = SportsScraper.scrap_players(season_years=season_years,
                                          leagues=leagues,
@@ -43,6 +42,8 @@ class PlotsProvider:
 
         df = df['CLUB'].groupby(df['NAT']).count()
 
+        df = df[df > 1]  # Removes the clutter from the plot by removing nationalities with only one player
+
         if df.size != 0:
             df.plot(kind='bar', ax=ax)
         else:
@@ -51,6 +52,6 @@ class PlotsProvider:
         plt.tight_layout()
         ax.set_xticks(np.arange(len(df.index)))
         ax.set_xticklabels(df.index, rotation=45)
-        fig.suptitle('Players Nationality in UEFA Super Cup for Known Clubs 2020', fontsize=20)
+        fig.suptitle('Players Nationality in UEFA Champions League 2020', fontsize=20)
 
         plt.show()

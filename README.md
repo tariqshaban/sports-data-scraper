@@ -32,6 +32,8 @@ Install requests
 Install beautiful soup
 `pip install bs4`
 
+You may need to configure the Python interpreter (depending on the used IDE)
+
 No further configuration is required.
 
 
@@ -54,14 +56,13 @@ Project Structure
     │
     └── main                      <- Acts as a sandbox for methods invocation
 
-
 Report / Findings
 ------------
 
 ### What tools have been used to scrape data off the web?
 
 Beautiful Soup has been used for scraping; it contains abstract out-of-the-box methods that help extract information
-from the HTML file
+from the HTML file.
 
 > Beautiful Soup is a Python library for pulling
 > data out of HTML and XML files. It works with your
@@ -80,9 +81,46 @@ Primarily [ESPN](https://www.espn.in/)
 While [CNN Sports](https://edition.cnn.com/sport) is considered an excellent candidate for scraping, it only contains
 data about the news itself (Title, images, date of release, content) rather than showing a list of players, etc.
 
+<details>
+  <summary>Click here to view the full alibi</summary>
+
+--------
+
+#### Rejecting CNN Sports
+
+CNN Sports only provide data concerning news; it does not provide any type of semi-structured data in which it can be
+capitalized and used to extract the required information.
+
+![cnn_sports.png](images/alibi/cnn_sports.png)
+
+CNN Sports appears to have an RSS (Really Simple Syndication) feed, but it had the same issues as mentioned above.
+
+![cnn_sports_rss.png](images/alibi/cnn_sports_rss.png)
+
+#### Rejecting BBC Sports
+
+BBC Sports actually contained some highly relevant data; however, the time interval for the data does not even stretch
+for more than a month.
+
+![bbc_date_limit.png](images/alibi/bbc_sports_date_limit.png)
+
+Modifying the date manually through the URL did not help.
+
+![bbc_sports_date_limit_out_of_bound.png](images/alibi/bbc_sports_date_limit_out_of_bound.png)
+
+Also, BBC Sports did not provide a wide collection of leagues; only several leagues were mentioned.
+
+![bbc_sports_lack_of_leagues.png](images/alibi/bbc_sports_lack_of_leagues.png)
+
+Overall, scraping from BBC Sports will not yield sufficient data for analysis; since the time interval and the number of
+leagues are very limited, as well as if did not provide additional data, such as the physical status of the players.
+
+--------
+</details>
+
 ### What information did you extract?
 
-We successfully collected partial information of the following:
+We successfully collected information of the following:
 
 * Players
     * Name
@@ -110,11 +148,11 @@ We successfully collected partial information of the following:
 ### What manipulations have you made for the data?
 
 * Players
-  * Column datatype conversion
-  * Replaced blank spaces/empty values with nulls
-  * Replaced double dashes with nulls
-  * Converted weight from lbs to kg
-  * Converted height from ft to meters
+    * Column datatype conversion
+    * Replaced blank spaces/empty values with nulls
+    * Replaced double dashes with nulls
+    * Converted weight from lbs to kg
+    * Converted height from ft to meters
 * Leagues
     * None
 * Clubs
