@@ -20,11 +20,17 @@ Install numpy
 Install pandas
 `pip install pandas`
 
+install matplotlib
+`pip install matplotlib.pyplot`
+
 Install scipy
 `pip install scipy`
 
 Install requests
 `pip install requests`
+
+Install beautiful soup
+`pip install bs4`
 
 No further configuration is required.
 

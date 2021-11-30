@@ -1,7 +1,6 @@
 import numpy as np
 
-from sports_api import SportsApi
-from sports_scraper import SportsScraper
+from providers.sports_scraper import SportsScraper
 import matplotlib.pyplot as plt
 
 
@@ -9,7 +8,7 @@ class PlotsProvider:
     __teams_id = None
 
     @staticmethod
-    def plot_players_nationality_uefa_super_cup_league_known_clubs_2021():
+    def plot_players_nationality_uefa_super_cup_league_known_clubs_2020():
         """
         Plots players information
 
@@ -23,7 +22,7 @@ class PlotsProvider:
 
         season_years = [2020]
         leagues = ['UEFA Super Cup']
-        clubs = SportsApi.get_teams_id(leagues=SportsScraper.scrap_leagues()['URL'].tolist())
+        clubs = SportsScraper.get_teams_id(leagues=SportsScraper.scrap_leagues()['URL'].tolist())
 
         df = SportsScraper.scrap_players(season_years=season_years,
                                          leagues=leagues,

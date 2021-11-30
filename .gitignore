@@ -1,10 +1,5 @@
 # intellij
-inspectionProfiles
-misc.xml
-modules.xml
-Scraper.iml
-vcs.xml
-workspace.xml
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

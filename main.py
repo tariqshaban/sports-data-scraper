@@ -1,10 +1,4 @@
-import datetime
-import pandas as pd
-
-from models.club import Club
-from plots_provider import PlotsProvider
-from sports_api import SportsApi
-from sports_scraper import SportsScraper
+from providers.plots_provider import PlotsProvider
 
 print('Scraping....')
 print('--------------------------------------------------')
@@ -30,7 +24,7 @@ print('--------------------------------------------------')
 # print(df[0].shape)
 # print(df[1])
 
-PlotsProvider.plot_players_nationality_uefa_super_cup_league_known_clubs_2021()
+PlotsProvider.plot_players_nationality_uefa_super_cup_league_known_clubs_2020()
 
 print('--------------------------------------------------')
 print('Done.')

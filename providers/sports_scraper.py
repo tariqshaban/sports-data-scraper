@@ -4,14 +4,15 @@ import pandas as pd
 import numpy as np
 import bs4
 import re
-import requests as requests
+import requests
 from helpers.date_time_handler import DateTimeHandler
 from helpers.progress_handler import ProgressHandler
 from models.club import Club
-from sports_api import SportsApi
 
 
 class SportsScraper:
+    __teams_id = None
+
     @staticmethod
     def scrap_players(season_years=None, leagues=None, clubs=None, tolerate_bad_index=False):
         """
@@ -34,7 +35,7 @@ class SportsScraper:
             else:
                 leagues_df = leagues_df.loc[leagues]
         if (clubs is None) or (len(clubs) == 0):
-            clubs = SportsApi.get_teams_id(leagues=SportsScraper.scrap_leagues()['URL'].tolist())
+            clubs = SportsScraper.get_teams_id(leagues=SportsScraper.scrap_leagues()['URL'].tolist())
 
         if not all(isinstance(x, np.int32) or isinstance(x, int) for x in season_years):
             raise ValueError('season_year must be a list of integer')
@@ -291,3 +292,43 @@ class SportsScraper:
 
         ProgressHandler.reset_progress()
         return [elapsed_matches_df, fixtures_list_df]
+
+    @staticmethod
+    def __get_teams_id(leagues, tolerate_too_many_requests=False, head=None):
+        """
+        Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams iteratively to retrieve all teams ids
+
+        :param bool tolerate_too_many_requests: Specify to whether throw an exception if the status code is not 200
+        :param int head: Specify to limit the number of league iterations, resulting in faster fetching
+        :return: A list of team ids
+        """
+
+        teams = []
+
+        if head is None:
+            head = len(leagues)
+
+        processed = 0
+        for league in leagues:
+            if processed > head:
+                break
+            print(ProgressHandler.show_progress(processed, head))
+            processed += 1
+            response = requests.get(f'http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams')
+            if response.status_code != 200 and tolerate_too_many_requests:
+                continue
+            for team in response.json()['sports'][0]['leagues'][0]['teams']:
+                teams.append(Club(team['team']['id'], team['team']['name']))
+
+        ProgressHandler.reset_progress()
+        return teams
+
+    @staticmethod
+    def get_teams_id(leagues):
+        if SportsScraper.__teams_id is None:
+            print('Getting team\'s ids, this is a one time process...')
+            SportsScraper.__teams_id = SportsScraper.__get_teams_id(leagues=leagues, tolerate_too_many_requests=True,
+                                                                    head=3)
+            print('Received team\'s ids\n')
+
+        return SportsScraper.__teams_id
