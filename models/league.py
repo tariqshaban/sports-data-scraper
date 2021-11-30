@@ -1,23 +1,22 @@
-class Club:
+class League:
     """
-    A container for storing club id as well as club name.
+    A container for storing league url as well as league name.
 
     Attributes
     ----------
 
     Methods
     -------
-        __init__(self, club_id, name):
+        __init__(self, url, name):
             Initializes the attributes.
     """
 
-    def __init__(self, club_id, name, league):
+    def __init__(self, url, name):
         """
         Initializes the attributes.
 
         :return: The object itself
         """
 
-        self.club_id = club_id
+        self.url = url
         self.name = name
-        self.league = league

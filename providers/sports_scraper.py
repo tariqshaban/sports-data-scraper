@@ -8,39 +8,195 @@ import requests
 from helpers.date_time_handler import DateTimeHandler
 from helpers.progress_handler import ProgressHandler
 from models.club import Club
+from models.league import League
 
 
 class SportsScraper:
-    __teams_id = None
+    """
+    Set of static methods that aid some progress manipulations.
+
+    Attributes
+    ----------
+        __clubs        Acts as a cache for storing club   ids/names
+        __leagues      Acts as a cache for storing league url/name
+
+    Methods
+    -------
+        scrap_players(season_years=None, leagues=None, clubs=None):
+            Scraps data containing information about club's players.
+        __scrap_leagues():
+            Scraps data containing a list of leagues.
+        scrap_leagues():
+            Calls __get_leagues if __leagues is None, otherwise, it retrieves __leagues immediately.
+        scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
+            Scraps data containing information about the results of the matches.
+        __get_clubs(leagues, tolerate_too_many_requests=False, top=None):
+            Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/clubs iteratively to fetch all clubs ids.
+        get_clubs(leagues, tolerate_too_many_requests=False, top=None):
+            Calls __get_clubs if __clubs is None, otherwise, it retrieves __clubs immediately.
+        __get_cached_clubs():
+            Retrieves the clubs snapshot.
+        __cache_clubs():
+            Collects a snapshot of the clubs for faster fetch in the future.
+    """
+
+    __clubs = None
+    __leagues = None
 
     @staticmethod
-    def scrap_players(season_years=None, leagues=None, clubs=None, tolerate_bad_index=False):
+    def __scrap_leagues():
         """
-        Scraps data containing information about club's players
+        Scraps data containing a list of leagues.
+
+        :return: A list of leagues object
+        """
+
+        leagues = []
+
+        res = requests.get('https://www.espn.com/soccer/teams')
+        soup = bs4.BeautifulSoup(res.text, 'html.parser')
+        ddl = soup.find('select', attrs={'class': 'dropdown__select'})
+
+        if not ddl:
+            return leagues
+
+        options = ddl.find_all('option')
+        for option in options:
+            leagues.append(League(option['value'], option.text))
+
+        return leagues
+
+    @staticmethod
+    def scrap_leagues():
+        """
+        Calls __get_leagues if __leagues is None, otherwise, it retrieves __leagues immediately.
+
+        :return: A list of leagues object
+        """
+
+        if SportsScraper.__leagues is None:
+            print('Fetching leagues, this is a one time process...')
+            SportsScraper.__leagues = SportsScraper.__scrap_leagues()
+            print('Received leagues\n')
+
+        return SportsScraper.__leagues
+
+    @staticmethod
+    def __get_cached_clubs():
+        """
+        Retrieves the clubs snapshot.
+        """
+
+        clubs = []
+        df = pd.read_csv('cached_clubs.csv', index_col='club_id')
+
+        for index, row in df.iterrows():
+            clubs.append(Club(index, row['club_name'], League(row['league_url'], row['league_name'])))
+
+        return clubs
+
+    @staticmethod
+    def cache_clubs():
+        """
+        Collects a snapshot of the clubs for faster fetch in the future.
+        """
+        clubs = SportsScraper.get_clubs()
+
+        data = {
+            'club_id': [x.club_id for x in clubs],
+            'club_name': [x.name for x in clubs],
+            'league_url': [x.league.url for x in clubs],
+            'league_name': [x.league.name for x in clubs],
+        }
+
+        df = pd.DataFrame(data)
+
+        df.set_index('club_id', inplace=True)
+
+        # noinspection PyTypeChecker
+        df.to_csv('cached_clubs.csv')
+
+        print(df)
+
+    @staticmethod
+    def __get_clubs(tolerate_too_many_requests=False, fast_fetch=False):
+        """
+        Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/clubs iteratively to fetch all clubs ids.
+
+        :param bool tolerate_too_many_requests: Specify to whether throw an exception if the status code is not 200
+        :param bool fast_fetch: Retrieves clubs from an only snapshot instantly
+        :return: A list of clubs object
+        """
+
+        if fast_fetch:
+            return SportsScraper.__get_cached_clubs()
+
+        scraped_leagues = SportsScraper.scrap_leagues()
+        clubs = []
+
+        processed = 0
+        for league in scraped_leagues:
+            print(ProgressHandler.show_progress(processed, len(scraped_leagues)))
+            processed += 1
+            response = requests.get(f'http://site.api.espn.com/apis/site/v2/sports/soccer/{league.url}/teams')
+            if response.status_code != 200 and tolerate_too_many_requests:
+                continue
+            for club in response.json()['sports'][0]['leagues'][0]['teams']:
+                clubs.append(Club(club['team']['id'], club['team']['name'], league))
+
+        ProgressHandler.reset_progress()
+
+        return clubs
+
+    @staticmethod
+    def get_clubs(fast_fetch=False):
+        """
+        Calls __get_clubs if __clubs is None, otherwise, it retrieves __clubs immediately.
+
+        :param bool fast_fetch: Retrieves clubs from an only snapshot instantly
+        :return: A list of clubs object
+        """
+
+        if SportsScraper.__clubs is None:
+            print('Fetching clubs, this is a one time process (if top maintained the same value)...')
+            SportsScraper.__clubs = SportsScraper.__get_clubs(tolerate_too_many_requests=True, fast_fetch=fast_fetch)
+            print('Received clubs\n')
+
+        return SportsScraper.__clubs
+
+    @staticmethod
+    def scrap_players(season_years=None, leagues=None, clubs=None, fast_fetch_clubs=False):
+        """
+        Scraps data containing information about club's players.
 
         :param list[int] season_years: Collect the data from the provided year(s)
         :param list[str] leagues: Specify the desired league(s)
-        :param list[Club] clubs: Specify the desired club(s)
-        :param bool tolerate_bad_index: Specify to whether throw an exception if a league does not exist or not
-        :return: A dataframe containing team players
+        :param list[str] clubs: Specify the desired club(s)
+        :param bool fast_fetch_clubs: Retrieves clubs from an only snapshot instantly
+        :return: A dataframe containing club players
         """
 
         if (season_years is None) or (len(season_years) == 0):
-            season_years = [2021]
-        leagues_df = SportsScraper.scrap_leagues()
+            season_years = np.arange(2000, 2022)
+
+        scraped_leagues = SportsScraper.scrap_leagues()
         if (leagues is not None) and (len(leagues) != 0):
-            if tolerate_bad_index:
-                valid_keys = leagues_df.index.intersection(leagues)
-                leagues_df = leagues_df.loc[valid_keys]
-            else:
-                leagues_df = leagues_df.loc[leagues]
-        if (clubs is None) or (len(clubs) == 0):
-            clubs = SportsScraper.get_teams_id(leagues=SportsScraper.scrap_leagues()['URL'].tolist())
+            scraped_leagues = list(filter(lambda x: x.name in leagues, scraped_leagues))
+
+        if fast_fetch_clubs:
+            scraped_clubs = SportsScraper.__get_cached_clubs()
+        else:
+            scraped_clubs = SportsScraper.get_clubs()
+
+        if (clubs is not None) and (len(clubs) != 0):
+            scraped_clubs = list(filter(lambda x: x.name in clubs, scraped_clubs))
 
         if not all(isinstance(x, np.int32) or isinstance(x, int) for x in season_years):
             raise ValueError('season_year must be a list of integer')
-        if not all(isinstance(x, Club) for x in clubs):
-            raise ValueError('clubs must be a list of integer')
+        if not all(isinstance(x, str) for x in clubs):
+            raise ValueError('clubs must be a list of string')
+        if not all(isinstance(x, str) for x in leagues):
+            raise ValueError('leagues must be a list of string')
 
         players_df_goalkeeper = pd.DataFrame()
 
@@ -48,15 +204,15 @@ class SportsScraper:
 
         processed = 0
         for season_year in season_years:
-            for index, league in leagues_df.iterrows():
-                for club in clubs:
+            for league in scraped_leagues:
+                for club in scraped_clubs:
                     print(ProgressHandler.show_progress(processed,
-                                                        len(season_years) * len(leagues_df['URL']) * len(clubs)))
+                                                        len(season_years) * len(scraped_leagues) * len(scraped_clubs)))
                     processed += 1
                     res = requests.get(
                         f'https://www.espn.com/soccer/team/squad/_/'
                         f'id/{club.club_id}/'
-                        f'league/{league[0]}/'
+                        f'league/{league.url}/'
                         f'season/{season_year}')
 
                     soup = bs4.BeautifulSoup(res.text, 'html.parser')
@@ -72,7 +228,8 @@ class SportsScraper:
                             cols = row.find_all('td')
                             cols = [ele.text.strip() for ele in cols]  # Strips elements
                             if cols:  # If column is not empty
-                                buff = [index, club.name] + [ele for ele in cols if ele]  # If element is not empty
+                                buff = [league.name, club.name] + [ele for ele in cols if
+                                                                   ele]  # If element is not empty
                                 number_list = re.findall(r'\d+$', buff[2])
                                 if number_list:  # Checks if there is a number for the player
                                     buff.insert(3, number_list[0])  # Extract player's number
@@ -119,88 +276,9 @@ class SportsScraper:
         return df
 
     @staticmethod
-    def scrap_leagues():
-        """
-        Scraps data containing a list of leagues
-        
-        :return: A dataframe containing leagues
-        """
-
-        df = pd.DataFrame()
-
-        res = requests.get('https://www.espn.com/soccer/teams')
-        soup = bs4.BeautifulSoup(res.text, 'html.parser')
-        ddl = soup.find('select', attrs={'class': 'dropdown__select'})
-
-        if not ddl:
-            return df
-
-        data = []
-        options = ddl.find_all('option')
-        for option in options:
-            data.append([option.text, option['value']])
-
-        df = df.append(data)
-
-        if df.empty:
-            df = pd.DataFrame(np.empty((0, 2)))
-
-        df.columns = ['LEAGUE', 'URL']
-        df.set_index('LEAGUE', inplace=True)
-        return df
-
-    @staticmethod
-    def scrap_clubs(leagues=None, tolerate_bad_index=False):
-        """
-        Scraps data containing a list of clubs
-
-        :param list[str] leagues: Specify the desired league(s)
-        :param bool tolerate_bad_index: Specify to whether throw an exception if a league does not exist or not
-        :return: A dataframe containing clubs
-        """
-
-        leagues_df = SportsScraper.scrap_leagues()
-        if (leagues is not None) and (len(leagues) != 0):
-            if tolerate_bad_index:
-                valid_keys = leagues_df.index.intersection(leagues)
-                leagues_df = leagues_df.loc[valid_keys]
-            else:
-                leagues_df = leagues_df.loc[leagues]
-
-        df = pd.DataFrame()
-
-        data = []
-        processed = 0
-        for index, league in leagues_df.iterrows():
-            print(ProgressHandler.show_progress(processed, len(leagues_df['URL'])))
-            processed += 1
-            res = requests.get(
-                f'https://www.espn.com/soccer/teams/_/'
-                f'league/{league[0]}')
-            soup = bs4.BeautifulSoup(res.text, 'html.parser')
-            clubs = soup.find_all('h2', attrs={'class': 'di clr-gray-01 h5'})
-
-            if not clubs:
-                continue
-
-            for club in clubs:
-                data.append([club.text, index])
-
-        df = df.append(data)
-
-        if df.empty:
-            df = pd.DataFrame(np.empty((0, 2)))
-
-        df.columns = ['LEAGUE', 'CLUB']
-        df.set_index('LEAGUE', inplace=True)
-
-        ProgressHandler.reset_progress()
-        return df
-
-    @staticmethod
     def scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
         """
-        Scraps data containing information about the results of the matches
+        Scraps data containing information about the results of the matches.
 
         :param datetime.date start_date: Specify the start date of the search
         :param datetime.date end_date: Specify the end date of the search
@@ -240,13 +318,13 @@ class SportsScraper:
                             if cols[col].find('small'):
                                 continue
                             if col == 0:
-                                team1 = cols[col].find('span').text
+                                club1 = cols[col].find('span').text
                                 result = cols[col].find_all('a')[-1].text
-                                arr.append(team1)
+                                arr.append(club1)
                                 arr.append(result)
                             elif col == 1:
-                                team2 = cols[col].find_all('span')[-1].text
-                                arr.append(team2)
+                                club2 = cols[col].find_all('span')[-1].text
+                                arr.append(club2)
                             elif col == 2:
                                 if cols[col].get('data-date'):
                                     date = datetime.datetime.strptime(cols[col].get('data-date'), '%Y-%m-%dT%H:%MZ')
@@ -275,8 +353,8 @@ class SportsScraper:
         if fixtures_list_df.empty:
             fixtures_list_df = pd.DataFrame(np.empty((0, 5)))
 
-        elapsed_matches_df.columns = ['TEAM1', 'RESULT', 'TEAM2', 'RESULT', 'LOCATION', 'ATTENDANCE']
-        fixtures_list_df.columns = ['TEAM1', 'RESULT', 'TEAM2', 'TIME', 'TV']
+        elapsed_matches_df.columns = ['club1', 'RESULT', 'club2', 'RESULT', 'LOCATION', 'ATTENDANCE']
+        fixtures_list_df.columns = ['club1', 'RESULT', 'club2', 'TIME', 'TV']
 
         elapsed_matches_df = elapsed_matches_df.replace(r'^\s*$', np.nan, regex=True) \
             .replace('--', np.nan) \
@@ -292,43 +370,3 @@ class SportsScraper:
 
         ProgressHandler.reset_progress()
         return [elapsed_matches_df, fixtures_list_df]
-
-    @staticmethod
-    def __get_teams_id(leagues, tolerate_too_many_requests=False, head=None):
-        """
-        Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams iteratively to retrieve all teams ids
-
-        :param bool tolerate_too_many_requests: Specify to whether throw an exception if the status code is not 200
-        :param int head: Specify to limit the number of league iterations, resulting in faster fetching
-        :return: A list of team ids
-        """
-
-        teams = []
-
-        if head is None:
-            head = len(leagues)
-
-        processed = 0
-        for league in leagues:
-            if processed > head:
-                break
-            print(ProgressHandler.show_progress(processed, head))
-            processed += 1
-            response = requests.get(f'http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams')
-            if response.status_code != 200 and tolerate_too_many_requests:
-                continue
-            for team in response.json()['sports'][0]['leagues'][0]['teams']:
-                teams.append(Club(team['team']['id'], team['team']['name']))
-
-        ProgressHandler.reset_progress()
-        return teams
-
-    @staticmethod
-    def get_teams_id(leagues):
-        if SportsScraper.__teams_id is None:
-            print('Getting team\'s ids, this is a one time process...')
-            SportsScraper.__teams_id = SportsScraper.__get_teams_id(leagues=leagues, tolerate_too_many_requests=True,
-                                                                    head=3)
-            print('Received team\'s ids\n')
-
-        return SportsScraper.__teams_id

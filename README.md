@@ -35,21 +35,24 @@ Install beautiful soup
 No further configuration is required.
 
 
-Project Organization
+Project Structure
 ------------
 
     ├── README.md                 <- The top-level README for developers using this project.
     │
-    ├── enums
-    │   └── clubs_enum            <- Enum for a sample set, contains club names-ids pair
-    │
     ├── helpers
     │   ├── date_time_handler     <- Set of static methods that aid some time manipulations
-    │   └── progress_handler      <- Set of static methods that aid some progress manipulations,
+    │   └── progress_handler      <- Set of static methods that aid some progress manipulations
     │
-    ├── main                      <- Acts as a sandbox for methods invocation
+    ├── models
+    │   ├── league                <- A container for storing league url as well as league name.
+    │   └── club                  <- A container for storing club id as well as club name
     │
-    └── sports_scraper            <- Static methods which perform the scraping functionality
+    ├── providers
+    │   ├── plots_provider        <- Static methods which perform the plotting functionality
+    │   └── sports_scraper        <- Static methods which perform the scraping functionality
+    │
+    └── main                      <- Acts as a sandbox for methods invocation
 
 
 Report / Findings

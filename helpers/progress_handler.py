@@ -2,13 +2,29 @@ import datetime
 
 
 class ProgressHandler:
+    """
+    Set of static methods that aid some progress manipulations.
+
+    Attributes
+    ----------
+        __last_accessed     Last time show_progress method has been called.
+        __remaining_time    Stores remaining time in a formatted string
+
+    Methods
+    -------
+        show_progress(elapsed=0, total=100):
+            Shows scraping progress in a formatted manner.
+        reset_progress():
+            Nullifies the attributes in order to receive a new progress.
+    """
+
     __last_accessed = None
     __remaining_time = None
 
     @staticmethod
     def show_progress(elapsed=0, total=100):
         """
-        Shows scraping progress in a formatted manner
+        Shows scraping progress in a formatted manner.
 
         :param int elapsed: Specify the elapsed retrieved pages
         :param int total: Specify the total number of pages
@@ -39,5 +55,9 @@ class ProgressHandler:
 
     @staticmethod
     def reset_progress():
+        """
+        Nullifies the attributes in order to receive a new progress.
+        """
+
         ProgressHandler.__last_accessed = None
         ProgressHandler.__remaining_time = None

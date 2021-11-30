@@ -1,0 +1,3262 @@
+club_id,club_name,league_url,league_name
+103,AC Milan,UEFA.CHAMPIONS,UEFA Champions League
+139,Ajax Amsterdam,UEFA.CHAMPIONS,UEFA Champions League
+105,Atalanta,UEFA.CHAMPIONS,UEFA Champions League
+1068,Atletico Madrid,UEFA.CHAMPIONS,UEFA Champions League
+83,Barcelona,UEFA.CHAMPIONS,UEFA Champions League
+132,Bayern Munich,UEFA.CHAMPIONS,UEFA Champions League
+1895,Besiktas,UEFA.CHAMPIONS,UEFA Champions League
+124,Borussia Dortmund,UEFA.CHAMPIONS,UEFA Champions League
+363,Chelsea,UEFA.CHAMPIONS,UEFA Champions League
+570,Club Brugge,UEFA.CHAMPIONS,UEFA Champions League
+440,Dynamo Kiev,UEFA.CHAMPIONS,UEFA Champions League
+437,FC Porto,UEFA.CHAMPIONS,UEFA Champions League
+110,Internazionale,UEFA.CHAMPIONS,UEFA Champions League
+111,Juventus,UEFA.CHAMPIONS,UEFA Champions League
+166,Lille,UEFA.CHAMPIONS,UEFA Champions League
+364,Liverpool,UEFA.CHAMPIONS,UEFA Champions League
+382,Manchester City,UEFA.CHAMPIONS,UEFA Champions League
+360,Manchester United,UEFA.CHAMPIONS,UEFA Champions League
+160,Paris Saint-Germain ,UEFA.CHAMPIONS,UEFA Champions League
+86,Real Madrid,UEFA.CHAMPIONS,UEFA Champions League
+243,Sevilla,UEFA.CHAMPIONS,UEFA Champions League
+493,Shakhtar Donetsk,UEFA.CHAMPIONS,UEFA Champions League
+614,Sheriff Tiraspol,UEFA.CHAMPIONS,UEFA Champions League
+138,VfL Wolfsburg,UEFA.CHAMPIONS,UEFA Champions League
+102,Villarreal,UEFA.CHAMPIONS,UEFA Champions League
+174,AS Monaco,UEFA.EUROPA,UEFA Europa League
+131,Bayer Leverkusen,UEFA.EUROPA,UEFA Europa League
+575,Brøndby,UEFA.EUROPA,UEFA Europa League
+256,Celtic,UEFA.EUROPA,UEFA Europa League
+597,Dinamo Zagreb,UEFA.EUROPA,UEFA Europa League
+125,Eintracht Frankfurt,UEFA.EUROPA,UEFA Europa League
+572,FC Midtjylland,UEFA.EUROPA,UEFA Europa League
+436,Fenerbahce,UEFA.EUROPA,UEFA Europa League
+432,Galatasaray,UEFA.EUROPA,UEFA Europa League
+112,Lazio,UEFA.EUROPA,UEFA Europa League
+555,Legia Warsaw,UEFA.EUROPA,UEFA Europa League
+375,Leicester City,UEFA.EUROPA,UEFA Europa League
+442,Lokomotiv Moscow,UEFA.EUROPA,UEFA Europa League
+167,Lyon,UEFA.EUROPA,UEFA Europa League
+176,Marseille,UEFA.EUROPA,UEFA Europa League
+114,Napoli,UEFA.EUROPA,UEFA Europa League
+435,Olympiakos,UEFA.EUROPA,UEFA Europa League
+148,PSV Eindhoven,UEFA.EUROPA,UEFA Europa League
+257,Rangers,UEFA.EUROPA,UEFA Europa League
+519,Rapid Vienna,UEFA.EUROPA,UEFA Europa League
+244,Real Betis,UEFA.EUROPA,UEFA Europa League
+89,Real Sociedad,UEFA.EUROPA,UEFA Europa League
+433,Sparta Prague,UEFA.EUROPA,UEFA Europa League
+371,West Ham United,UEFA.EUROPA,UEFA Europa League
+598,1. FC Union Berlin,UEFA.EUROPA.CONF,UEFA Europa Conference League
+104,AS Roma,UEFA.EUROPA.CONF,UEFA Europa Conference League
+140,AZ Alkmaar,UEFA.EUROPA.CONF,UEFA Europa Conference League
+2550,Anorthosis,UEFA.EUROPA.CONF,UEFA Europa Conference League
+2980,Bodo/Glimt,UEFA.EUROPA.CONF,UEFA Europa Conference League
+5260,CFR Cluj-Napoca,UEFA.EUROPA.CONF,UEFA Europa Conference League
+989,FC Basel,UEFA.EUROPA.CONF,UEFA Europa Conference League
+909,FC Copenhagen,UEFA.EUROPA.CONF,UEFA Europa Conference League
+142,Feyenoord Rotterdam,UEFA.EUROPA.CONF,UEFA Europa Conference League
+502,HJK Helsinki,UEFA.EUROPA.CONF,UEFA Europa Conference League
+7922,Jablonec,UEFA.EUROPA.CONF,UEFA Europa Conference League
+3611,KAA Gent,UEFA.EUROPA.CONF,UEFA Europa Conference League
+2528,Kairat Almaty,UEFA.EUROPA.CONF,UEFA Europa Conference League
+4411,LASK Linz,UEFA.EUROPA.CONF,UEFA Europa Conference League
+611,Maccabi Haifa,UEFA.EUROPA.CONF,UEFA Europa Conference League
+524,Maccabi Tel-Aviv,UEFA.EUROPA.CONF,UEFA Europa Conference League
+617,Omonia Nicosia,UEFA.EUROPA.CONF,UEFA Europa Conference League
+605,PAOK Salonika,UEFA.EUROPA.CONF,UEFA Europa Conference League
+541,Partizan Belgrade,UEFA.EUROPA.CONF,UEFA Europa Conference League
+3132,Randers FC,UEFA.EUROPA.CONF,UEFA Europa Conference League
+494,Slavia Prague,UEFA.EUROPA.CONF,UEFA Europa Conference League
+521,Slovan Bratislava,UEFA.EUROPA.CONF,UEFA Europa Conference League
+169,Stade Rennais,UEFA.EUROPA.CONF,UEFA Europa Conference League
+367,Tottenham Hotspur,UEFA.EUROPA.CONF,UEFA Europa Conference League
+154,Vitesse,UEFA.EUROPA.CONF,UEFA Europa Conference League
+359,Arsenal,ENG.1,English Premier League
+362,Aston Villa,ENG.1,English Premier League
+337,Brentford,ENG.1,English Premier League
+331,Brighton & Hove Albion,ENG.1,English Premier League
+379,Burnley,ENG.1,English Premier League
+363,Chelsea,ENG.1,English Premier League
+384,Crystal Palace,ENG.1,English Premier League
+368,Everton,ENG.1,English Premier League
+357,Leeds United,ENG.1,English Premier League
+375,Leicester City,ENG.1,English Premier League
+364,Liverpool,ENG.1,English Premier League
+382,Manchester City,ENG.1,English Premier League
+360,Manchester United,ENG.1,English Premier League
+361,Newcastle United,ENG.1,English Premier League
+381,Norwich City,ENG.1,English Premier League
+376,Southampton,ENG.1,English Premier League
+367,Tottenham Hotspur,ENG.1,English Premier League
+395,Watford,ENG.1,English Premier League
+371,West Ham United,ENG.1,English Premier League
+380,Wolverhampton Wanderers,ENG.1,English Premier League
+18418,Atlanta United FC,USA.1,Major League Soccer
+9720,CF Montréal,USA.1,Major League Soccer
+182,Chicago Fire FC,USA.1,Major League Soccer
+184,Colorado Rapids,USA.1,Major League Soccer
+183,Columbus Crew,USA.1,Major League Soccer
+193,DC United,USA.1,Major League Soccer
+18267,FC Cincinnati,USA.1,Major League Soccer
+185,FC Dallas,USA.1,Major League Soccer
+6077,Houston Dynamo FC,USA.1,Major League Soccer
+187,LA Galaxy,USA.1,Major League Soccer
+18966,LAFC,USA.1,Major League Soccer
+17362,Minnesota United FC,USA.1,Major League Soccer
+18986,Nashville SC,USA.1,Major League Soccer
+189,New England Revolution,USA.1,Major League Soccer
+17606,New York City FC,USA.1,Major League Soccer
+190,New York Red Bulls,USA.1,Major League Soccer
+12011,Orlando City SC,USA.1,Major League Soccer
+10739,Philadelphia Union,USA.1,Major League Soccer
+9723,Portland Timbers,USA.1,Major League Soccer
+4771,Real Salt Lake,USA.1,Major League Soccer
+191,San Jose Earthquakes,USA.1,Major League Soccer
+9726,Seattle Sounders FC,USA.1,Major League Soccer
+186,Sporting Kansas City,USA.1,Major League Soccer
+7318,Toronto FC,USA.1,Major League Soccer
+9727,Vancouver Whitecaps,USA.1,Major League Soccer
+96,Alavés,ESP.1,Spanish LaLiga
+93,Athletic Bilbao,ESP.1,Spanish LaLiga
+1068,Atletico Madrid,ESP.1,Spanish LaLiga
+83,Barcelona,ESP.1,Spanish LaLiga
+85,Celta Vigo,ESP.1,Spanish LaLiga
+3842,Cádiz,ESP.1,Spanish LaLiga
+3751,Elche,ESP.1,Spanish LaLiga
+88,Espanyol,ESP.1,Spanish LaLiga
+2922,Getafe,ESP.1,Spanish LaLiga
+3747,Granada,ESP.1,Spanish LaLiga
+1538,Levante,ESP.1,Spanish LaLiga
+84,Mallorca,ESP.1,Spanish LaLiga
+97,Osasuna,ESP.1,Spanish LaLiga
+101,Rayo Vallecano,ESP.1,Spanish LaLiga
+244,Real Betis,ESP.1,Spanish LaLiga
+86,Real Madrid,ESP.1,Spanish LaLiga
+89,Real Sociedad,ESP.1,Spanish LaLiga
+243,Sevilla,ESP.1,Spanish LaLiga
+94,Valencia,ESP.1,Spanish LaLiga
+102,Villarreal,ESP.1,Spanish LaLiga
+598,1. FC Union Berlin,GER.1,German Bundesliga
+2506,Arminia Bielefeld,GER.1,German Bundesliga
+131,Bayer Leverkusen,GER.1,German Bundesliga
+132,Bayern Munich,GER.1,German Bundesliga
+124,Borussia Dortmund,GER.1,German Bundesliga
+268,Borussia Monchengladbach,GER.1,German Bundesliga
+125,Eintracht Frankfurt,GER.1,German Bundesliga
+3841,FC Augsburg,GER.1,German Bundesliga
+122,FC Cologne,GER.1,German Bundesliga
+129,Hertha Berlin,GER.1,German Bundesliga
+2950,Mainz,GER.1,German Bundesliga
+11420,RB Leipzig,GER.1,German Bundesliga
+126,SC Freiburg,GER.1,German Bundesliga
+3070,SpVgg Greuther Furth,GER.1,German Bundesliga
+7911,TSG Hoffenheim,GER.1,German Bundesliga
+134,VfB Stuttgart,GER.1,German Bundesliga
+121,VfL Bochum,GER.1,German Bundesliga
+138,VfL Wolfsburg,GER.1,German Bundesliga
+103,AC Milan,ITA.1,Italian Serie A
+104,AS Roma,ITA.1,Italian Serie A
+105,Atalanta,ITA.1,Italian Serie A
+107,Bologna,ITA.1,Italian Serie A
+2925,Cagliari,ITA.1,Italian Serie A
+2574,Empoli,ITA.1,Italian Serie A
+109,Fiorentina,ITA.1,Italian Serie A
+3263,Genoa,ITA.1,Italian Serie A
+119,Hellas Verona,ITA.1,Italian Serie A
+110,Internazionale,ITA.1,Italian Serie A
+111,Juventus,ITA.1,Italian Serie A
+112,Lazio,ITA.1,Italian Serie A
+114,Napoli,ITA.1,Italian Serie A
+3240,Salernitana,ITA.1,Italian Serie A
+2734,Sampdoria,ITA.1,Italian Serie A
+3997,Sassuolo,ITA.1,Italian Serie A
+4056,Spezia,ITA.1,Italian Serie A
+239,Torino,ITA.1,Italian Serie A
+118,Udinese,ITA.1,Italian Serie A
+17530,Venezia,ITA.1,Italian Serie A
+174,AS Monaco,FRA.1,French Ligue 1
+7868,Angers,FRA.1,French Ligue 1
+159,Bordeaux,FRA.1,French Ligue 1
+6997,Brest,FRA.1,French Ligue 1
+3171,Clermont Foot,FRA.1,French Ligue 1
+175,Lens,FRA.1,French Ligue 1
+166,Lille,FRA.1,French Ligue 1
+273,Lorient,FRA.1,French Ligue 1
+167,Lyon,FRA.1,French Ligue 1
+176,Marseille,FRA.1,French Ligue 1
+177,Metz,FRA.1,French Ligue 1
+274,Montpellier,FRA.1,French Ligue 1
+165,Nantes,FRA.1,French Ligue 1
+2502,Nice,FRA.1,French Ligue 1
+160,Paris Saint-Germain ,FRA.1,French Ligue 1
+178,Saint-Etienne,FRA.1,French Ligue 1
+169,Stade Rennais,FRA.1,French Ligue 1
+3243,Stade de Reims,FRA.1,French Ligue 1
+180,Strasbourg,FRA.1,French Ligue 1
+170,Troyes,FRA.1,French Ligue 1
+2737,Albacete,ESP.COPA_DEL_REY,Spanish Copa del Rey
+5535,Badajoz,ESP.COPA_DEL_REY,Spanish Copa del Rey
+18338,CD Calahorra,ESP.COPA_DEL_REY,Spanish Copa del Rey
+17890,CD Ebro,ESP.COPA_DEL_REY,Spanish Copa del Rey
+8807,Cacereno,ESP.COPA_DEL_REY,Spanish Copa del Rey
+8447,Córdoba,ESP.COPA_DEL_REY,Spanish Copa del Rey
+16741,Extremadura UD,ESP.COPA_DEL_REY,Spanish Copa del Rey
+8977,Gernika Club,ESP.COPA_DEL_REY,Spanish Copa del Rey
+6825,Gimnastica Segoviana,ESP.COPA_DEL_REY,Spanish Copa del Rey
+6858,Guijuelo,ESP.COPA_DEL_REY,Spanish Copa del Rey
+17572,Leioa,ESP.COPA_DEL_REY,Spanish Copa del Rey
+20223,Linares Deportivo,ESP.COPA_DEL_REY,Spanish Copa del Rey
+7041,Peña Sport,ESP.COPA_DEL_REY,Spanish Copa del Rey
+5428,Talavera,ESP.COPA_DEL_REY,Spanish Copa del Rey
+9553,Teruel,ESP.COPA_DEL_REY,Spanish Copa del Rey
+12594,UCAM Murcia,ESP.COPA_DEL_REY,Spanish Copa del Rey
+8070,Velez Mostar,ESP.COPA_DEL_REY,Spanish Copa del Rey
+349,AFC Bournemouth,ENG.2,English League Championship
+397,Barnsley,ENG.2,English League Championship
+392,Birmingham City,ENG.2,English League Championship
+365,Blackburn Rovers,ENG.2,English League Championship
+346,Blackpool,ENG.2,English League Championship
+333,Bristol City,ENG.2,English League Championship
+347,Cardiff City,ENG.2,English League Championship
+388,Coventry City,ENG.2,English League Championship
+374,Derby County,ENG.2,English League Championship
+370,Fulham,ENG.2,English League Championship
+335,Huddersfield Town,ENG.2,English League Championship
+306,Hull City,ENG.2,English League Championship
+301,Luton Town,ENG.2,English League Championship
+369,Middlesbrough,ENG.2,English League Championship
+391,Millwall,ENG.2,English League Championship
+393,Nottingham Forest,ENG.2,English League Championship
+342,Peterborough United,ENG.2,English League Championship
+394,Preston North End,ENG.2,English League Championship
+334,Queens Park Rangers,ENG.2,English League Championship
+338,Reading,ENG.2,English League Championship
+398,Sheffield United,ENG.2,English League Championship
+336,Stoke City,ENG.2,English League Championship
+318,Swansea City,ENG.2,English League Championship
+383,West Bromwich Albion,ENG.2,English League Championship
+308,Bristol Rovers,ENG.FA,English FA Cup
+322,Carlisle United,ENG.FA,English FA Cup
+320,Cheltenham Town,ENG.FA,English FA Cup
+339,Colchester United,ENG.FA,English FA Cup
+275,Dagenham & Redbridge,ENG.FA,English FA Cup
+279,Doncaster Rovers,ENG.FA,English FA Cup
+324,Exeter City,ENG.FA,English FA Cup
+312,FC Halifax Town,ENG.FA,English FA Cup
+282,Forest Green Rovers,ENG.FA,English FA Cup
+323,Hartlepool United,ENG.FA,English FA Cup
+319,Kidderminster Harriers,ENG.FA,English FA Cup
+309,Leyton Orient,ENG.FA,English FA Cup
+314,Lincoln City,ENG.FA,English FA Cup
+304,Mansfield Town,ENG.FA,English FA Cup
+278,Morecambe,ENG.FA,English FA Cup
+332,Oldham Athletic,ENG.FA,English FA Cup
+311,Oxford United,ENG.FA,English FA Cup
+307,Plymouth Argyle,ENG.FA,English FA Cup
+303,Rochdale,ENG.FA,English FA Cup
+313,Scunthorpe United,ENG.FA,English FA Cup
+302,Shrewsbury Town,ENG.FA,English FA Cup
+310,Southend United,ENG.FA,English FA Cup
+285,Stevenage,ENG.FA,English FA Cup
+284,Yeovil Town,ENG.FA,English FA Cup
+315,York City,ENG.FA,English FA Cup
+331,Brighton & Hove Albion,ENG.LEAGUE_CUP,English Carabao Cup
+333,Bristol City,ENG.LEAGUE_CUP,English Carabao Cup
+308,Bristol Rovers,ENG.LEAGUE_CUP,English Carabao Cup
+322,Carlisle United,ENG.LEAGUE_CUP,English Carabao Cup
+320,Cheltenham Town,ENG.LEAGUE_CUP,English Carabao Cup
+279,Doncaster Rovers,ENG.LEAGUE_CUP,English Carabao Cup
+324,Exeter City,ENG.LEAGUE_CUP,English Carabao Cup
+282,Forest Green Rovers,ENG.LEAGUE_CUP,English Carabao Cup
+323,Hartlepool United,ENG.LEAGUE_CUP,English Carabao Cup
+335,Huddersfield Town,ENG.LEAGUE_CUP,English Carabao Cup
+306,Hull City,ENG.LEAGUE_CUP,English Carabao Cup
+309,Leyton Orient,ENG.LEAGUE_CUP,English Carabao Cup
+314,Lincoln City,ENG.LEAGUE_CUP,English Carabao Cup
+301,Luton Town,ENG.LEAGUE_CUP,English Carabao Cup
+304,Mansfield Town,ENG.LEAGUE_CUP,English Carabao Cup
+278,Morecambe,ENG.LEAGUE_CUP,English Carabao Cup
+332,Oldham Athletic,ENG.LEAGUE_CUP,English Carabao Cup
+311,Oxford United,ENG.LEAGUE_CUP,English Carabao Cup
+307,Plymouth Argyle,ENG.LEAGUE_CUP,English Carabao Cup
+334,Queens Park Rangers,ENG.LEAGUE_CUP,English Carabao Cup
+303,Rochdale,ENG.LEAGUE_CUP,English Carabao Cup
+313,Scunthorpe United,ENG.LEAGUE_CUP,English Carabao Cup
+302,Shrewsbury Town,ENG.LEAGUE_CUP,English Carabao Cup
+285,Stevenage,ENG.LEAGUE_CUP,English Carabao Cup
+318,Swansea City,ENG.LEAGUE_CUP,English Carabao Cup
+3346,Ascoli,ITA.COPPA_ITALIA,Italian Coppa Italia
+107,Bologna,ITA.COPPA_ITALIA,Italian Coppa Italia
+108,Brescia,ITA.COPPA_ITALIA,Italian Coppa Italia
+2925,Cagliari,ITA.COPPA_ITALIA,Italian Coppa Italia
+3257,Catanzaro,ITA.COPPA_ITALIA,Italian Coppa Italia
+3943,Cittadella,ITA.COPPA_ITALIA,Italian Coppa Italia
+2572,Como,ITA.COPPA_ITALIA,Italian Coppa Italia
+3173,Crotone,ITA.COPPA_ITALIA,Italian Coppa Italia
+2574,Empoli,ITA.COPPA_ITALIA,Italian Coppa Italia
+109,Fiorentina,ITA.COPPA_ITALIA,Italian Coppa Italia
+3263,Genoa,ITA.COPPA_ITALIA,Italian Coppa Italia
+119,Hellas Verona,ITA.COPPA_ITALIA,Italian Coppa Italia
+113,Lecce,ITA.COPPA_ITALIA,Italian Coppa Italia
+3952,Padova,ITA.COPPA_ITALIA,Italian Coppa Italia
+115,Parma,ITA.COPPA_ITALIA,Italian Coppa Italia
+116,Perugia,ITA.COPPA_ITALIA,Italian Coppa Italia
+3956,Pisa,ITA.COPPA_ITALIA,Italian Coppa Italia
+117,Reggina,ITA.COPPA_ITALIA,Italian Coppa Italia
+3958,SPAL,ITA.COPPA_ITALIA,Italian Coppa Italia
+3240,Salernitana,ITA.COPPA_ITALIA,Italian Coppa Italia
+2734,Sampdoria,ITA.COPPA_ITALIA,Italian Coppa Italia
+3175,Ternana,ITA.COPPA_ITALIA,Italian Coppa Italia
+239,Torino,ITA.COPPA_ITALIA,Italian Coppa Italia
+118,Udinese,ITA.COPPA_ITALIA,Italian Coppa Italia
+120,Vicenza,ITA.COPPA_ITALIA,Italian Coppa Italia
+598,1. FC Union Berlin,GER.DFB_POKAL,German DFB Pokal
+2506,Arminia Bielefeld,GER.DFB_POKAL,German DFB Pokal
+131,Bayer Leverkusen,GER.DFB_POKAL,German DFB Pokal
+132,Bayern Munich,GER.DFB_POKAL,German DFB Pokal
+124,Borussia Dortmund,GER.DFB_POKAL,German DFB Pokal
+268,Borussia Monchengladbach,GER.DFB_POKAL,German DFB Pokal
+125,Eintracht Frankfurt,GER.DFB_POKAL,German DFB Pokal
+122,FC Cologne,GER.DFB_POKAL,German DFB Pokal
+127,Hamburg SV,GER.DFB_POKAL,German DFB Pokal
+2428,Hannover 96,GER.DFB_POKAL,German DFB Pokal
+128,Hansa Rostock,GER.DFB_POKAL,German DFB Pokal
+129,Hertha Berlin,GER.DFB_POKAL,German DFB Pokal
+130,Kaiserslautern,GER.DFB_POKAL,German DFB Pokal
+2950,Mainz,GER.DFB_POKAL,German DFB Pokal
+269,Nurnberg,GER.DFB_POKAL,German DFB Pokal
+126,SC Freiburg,GER.DFB_POKAL,German DFB Pokal
+133,Schalke 04,GER.DFB_POKAL,German DFB Pokal
+3070,SpVgg Greuther Furth,GER.DFB_POKAL,German DFB Pokal
+270,St Pauli,GER.DFB_POKAL,German DFB Pokal
+135,TSV 1860 Munich,GER.DFB_POKAL,German DFB Pokal
+3067,TSV Eintracht Braunschweig,GER.DFB_POKAL,German DFB Pokal
+134,VfB Stuttgart,GER.DFB_POKAL,German DFB Pokal
+121,VfL Bochum,GER.DFB_POKAL,German DFB Pokal
+138,VfL Wolfsburg,GER.DFB_POKAL,German DFB Pokal
+137,Werder Bremen,GER.DFB_POKAL,German DFB Pokal
+19396,ASF Andrézieux-Bouthéon,FRA.COUPE_DE_FRANCE,French Coupe de France
+18405,Bergerac Périgord FC,FRA.COUPE_DE_FRANCE,French Coupe de France
+159,Bordeaux,FRA.COUPE_DE_FRANCE,French Coupe de France
+17620,Dinan Lehon,FRA.COUPE_DE_FRANCE,French Coupe de France
+20274,EF Reims Sainte-Anne,FRA.COUPE_DE_FRANCE,French Coupe de France
+20275,ESA Linas-Montlhery,FRA.COUPE_DE_FRANCE,French Coupe de France
+7723,Feignies,FRA.COUPE_DE_FRANCE,French Coupe de France
+171,Guingamp,FRA.COUPE_DE_FRANCE,French Coupe de France
+16939,Jura Sud Foot,FRA.COUPE_DE_FRANCE,French Coupe de France
+166,Lille,FRA.COUPE_DE_FRANCE,French Coupe de France
+19392,Lyon-Duchère,FRA.COUPE_DE_FRANCE,French Coupe de France
+18071,Montauban,FRA.COUPE_DE_FRANCE,French Coupe de France
+18113,Panazol,FRA.COUPE_DE_FRANCE,French Coupe de France
+6851,Paris FC,FRA.COUPE_DE_FRANCE,French Coupe de France
+11884,Red Star FC 93,FRA.COUPE_DE_FRANCE,French Coupe de France
+272,Sochaux,FRA.COUPE_DE_FRANCE,French Coupe de France
+20872,Stade Poitevin,FRA.COUPE_DE_FRANCE,French Coupe de France
+169,Stade Rennais,FRA.COUPE_DE_FRANCE,French Coupe de France
+21303,Thaon ES,FRA.COUPE_DE_FRANCE,French Coupe de France
+179,Toulouse,FRA.COUPE_DE_FRANCE,French Coupe de France
+170,Troyes,FRA.COUPE_DE_FRANCE,French Coupe de France
+7721,US Quevilly,FRA.COUPE_DE_FRANCE,French Coupe de France
+6732,Valenciennes,FRA.COUPE_DE_FRANCE,French Coupe de France
+11307,Wasquehal,FRA.COUPE_DE_FRANCE,French Coupe de France
+140,AZ Alkmaar,NED.1,Dutch Eredivisie
+139,Ajax Amsterdam,NED.1,Dutch Eredivisie
+145,FC Groningen,NED.1,Dutch Eredivisie
+152,FC Twente,NED.1,Dutch Eredivisie
+153,FC Utrecht,NED.1,Dutch Eredivisie
+142,Feyenoord Rotterdam,NED.1,Dutch Eredivisie
+143,Fortuna Sittard,NED.1,Dutch Eredivisie
+3706,Go Ahead Eagles,NED.1,Dutch Eredivisie
+146,Heerenveen,NED.1,Dutch Eredivisie
+3708,Heracles Almelo,NED.1,Dutch Eredivisie
+147,NEC Nijmegen,NED.1,Dutch Eredivisie
+2565,PEC Zwolle,NED.1,Dutch Eredivisie
+148,PSV Eindhoven,NED.1,Dutch Eredivisie
+155,RKC Waalwijk,NED.1,Dutch Eredivisie
+3736,SC Cambuur,NED.1,Dutch Eredivisie
+151,Sparta Rotterdam,NED.1,Dutch Eredivisie
+154,Vitesse,NED.1,Dutch Eredivisie
+156,Willem II,NED.1,Dutch Eredivisie
+2726,ADO Den Haag,NED.CUP,Dutch KNVB Beker
+140,AZ Alkmaar,NED.CUP,Dutch KNVB Beker
+139,Ajax Amsterdam,NED.CUP,Dutch KNVB Beker
+144,De Graafschap,NED.CUP,Dutch KNVB Beker
+2566,Excelsior,NED.CUP,Dutch KNVB Beker
+271,FC Den Bosch,NED.CUP,Dutch KNVB Beker
+3707,FC Emmen,NED.CUP,Dutch KNVB Beker
+145,FC Groningen,NED.CUP,Dutch KNVB Beker
+152,FC Twente,NED.CUP,Dutch KNVB Beker
+153,FC Utrecht,NED.CUP,Dutch KNVB Beker
+2727,FC Volendam,NED.CUP,Dutch KNVB Beker
+142,Feyenoord Rotterdam,NED.CUP,Dutch KNVB Beker
+143,Fortuna Sittard,NED.CUP,Dutch KNVB Beker
+3706,Go Ahead Eagles,NED.CUP,Dutch KNVB Beker
+146,Heerenveen,NED.CUP,Dutch KNVB Beker
+3708,Heracles Almelo,NED.CUP,Dutch KNVB Beker
+141,NAC Breda,NED.CUP,Dutch KNVB Beker
+147,NEC Nijmegen,NED.CUP,Dutch KNVB Beker
+2565,PEC Zwolle,NED.CUP,Dutch KNVB Beker
+148,PSV Eindhoven,NED.CUP,Dutch KNVB Beker
+155,RKC Waalwijk,NED.CUP,Dutch KNVB Beker
+149,Roda JC Kerkrade,NED.CUP,Dutch KNVB Beker
+151,Sparta Rotterdam,NED.CUP,Dutch KNVB Beker
+154,Vitesse,NED.CUP,Dutch KNVB Beker
+156,Willem II,NED.CUP,Dutch KNVB Beker
+15784,Arouca,POR.1,Portuguese Liga
+3519,Belenenses,POR.1,Portuguese Liga
+1929,Benfica,POR.1,Portuguese Liga
+2256,Boavista,POR.1,Portuguese Liga
+2994,Braga,POR.1,Portuguese Liga
+12216,Estoril,POR.1,Portuguese Liga
+12698,FC Famalicao,POR.1,Portuguese Liga
+437,FC Porto,POR.1,Portuguese Liga
+3699,Gil Vicente,POR.1,Portuguese Liga
+5309,Guimaraes,POR.1,Portuguese Liga
+552,Maritimo,POR.1,Portuguese Liga
+3696,Moreirense,POR.1,Portuguese Liga
+3713,Paços de Ferreira,POR.1,Portuguese Liga
+3719,Portimonense,POR.1,Portuguese Liga
+12215,Santa Clara,POR.1,Portuguese Liga
+2250,Sporting CP,POR.1,Portuguese Liga
+12706,Tondela,POR.1,Portuguese Liga
+20995,Vizela,POR.1,Portuguese Liga
+2991,Akhmat Grozny,RUS.1,Russian Premier League
+1963,CSKA Moscow,RUS.1,Russian Premier League
+596,Dinamo Moscow,RUS.1,Russian Premier League
+17495,FC Arsenal Tula,RUS.1,Russian Premier League
+7424,FC Khimki,RUS.1,Russian Premier League
+17368,FC Ufa,RUS.1,Russian Premier League
+15582,FC Ural Ekaterinburg,RUS.1,Russian Premier League
+11336,Krasnodar,RUS.1,Russian Premier League
+3850,Krylia Sovetov,RUS.1,Russian Premier League
+442,Lokomotiv Moscow,RUS.1,Russian Premier League
+13150,Nizhny Novgorod,RUS.1,Russian Premier League
+3852,Rostov,RUS.1,Russian Premier League
+3851,Rubin Kazan,RUS.1,Russian Premier League
+20019,Sochi,RUS.1,Russian Premier League
+1941,Spartak Moscow,RUS.1,Russian Premier League
+2533,Zenit St Petersburg,RUS.1,Russian Premier League
+227,América,MEX.1,Mexican Liga BBVA MX
+216,Atlas,MEX.1,Mexican Liga BBVA MX
+15720,Atlético San Luis,MEX.1,Mexican Liga BBVA MX
+218,Cruz Azul,MEX.1,Mexican Liga BBVA MX
+17851,FC Juarez,MEX.1,Mexican Liga BBVA MX
+219,Guadalajara,MEX.1,Mexican Liga BBVA MX
+228,León,MEX.1,Mexican Liga BBVA MX
+20702,Mazatlán FC,MEX.1,Mexican Liga BBVA MX
+220,Monterrey,MEX.1,Mexican Liga BBVA MX
+229,Necaxa,MEX.1,Mexican Liga BBVA MX
+234,Pachuca,MEX.1,Mexican Liga BBVA MX
+231,Puebla,MEX.1,Mexican Liga BBVA MX
+233,Pumas UNAM,MEX.1,Mexican Liga BBVA MX
+222,Querétaro,MEX.1,Mexican Liga BBVA MX
+225,Santos,MEX.1,Mexican Liga BBVA MX
+232,Tigres UANL,MEX.1,Mexican Liga BBVA MX
+10125,Tijuana,MEX.1,Mexican Liga BBVA MX
+223,Toluca,MEX.1,Mexican Liga BBVA MX
+17233,Alebrijes de Oaxaca,MEX.2,Mexican Liga de Expansión MX
+226,Atlante,MEX.2,Mexican Liga de Expansión MX
+221,Atlético Morelia,MEX.2,Mexican Liga de Expansión MX
+20724,Cancún FC,MEX.2,Mexican Liga de Expansión MX
+11667,Celaya,MEX.2,Mexican Liga de Expansión MX
+17853,Cimarrones de Sonora,MEX.2,Mexican Liga de Expansión MX
+8931,Correcaminos,MEX.2,Mexican Liga de Expansión MX
+3432,Dorados de Sinaloa,MEX.2,Mexican Liga de Expansión MX
+17514,Mineros de Zacatecas,MEX.2,Mexican Liga de Expansión MX
+20723,Pumas Tabasco,MEX.2,Mexican Liga de Expansión MX
+20994,Raya2,MEX.2,Mexican Liga de Expansión MX
+10131,Tampico Madero,MEX.2,Mexican Liga de Expansión MX
+20720,Tapatío,MEX.2,Mexican Liga de Expansión MX
+20721,Tepatitlán FC,MEX.2,Mexican Liga de Expansión MX
+20722,Tlaxcala FC,MEX.2,Mexican Liga de Expansión MX
+10129,U. de G.,MEX.2,Mexican Liga de Expansión MX
+10124,Venados FC,MEX.2,Mexican Liga de Expansión MX
+227,América,MEX.COPA_MX,Mexican Copa MX
+226,Atlante,MEX.COPA_MX,Mexican Copa MX
+216,Atlas,MEX.COPA_MX,Mexican Copa MX
+221,Atlético Morelia,MEX.COPA_MX,Mexican Copa MX
+11060,Cafetaleros de Chiapas,MEX.COPA_MX,Mexican Copa MX
+11667,Celaya,MEX.COPA_MX,Mexican Copa MX
+8931,Correcaminos,MEX.COPA_MX,Mexican Copa MX
+218,Cruz Azul,MEX.COPA_MX,Mexican Copa MX
+3432,Dorados de Sinaloa,MEX.COPA_MX,Mexican Copa MX
+219,Guadalajara,MEX.COPA_MX,Mexican Copa MX
+228,León,MEX.COPA_MX,Mexican Copa MX
+8814,Lobos BUAP,MEX.COPA_MX,Mexican Copa MX
+220,Monterrey,MEX.COPA_MX,Mexican Copa MX
+229,Necaxa,MEX.COPA_MX,Mexican Copa MX
+234,Pachuca,MEX.COPA_MX,Mexican Copa MX
+231,Puebla,MEX.COPA_MX,Mexican Copa MX
+233,Pumas UNAM,MEX.COPA_MX,Mexican Copa MX
+222,Querétaro,MEX.COPA_MX,Mexican Copa MX
+225,Santos,MEX.COPA_MX,Mexican Copa MX
+10131,Tampico Madero,MEX.COPA_MX,Mexican Copa MX
+10125,Tijuana,MEX.COPA_MX,Mexican Copa MX
+223,Toluca,MEX.COPA_MX,Mexican Copa MX
+10129,U. de G.,MEX.COPA_MX,Mexican Copa MX
+10124,Venados FC,MEX.COPA_MX,Mexican Copa MX
+2569,Veracruz,MEX.COPA_MX,Mexican Copa MX
+19973,Arsenal,UEFA.WCHAMPIONS,UEFA Women's Champions League
+21124,BK Häcken,UEFA.WCHAMPIONS,UEFA Women's Champions League
+20091,Barcelona,UEFA.WCHAMPIONS,UEFA Women's Champions League
+20103,Bayern Munich,UEFA.WCHAMPIONS,UEFA Women's Champions League
+20830,Benfica,UEFA.WCHAMPIONS,UEFA Women's Champions League
+20112,Breidablik,UEFA.WCHAMPIONS,UEFA Women's Champions League
+19970,Chelsea,UEFA.WCHAMPIONS,UEFA Women's Champions League
+21127,HB Køge,UEFA.WCHAMPIONS,UEFA Women's Champions League
+20092,Juventus,UEFA.WCHAMPIONS,UEFA Women's Champions League
+19256,Lyon,UEFA.WCHAMPIONS,UEFA Women's Champions League
+19258,Paris Saint-Germain,UEFA.WCHAMPIONS,UEFA Women's Champions League
+21128,Real Madrid,UEFA.WCHAMPIONS,UEFA Women's Champions League
+20835,Servette,UEFA.WCHAMPIONS,UEFA Women's Champions League
+21126,TSG Hoffenheim,UEFA.WCHAMPIONS,UEFA Women's Champions League
+20107,VfL Wolfsburg,UEFA.WCHAMPIONS,UEFA Women's Champions League
+21125,WFC Kharkiv,UEFA.WCHAMPIONS,UEFA Women's Champions League
+19973,Arsenal,ENG.W.1,FA Women's Super League
+20707,Aston Villa,ENG.W.1,FA Women's Super League
+19968,Birmingham City,ENG.W.1,FA Women's Super League
+19976,Brighton & Hove Albion,ENG.W.1,FA Women's Super League
+19970,Chelsea,ENG.W.1,FA Women's Super League
+19972,Everton,ENG.W.1,FA Women's Super League
+21036,Leicester City,ENG.W.1,FA Women's Super League
+19257,Manchester City,ENG.W.1,FA Women's Super League
+20061,Manchester United,ENG.W.1,FA Women's Super League
+19969,Reading,ENG.W.1,FA Women's Super League
+20062,Tottenham Hotspur,ENG.W.1,FA Women's Super League
+19975,West Ham United,ENG.W.1,FA Women's Super League
+15360,Chicago Red Stars,USA.NWSL,United States NWSL
+17346,Houston Dash,USA.NWSL,United States NWSL
+20907,Kansas City Current,USA.NWSL,United States NWSL
+15364,NJ/NY Gotham FC,USA.NWSL,United States NWSL
+15366,North Carolina Courage,USA.NWSL,United States NWSL
+15363,OL Reign,USA.NWSL,United States NWSL
+18206,Orlando Pride,USA.NWSL,United States NWSL
+15362,Portland Thorns FC,USA.NWSL,United States NWSL
+20905,Racing Louisville FC,USA.NWSL,United States NWSL
+15365,Washington Spirit,USA.NWSL,United States NWSL
+21083,Actonians,ENG.W.FA,English Women's FA Cup
+19973,Arsenal,ENG.W.FA,English Women's FA Cup
+21084,Barnsely,ENG.W.FA,English Women's FA Cup
+19968,Birmingham City,ENG.W.FA,English Women's FA Cup
+21081,Boldmere St. Michael's,ENG.W.FA,English Women's FA Cup
+21056,Brighouse Town,ENG.W.FA,English Women's FA Cup
+19976,Brighton & Hove Albion,ENG.W.FA,English Women's FA Cup
+21035,Charlton Athletic,ENG.W.FA,English Women's FA Cup
+19970,Chelsea,ENG.W.FA,English Women's FA Cup
+21059,Cheltenham Town,ENG.W.FA,English Women's FA Cup
+21079,Enfield Town,ENG.W.FA,English Women's FA Cup
+21068,Ipswich Town,ENG.W.FA,English Women's FA Cup
+21074,Kent,ENG.W.FA,English Women's FA Cup
+21036,Leicester City,ENG.W.FA,English Women's FA Cup
+21075,Lincoln City,ENG.W.FA,English Women's FA Cup
+19257,Manchester City,ENG.W.FA,English Women's FA Cup
+21039,Southampton,ENG.W.FA,English Women's FA Cup
+21082,Stourbridge,ENG.W.FA,English Women's FA Cup
+20062,Tottenham Hotspur,ENG.W.FA,English Women's FA Cup
+21061,Wem Town,ENG.W.FA,English Women's FA Cup
+21042,Wolverhampton,ENG.W.FA,English Women's FA Cup
+9729,Charleston Battery,USA.OPEN,United States Open Cup
+17826,Charlotte Independence,USA.OPEN,United States Open Cup
+18268,Chattanooga FC,USA.OPEN,United States Open Cup
+18692,Chicago FC United,USA.OPEN,United States Open Cup
+18681,Chula Vista FC,USA.OPEN,United States Open Cup
+18264,Des Moines Menace,USA.OPEN,United States Open Cup
+18446,FC Tulsa,USA.OPEN,United States Open Cup
+18685,Golden State Force,USA.OPEN,United States Open Cup
+17360,Indy Eleven,USA.OPEN,United States Open Cup
+17832,Louisville City FC,USA.OPEN,United States Open Cup
+9725,North Carolina FC,USA.OPEN,United States Open Cup
+17831,Oklahoma City Energy FC,USA.OPEN,United States Open Cup
+18455,Orange County SC,USA.OPEN,United States Open Cup
+17850,Phoenix Rising FC,USA.OPEN,United States Open Cup
+17827,Pittsburgh Riverhounds,USA.OPEN,United States Open Cup
+18453,Reno 1868 FC,USA.OPEN,United States Open Cup
+17545,Richmond Kickers,USA.OPEN,United States Open Cup
+17828,Sacramento Republic FC,USA.OPEN,United States Open Cup
+17833,Saint Louis FC,USA.OPEN,United States Open Cup
+18265,San Antonio FC,USA.OPEN,United States Open Cup
+17361,Tampa Bay Rowdies,USA.OPEN,United States Open Cup
+18271,The Villages SC,USA.OPEN,United States Open Cup
+18688,Tulsa Athletic,USA.OPEN,United States Open Cup
+18683,Ventura County Fusion,USA.OPEN,United States Open Cup
+18989,Atlanta United 2,USA.USL.1,USL Championship
+19406,Austin Bold FC,USA.USL.1,USL Championship
+19405,Birmingham Legion FC,USA.USL.1,USL Championship
+9729,Charleston Battery,USA.USL.1,USL Championship
+17826,Charlotte Independence,USA.USL.1,USL Championship
+17830,Colorado Springs Switchbacks FC,USA.USL.1,USL Championship
+19407,El Paso Locomotive FC,USA.USL.1,USL Championship
+18446,FC Tulsa,USA.USL.1,USL Championship
+17360,Indy Eleven,USA.USL.1,USL Championship
+18449,LA Galaxy II,USA.USL.1,USL Championship
+18987,Las Vegas Lights FC,USA.USL.1,USL Championship
+17832,Louisville City FC,USA.USL.1,USL Championship
+18159,Miami FC,USA.USL.1,USL Championship
+18450,New York Red Bulls II,USA.USL.1,USL Championship
+17831,Oklahoma City Energy FC,USA.USL.1,USL Championship
+18455,Orange County SC,USA.USL.1,USL Championship
+17850,Phoenix Rising FC,USA.USL.1,USL Championship
+17827,Pittsburgh Riverhounds,USA.USL.1,USL Championship
+18448,Real Monarchs SLC,USA.USL.1,USL Championship
+18452,Rio Grande Valley FC Toros,USA.USL.1,USL Championship
+17828,Sacramento Republic FC,USA.USL.1,USL Championship
+18265,San Antonio FC,USA.USL.1,USL Championship
+18457,Sporting Kansas City II,USA.USL.1,USL Championship
+17829,Tacoma Defiance,USA.USL.1,USL Championship
+17361,Tampa Bay Rowdies,USA.USL.1,USL Championship
+20000,Chattanooga Red Wolves,USA.USL.L1,USL League One
+18673,FC Tucson,USA.USL.L1,USL League One
+20749,Fort Lauderdale CF,USA.USL.L1,USL League One
+19995,Forward Madison FC,USA.USL.L1,USL League One
+19964,Greenville Triumph,USA.USL.L1,USL League One
+20750,New England Revolution II,USA.USL.L1,USL League One
+9725,North Carolina FC,USA.USL.L1,USL League One
+20748,North Texas SC,USA.USL.L1,USL League One
+17545,Richmond Kickers,USA.USL.L1,USL League One
+19181,South Georgia Tormenta FC,USA.USL.L1,USL League One
+18447,Toronto FC II,USA.USL.L1,USL League One
+20684,Union Omaha,USA.USL.L1,USL League One
+12008,Al Duhail,AFC.CHAMPIONS,AFC Champions League
+929,Al Hilal,AFC.CHAMPIONS,AFC Champions League
+817,Al Nassr,AFC.CHAMPIONS,AFC Champions League
+7527,Al Rayyan,AFC.CHAMPIONS,AFC Champions League
+7135,Al Sadd,AFC.CHAMPIONS,AFC Champions League
+8346,Al-Ahli,AFC.CHAMPIONS,AFC Champions League
+9655,Al-Shorta,AFC.CHAMPIONS,AFC Champions League
+7134,Al-Wahda,AFC.CHAMPIONS,AFC Champions League
+8519,BG Pathum United,AFC.CHAMPIONS,AFC Champions League
+2052,Beijing Guoan,AFC.CHAMPIONS,AFC Champions League
+7109,Cerezo Osaka,AFC.CHAMPIONS,AFC Champions League
+6974,Daegu FC,AFC.CHAMPIONS,AFC Champions League
+7525,Esteghlal,AFC.CHAMPIONS,AFC Champions League
+7121,Foolad,AFC.CHAMPIONS,AFC Champions League
+7102,Gamba Osaka,AFC.CHAMPIONS,AFC Champions League
+12009,Guangzhou,AFC.CHAMPIONS,AFC Champions League
+7119,Jeonbuk Motors,AFC.CHAMPIONS,AFC Champions League
+7112,Kawasaki Frontale,AFC.CHAMPIONS,AFC Champions League
+7108,Nagoya Grampus,AFC.CHAMPIONS,AFC Champions League
+7123,Pakhtakor Tashkent,AFC.CHAMPIONS,AFC Champions League
+9693,Pohang Steelers,AFC.CHAMPIONS,AFC Champions League
+790,Shabab Al-Ahli,AFC.CHAMPIONS,AFC Champions League
+8371,Sharjah,AFC.CHAMPIONS,AFC Champions League
+7998,Tampines Rovers,AFC.CHAMPIONS,AFC Champions League
+7120,Ulsan Hyundai,AFC.CHAMPIONS,AFC Champions League
+263,Aberdeen,SCO.1,Scottish Premiership
+256,Celtic,SCO.1,Scottish Premiership
+261,Dundee,SCO.1,Scottish Premiership
+264,Dundee United,SCO.1,Scottish Premiership
+262,Heart of Midlothian,SCO.1,Scottish Premiership
+258,Hibernian,SCO.1,Scottish Premiership
+259,Livingston,SCO.1,Scottish Premiership
+266,Motherwell,SCO.1,Scottish Premiership
+257,Rangers,SCO.1,Scottish Premiership
+251,Ross County,SCO.1,Scottish Premiership
+267,St Johnstone,SCO.1,Scottish Premiership
+250,St Mirren,SCO.1,Scottish Premiership
+263,Aberdeen,SCO.CIS,Scottish League Cup
+403,Alloa Athletic,SCO.CIS,Scottish League Cup
+252,Arbroath,SCO.CIS,Scottish League Cup
+248,Ayr United,SCO.CIS,Scottish League Cup
+256,Celtic,SCO.CIS,Scottish League Cup
+255,Clyde,SCO.CIS,Scottish League Cup
+261,Dundee,SCO.CIS,Scottish League Cup
+264,Dundee United,SCO.CIS,Scottish League Cup
+265,Dunfermline Athletic,SCO.CIS,Scottish League Cup
+254,Falkirk,SCO.CIS,Scottish League Cup
+262,Heart of Midlothian,SCO.CIS,Scottish League Cup
+258,Hibernian,SCO.CIS,Scottish League Cup
+253,Inverness Caledonian Thistle,SCO.CIS,Scottish League Cup
+260,Kilmarnock,SCO.CIS,Scottish League Cup
+259,Livingston,SCO.CIS,Scottish League Cup
+266,Motherwell,SCO.CIS,Scottish League Cup
+247,Partick Thistle,SCO.CIS,Scottish League Cup
+406,Queen of the South,SCO.CIS,Scottish League Cup
+249,Raith Rovers,SCO.CIS,Scottish League Cup
+257,Rangers,SCO.CIS,Scottish League Cup
+251,Ross County,SCO.CIS,Scottish League Cup
+267,St Johnstone,SCO.CIS,Scottish League Cup
+250,St Mirren,SCO.CIS,Scottish League Cup
+405,Stenhousemuir,SCO.CIS,Scottish League Cup
+407,Stranraer,SCO.CIS,Scottish League Cup
+5321,Adelaide United,AUS.1,Australian A-League Men
+5326,Brisbane Roar,AUS.1,Australian A-League Men
+5325,Central Coast Mariners,AUS.1,Australian A-League Men
+19340,Macarthur FC,AUS.1,Australian A-League Men
+11143,Melbourne City FC,AUS.1,Australian A-League Men
+5328,Melbourne Victory,AUS.1,Australian A-League Men
+5323,Newcastle Jets,AUS.1,Australian A-League Men
+5322,Perth Glory,AUS.1,Australian A-League Men
+5327,Sydney FC,AUS.1,Australian A-League Men
+8352,Wellington Phoenix FC,AUS.1,Australian A-League Men
+13696,Western Sydney Wanderers,AUS.1,Australian A-League Men
+20086,Western United,AUS.1,Australian A-League Men
+2052,Beijing Guoan,CHN.1,Chinese Super League
+18199,Cangzhou Mighty Lions,CHN.1,Chinese Super League
+8225,Changchun Yatai,CHN.1,Chinese Super League
+18202,Chongqing Liangjiang Athletic,CHN.1,Chinese Super League
+19139,Dalian Professional,CHN.1,Chinese Super League
+12009,Guangzhou,CHN.1,Chinese Super League
+17688,Guangzhou City,CHN.1,Chinese Super League
+18200,Hebei FC,CHN.1,Chinese Super League
+8240,Henan Songshan Longmen,CHN.1,Chinese Super League
+20681,Qingdao,CHN.1,Chinese Super League
+7521,Shandong Taishan,CHN.1,Chinese Super League
+15515,Shanghai Port,CHN.1,Chinese Super League
+977,Shanghai Shenhua,CHN.1,Chinese Super League
+2038,Shenzhen FC,CHN.1,Chinese Super League
+8239,Tianjin Tigers,CHN.1,Chinese Super League
+19788,Wuhan,CHN.1,Chinese Super League
+459,Belgium,FIFA.FRIENDLY,International Friendly
+204,Bolivia,FIFA.FRIENDLY,International Friendly
+452,Bosnia and Herzegovina,FIFA.FRIENDLY,International Friendly
+207,Chile,FIFA.FRIENDLY,International Friendly
+214,Costa Rica,FIFA.FRIENDLY,International Friendly
+445,Cyprus,FIFA.FRIENDLY,International Friendly
+450,Czech Republic,FIFA.FRIENDLY,International Friendly
+209,Ecuador,FIFA.FRIENDLY,International Friendly
+448,England,FIFA.FRIENDLY,International Friendly
+444,Estonia,FIFA.FRIENDLY,International Friendly
+447,Faroe Islands,FIFA.FRIENDLY,International Friendly
+458,Finland,FIFA.FRIENDLY,International Friendly
+455,Greece,FIFA.FRIENDLY,International Friendly
+215,Honduras,FIFA.FRIENDLY,International Friendly
+461,Israel,FIFA.FRIENDLY,International Friendly
+162,Italy,FIFA.FRIENDLY,International Friendly
+456,Latvia,FIFA.FRIENDLY,International Friendly
+460,Lithuania,FIFA.FRIENDLY,International Friendly
+453,Malta,FIFA.FRIENDLY,International Friendly
+203,Mexico,FIFA.FRIENDLY,International Friendly
+449,Netherlands,FIFA.FRIENDLY,International Friendly
+454,Russia,FIFA.FRIENDLY,International Friendly
+451,South Korea,FIFA.FRIENDLY,International Friendly
+164,Spain,FIFA.FRIENDLY,International Friendly
+457,Ukraine,FIFA.FRIENDLY,International Friendly
+2750,Argentina,FIFA.FRIENDLY.W,Women's International Friendly
+2751,Australia,FIFA.FRIENDLY.W,Women's International Friendly
+2752,Brazil,FIFA.FRIENDLY.W,Women's International Friendly
+2753,Canada,FIFA.FRIENDLY.W,Women's International Friendly
+2894,Costa Rica,FIFA.FRIENDLY.W,Women's International Friendly
+6517,Czech Republic,FIFA.FRIENDLY.W,Women's International Friendly
+2896,Denmark,FIFA.FRIENDLY.W,Women's International Friendly
+5159,England,FIFA.FRIENDLY.W,Women's International Friendly
+2755,France,FIFA.FRIENDLY.W,Women's International Friendly
+2756,Germany,FIFA.FRIENDLY.W,Women's International Friendly
+2757,Ghana,FIFA.FRIENDLY.W,Women's International Friendly
+3683,Iceland,FIFA.FRIENDLY.W,Women's International Friendly
+2792,Italy,FIFA.FRIENDLY.W,Women's International Friendly
+2893,Jamaica,FIFA.FRIENDLY.W,Women's International Friendly
+2758,Japan,FIFA.FRIENDLY.W,Women's International Friendly
+2812,Mexico,FIFA.FRIENDLY.W,Women's International Friendly
+4153,New Zealand,FIFA.FRIENDLY.W,Women's International Friendly
+2761,Nigeria,FIFA.FRIENDLY.W,Women's International Friendly
+2762,Norway,FIFA.FRIENDLY.W,Women's International Friendly
+2895,Panama,FIFA.FRIENDLY.W,Women's International Friendly
+4178,Republic of Ireland,FIFA.FRIENDLY.W,Women's International Friendly
+2763,Russia ,FIFA.FRIENDLY.W,Women's International Friendly
+2764,Sweden,FIFA.FRIENDLY.W,Women's International Friendly
+2892,Trinidad and Tobago,FIFA.FRIENDLY.W,Women's International Friendly
+2765,United States,FIFA.FRIENDLY.W,Women's International Friendly
+2638,Antigua and Barbuda,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2642,Aruba,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2640,Bahamas,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2637,Barbados,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2641,Belize,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2643,Bermuda,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2644,British Virgin Islands,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+206,Canada,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2646,Cayman Islands,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+214,Costa Rica,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2647,Cuba,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2649,Dominican Republic,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2650,El Salvador,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2651,Grenada,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2652,Guatemala,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2653,Guyana,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2654,Haiti,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+215,Honduras,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+1038,Jamaica,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+203,Mexico,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2655,Montserrat,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2658,Nicaragua,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2627,Trinidad and Tobago,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+2645,US Virgin Islands,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+660,United States,FIFA.WORLDQ.CONCACAF,FIFA World Cup Qualifying - CONCACAF
+459,Belgium,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+452,Bosnia and Herzegovina,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+462,Bulgaria,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+445,Cyprus,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+450,Czech Republic,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+448,England,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+444,Estonia,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+447,Faroe Islands,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+458,Finland,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+455,Greece,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+470,Iceland,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+461,Israel,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+162,Italy,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+456,Latvia,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+460,Lithuania,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+453,Malta,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+449,Netherlands,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+463,North Macedonia,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+464,Norway,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+454,Russia,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+468,Slovakia,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+164,Spain,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+466,Sweden,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+465,Turkey,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+457,Ukraine,FIFA.WORLDQ.UEFA,FIFA World Cup Qualifying - UEFA
+202,Argentina,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+204,Bolivia,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+205,Brazil,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+207,Chile,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+208,Colombia,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+209,Ecuador,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+210,Paraguay,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+211,Peru,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+212,Uruguay,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+213,Venezuela,FIFA.WORLDQ.CONMEBOL,FIFA World Cup Qualifying - CONMEBOL
+624,Algeria,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+653,Angola,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2844,Benin,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+4245,Botswana,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2845,Burkina Faso,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+656,Cameroon,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2597,Cape Verde Islands,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+4276,Congo,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2850,Congo DR,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2620,Egypt,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+4231,Gabon,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2847,Guinea,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2848,Kenya,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+4205,Liberia,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2621,Libya,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2849,Mali,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2869,Morocco,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+657,Nigeria,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+2851,Rwanda,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+654,Senegal,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+467,South Africa,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+659,Tunisia,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+4211,Uganda,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+4277,Zambia,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+4214,Zimbabwe,FIFA.WORLDQ.CAF,FIFA World Cup Qualifying - CAF
+628,Australia,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4381,Bahrain,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+5518,Cambodia,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+658,China,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+1928,Hong Kong,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+469,IR Iran,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4385,India,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4895,Indonesia,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4375,Iraq,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+627,Japan,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+2917,Jordan,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+841,Kuwait,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4388,Lebanon,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+2405,Malaysia,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4390,Maldives,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4860,North Korea,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+2841,Oman,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4398,Qatar,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+655,Saudi Arabia,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4384,Singapore,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+451,South Korea,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4380,Syria,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4396,Thailand,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4397,United Arab Emirates,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+2570,Uzbekistan,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
+4862,Fiji,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
+4888,New Caledonia,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
+2666,New Zealand,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
+4885,Papua New Guinea,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
+4861,Solomon Islands,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
+4863,Tahiti,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
+202,Argentina,FIFA.WORLD,FIFA World Cup
+628,Australia,FIFA.WORLD,FIFA World Cup
+459,Belgium,FIFA.WORLD,FIFA World Cup
+205,Brazil,FIFA.WORLD,FIFA World Cup
+208,Colombia,FIFA.WORLD,FIFA World Cup
+214,Costa Rica,FIFA.WORLD,FIFA World Cup
+477,Croatia,FIFA.WORLD,FIFA World Cup
+479,Denmark,FIFA.WORLD,FIFA World Cup
+448,England,FIFA.WORLD,FIFA World Cup
+478,France,FIFA.WORLD,FIFA World Cup
+481,Germany,FIFA.WORLD,FIFA World Cup
+469,IR Iran,FIFA.WORLD,FIFA World Cup
+470,Iceland,FIFA.WORLD,FIFA World Cup
+627,Japan,FIFA.WORLD,FIFA World Cup
+203,Mexico,FIFA.WORLD,FIFA World Cup
+211,Peru,FIFA.WORLD,FIFA World Cup
+471,Poland,FIFA.WORLD,FIFA World Cup
+482,Portugal,FIFA.WORLD,FIFA World Cup
+454,Russia,FIFA.WORLD,FIFA World Cup
+654,Senegal,FIFA.WORLD,FIFA World Cup
+451,South Korea,FIFA.WORLD,FIFA World Cup
+164,Spain,FIFA.WORLD,FIFA World Cup
+466,Sweden,FIFA.WORLD,FIFA World Cup
+475,Switzerland,FIFA.WORLD,FIFA World Cup
+212,Uruguay,FIFA.WORLD,FIFA World Cup
+2750,Argentina,FIFA.WWC,FIFA Women's World Cup
+2751,Australia,FIFA.WWC,FIFA Women's World Cup
+2752,Brazil,FIFA.WWC,FIFA Women's World Cup
+2753,Canada,FIFA.WWC,FIFA Women's World Cup
+2754,China,FIFA.WWC,FIFA Women's World Cup
+5159,England,FIFA.WWC,FIFA Women's World Cup
+2755,France,FIFA.WWC,FIFA Women's World Cup
+2756,Germany,FIFA.WWC,FIFA Women's World Cup
+2792,Italy,FIFA.WWC,FIFA Women's World Cup
+2893,Jamaica,FIFA.WWC,FIFA Women's World Cup
+2758,Japan,FIFA.WWC,FIFA Women's World Cup
+4153,New Zealand,FIFA.WWC,FIFA Women's World Cup
+2761,Nigeria,FIFA.WWC,FIFA Women's World Cup
+2762,Norway,FIFA.WWC,FIFA Women's World Cup
+2764,Sweden,FIFA.WWC,FIFA Women's World Cup
+2765,United States,FIFA.WWC,FIFA Women's World Cup
+8364,Al-Jazira,FIFA.CWC,FIFA Club World Cup
+206,Canada,CONCACAF.GOLD,CONCACAF Gold Cup
+214,Costa Rica,CONCACAF.GOLD,CONCACAF Gold Cup
+2650,El Salvador,CONCACAF.GOLD,CONCACAF Gold Cup
+2651,Grenada,CONCACAF.GOLD,CONCACAF Gold Cup
+7657,Guadeloupe,CONCACAF.GOLD,CONCACAF Gold Cup
+2652,Guatemala,CONCACAF.GOLD,CONCACAF Gold Cup
+2654,Haiti,CONCACAF.GOLD,CONCACAF Gold Cup
+215,Honduras,CONCACAF.GOLD,CONCACAF Gold Cup
+1038,Jamaica,CONCACAF.GOLD,CONCACAF Gold Cup
+2728,Martinique,CONCACAF.GOLD,CONCACAF Gold Cup
+203,Mexico,CONCACAF.GOLD,CONCACAF Gold Cup
+2659,Panama,CONCACAF.GOLD,CONCACAF Gold Cup
+4398,Qatar,CONCACAF.GOLD,CONCACAF Gold Cup
+2664,Suriname,CONCACAF.GOLD,CONCACAF Gold Cup
+2627,Trinidad and Tobago,CONCACAF.GOLD,CONCACAF Gold Cup
+660,United States,CONCACAF.GOLD,CONCACAF Gold Cup
+2640,Bahamas,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2637,Barbados,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2643,Bermuda,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2647,Cuba,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+10532,French Guiana,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+7657,Guadeloupe,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2652,Guatemala,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2653,Guyana,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2654,Haiti,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2655,Montserrat,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+13584,St. Vincent and the Grenadines,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2627,Trinidad and Tobago,CONCACAF.GOLD_QUAL,CONCACAF Gold Cup Qualifying
+2638,Antigua and Barbuda,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2642,Aruba,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2640,Bahamas,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2637,Barbados,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2641,Belize,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2643,Bermuda,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2644,British Virgin Islands,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+206,Canada,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2646,Cayman Islands,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+214,Costa Rica,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2647,Cuba,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2649,Dominican Republic,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2650,El Salvador,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2651,Grenada,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2652,Guatemala,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2653,Guyana,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2654,Haiti,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+215,Honduras,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+1038,Jamaica,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+203,Mexico,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2655,Montserrat,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2658,Nicaragua,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2627,Trinidad and Tobago,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2645,US Virgin Islands,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+660,United States,CONCACAF.NATIONS.LEAGUE,CONCACAF Nations League
+2638,Antigua and Barbuda,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2642,Aruba,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2640,Bahamas,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2637,Barbados,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2641,Belize,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2643,Bermuda,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2644,British Virgin Islands,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+206,Canada,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2646,Cayman Islands,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2647,Cuba,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2649,Dominican Republic,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2650,El Salvador,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2651,Grenada,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+7657,Guadeloupe,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2653,Guyana,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2654,Haiti,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+1038,Jamaica,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2728,Martinique,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2655,Montserrat,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2658,Nicaragua,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2662,St. Kitts and Nevis,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2661,St. Lucia,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2664,Suriname,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2665,Turks and Caicos Islands,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+2645,US Virgin Islands,CONCACAF.NATIONS.LEAGUE_QUAL,CONCACAF Nations League Qualifying
+203,Mexico,CONCACAF.CONFEDERATIONS_PLAYOFF,CONCACAF Cup
+660,United States,CONCACAF.CONFEDERATIONS_PLAYOFF,CONCACAF Cup
+474,Austria,UEFA.EURO,UEFA European Championship
+459,Belgium,UEFA.EURO,UEFA European Championship
+477,Croatia,UEFA.EURO,UEFA European Championship
+450,Czech Republic,UEFA.EURO,UEFA European Championship
+479,Denmark,UEFA.EURO,UEFA European Championship
+448,England,UEFA.EURO,UEFA European Championship
+458,Finland,UEFA.EURO,UEFA European Championship
+478,France,UEFA.EURO,UEFA European Championship
+481,Germany,UEFA.EURO,UEFA European Championship
+480,Hungary,UEFA.EURO,UEFA European Championship
+162,Italy,UEFA.EURO,UEFA European Championship
+449,Netherlands,UEFA.EURO,UEFA European Championship
+463,North Macedonia,UEFA.EURO,UEFA European Championship
+471,Poland,UEFA.EURO,UEFA European Championship
+482,Portugal,UEFA.EURO,UEFA European Championship
+454,Russia,UEFA.EURO,UEFA European Championship
+580,Scotland,UEFA.EURO,UEFA European Championship
+468,Slovakia,UEFA.EURO,UEFA European Championship
+164,Spain,UEFA.EURO,UEFA European Championship
+466,Sweden,UEFA.EURO,UEFA European Championship
+475,Switzerland,UEFA.EURO,UEFA European Championship
+465,Turkey,UEFA.EURO,UEFA European Championship
+457,Ukraine,UEFA.EURO,UEFA European Championship
+578,Wales,UEFA.EURO,UEFA European Championship
+459,Belgium,UEFA.EUROQ,UEFA European Championship Qualifying
+452,Bosnia and Herzegovina,UEFA.EUROQ,UEFA European Championship Qualifying
+462,Bulgaria,UEFA.EUROQ,UEFA European Championship Qualifying
+445,Cyprus,UEFA.EUROQ,UEFA European Championship Qualifying
+450,Czech Republic,UEFA.EUROQ,UEFA European Championship Qualifying
+448,England,UEFA.EUROQ,UEFA European Championship Qualifying
+444,Estonia,UEFA.EUROQ,UEFA European Championship Qualifying
+447,Faroe Islands,UEFA.EUROQ,UEFA European Championship Qualifying
+458,Finland,UEFA.EUROQ,UEFA European Championship Qualifying
+455,Greece,UEFA.EUROQ,UEFA European Championship Qualifying
+470,Iceland,UEFA.EUROQ,UEFA European Championship Qualifying
+461,Israel,UEFA.EUROQ,UEFA European Championship Qualifying
+162,Italy,UEFA.EUROQ,UEFA European Championship Qualifying
+456,Latvia,UEFA.EUROQ,UEFA European Championship Qualifying
+460,Lithuania,UEFA.EUROQ,UEFA European Championship Qualifying
+453,Malta,UEFA.EUROQ,UEFA European Championship Qualifying
+449,Netherlands,UEFA.EUROQ,UEFA European Championship Qualifying
+463,North Macedonia,UEFA.EUROQ,UEFA European Championship Qualifying
+464,Norway,UEFA.EUROQ,UEFA European Championship Qualifying
+454,Russia,UEFA.EUROQ,UEFA European Championship Qualifying
+468,Slovakia,UEFA.EUROQ,UEFA European Championship Qualifying
+164,Spain,UEFA.EUROQ,UEFA European Championship Qualifying
+466,Sweden,UEFA.EUROQ,UEFA European Championship Qualifying
+465,Turkey,UEFA.EUROQ,UEFA European Championship Qualifying
+457,Ukraine,UEFA.EUROQ,UEFA European Championship Qualifying
+459,Belgium,UEFA.NATIONS,UEFA Nations League
+452,Bosnia and Herzegovina,UEFA.NATIONS,UEFA Nations League
+462,Bulgaria,UEFA.NATIONS,UEFA Nations League
+445,Cyprus,UEFA.NATIONS,UEFA Nations League
+450,Czech Republic,UEFA.NATIONS,UEFA Nations League
+448,England,UEFA.NATIONS,UEFA Nations League
+444,Estonia,UEFA.NATIONS,UEFA Nations League
+447,Faroe Islands,UEFA.NATIONS,UEFA Nations League
+458,Finland,UEFA.NATIONS,UEFA Nations League
+455,Greece,UEFA.NATIONS,UEFA Nations League
+470,Iceland,UEFA.NATIONS,UEFA Nations League
+461,Israel,UEFA.NATIONS,UEFA Nations League
+162,Italy,UEFA.NATIONS,UEFA Nations League
+456,Latvia,UEFA.NATIONS,UEFA Nations League
+460,Lithuania,UEFA.NATIONS,UEFA Nations League
+453,Malta,UEFA.NATIONS,UEFA Nations League
+449,Netherlands,UEFA.NATIONS,UEFA Nations League
+463,North Macedonia,UEFA.NATIONS,UEFA Nations League
+464,Norway,UEFA.NATIONS,UEFA Nations League
+454,Russia,UEFA.NATIONS,UEFA Nations League
+468,Slovakia,UEFA.NATIONS,UEFA Nations League
+164,Spain,UEFA.NATIONS,UEFA Nations League
+466,Sweden,UEFA.NATIONS,UEFA Nations League
+465,Turkey,UEFA.NATIONS,UEFA Nations League
+457,Ukraine,UEFA.NATIONS,UEFA Nations League
+202,Argentina,CONMEBOL.AMERICA,Copa America
+204,Bolivia,CONMEBOL.AMERICA,Copa America
+205,Brazil,CONMEBOL.AMERICA,Copa America
+207,Chile,CONMEBOL.AMERICA,Copa America
+208,Colombia,CONMEBOL.AMERICA,Copa America
+209,Ecuador,CONMEBOL.AMERICA,Copa America
+210,Paraguay,CONMEBOL.AMERICA,Copa America
+211,Peru,CONMEBOL.AMERICA,Copa America
+212,Uruguay,CONMEBOL.AMERICA,Copa America
+213,Venezuela,CONMEBOL.AMERICA,Copa America
+628,Australia,AFC.ASIAN.CUP,AFC Asian Cup
+4381,Bahrain,AFC.ASIAN.CUP,AFC Asian Cup
+658,China,AFC.ASIAN.CUP,AFC Asian Cup
+469,IR Iran,AFC.ASIAN.CUP,AFC Asian Cup
+4385,India,AFC.ASIAN.CUP,AFC Asian Cup
+4375,Iraq,AFC.ASIAN.CUP,AFC Asian Cup
+627,Japan,AFC.ASIAN.CUP,AFC Asian Cup
+2917,Jordan,AFC.ASIAN.CUP,AFC Asian Cup
+6724,Kyrgyz Republic,AFC.ASIAN.CUP,AFC Asian Cup
+4388,Lebanon,AFC.ASIAN.CUP,AFC Asian Cup
+4860,North Korea,AFC.ASIAN.CUP,AFC Asian Cup
+2841,Oman,AFC.ASIAN.CUP,AFC Asian Cup
+6167,Palestine,AFC.ASIAN.CUP,AFC Asian Cup
+7347,Philippines,AFC.ASIAN.CUP,AFC Asian Cup
+4398,Qatar,AFC.ASIAN.CUP,AFC Asian Cup
+655,Saudi Arabia,AFC.ASIAN.CUP,AFC Asian Cup
+451,South Korea,AFC.ASIAN.CUP,AFC Asian Cup
+4380,Syria,AFC.ASIAN.CUP,AFC Asian Cup
+4396,Thailand,AFC.ASIAN.CUP,AFC Asian Cup
+7507,Turkmenistan,AFC.ASIAN.CUP,AFC Asian Cup
+4397,United Arab Emirates,AFC.ASIAN.CUP,AFC Asian Cup
+2570,Uzbekistan,AFC.ASIAN.CUP,AFC Asian Cup
+7349,Vietnam,AFC.ASIAN.CUP,AFC Asian Cup
+6014,Yemen,AFC.ASIAN.CUP,AFC Asian Cup
+5518,Cambodia,AFC.CUPQ,AFC Asian Cup Qualifiers
+14561,Chinese Taipei,AFC.CUPQ,AFC Asian Cup Qualifiers
+10529,Guam,AFC.CUPQ,AFC Asian Cup Qualifiers
+4895,Indonesia,AFC.CUPQ,AFC Asian Cup Qualifiers
+624,Algeria,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+653,Angola,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2844,Benin,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+4245,Botswana,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2845,Burkina Faso,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+656,Cameroon,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2597,Cape Verde Islands,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+4276,Congo,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2850,Congo DR,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2620,Egypt,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+4231,Gabon,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2847,Guinea,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2848,Kenya,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+4205,Liberia,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2621,Libya,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2849,Mali,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2869,Morocco,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+657,Nigeria,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+2851,Rwanda,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+654,Senegal,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+467,South Africa,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+659,Tunisia,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+4211,Uganda,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+4277,Zambia,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+4214,Zimbabwe,CAF.NATIONS_QUAL,Africa Cup of Nations qualifying
+624,Algeria,CAF.NATIONS,Africa Cup of Nations
+2845,Burkina Faso,CAF.NATIONS,Africa Cup of Nations
+656,Cameroon,CAF.NATIONS,Africa Cup of Nations
+2597,Cape Verde Islands,CAF.NATIONS,Africa Cup of Nations
+8601,Comoros Islands,CAF.NATIONS,Africa Cup of Nations
+2620,Egypt,CAF.NATIONS,Africa Cup of Nations
+8938,Equatorial Guinea,CAF.NATIONS,Africa Cup of Nations
+5777,Ethiopia,CAF.NATIONS,Africa Cup of Nations
+4231,Gabon,CAF.NATIONS,Africa Cup of Nations
+7368,Gambia,CAF.NATIONS,Africa Cup of Nations
+4469,Ghana,CAF.NATIONS,Africa Cup of Nations
+2847,Guinea,CAF.NATIONS,Africa Cup of Nations
+8602,Guinea-Bissau,CAF.NATIONS,Africa Cup of Nations
+4789,Ivory Coast,CAF.NATIONS,Africa Cup of Nations
+4325,Malawi,CAF.NATIONS,Africa Cup of Nations
+2849,Mali,CAF.NATIONS,Africa Cup of Nations
+8940,Mauritania,CAF.NATIONS,Africa Cup of Nations
+2869,Morocco,CAF.NATIONS,Africa Cup of Nations
+657,Nigeria,CAF.NATIONS,Africa Cup of Nations
+654,Senegal,CAF.NATIONS,Africa Cup of Nations
+8600,Sierra Leone,CAF.NATIONS,Africa Cup of Nations
+4319,Sudan,CAF.NATIONS,Africa Cup of Nations
+659,Tunisia,CAF.NATIONS,Africa Cup of Nations
+4214,Zimbabwe,CAF.NATIONS,Africa Cup of Nations
+2845,Burkina Faso,CAF.CHAMPIONSHIP,Africa Nations Championship
+656,Cameroon,CAF.CHAMPIONSHIP,Africa Nations Championship
+4276,Congo,CAF.CHAMPIONSHIP,Africa Nations Championship
+2850,Congo DR,CAF.CHAMPIONSHIP,Africa Nations Championship
+2847,Guinea,CAF.CHAMPIONSHIP,Africa Nations Championship
+2621,Libya,CAF.CHAMPIONSHIP,Africa Nations Championship
+2849,Mali,CAF.CHAMPIONSHIP,Africa Nations Championship
+2869,Morocco,CAF.CHAMPIONSHIP,Africa Nations Championship
+6725,Namibia,CAF.CHAMPIONSHIP,Africa Nations Championship
+8937,Niger,CAF.CHAMPIONSHIP,Africa Nations Championship
+2851,Rwanda,CAF.CHAMPIONSHIP,Africa Nations Championship
+5778,Tanzania,CAF.CHAMPIONSHIP,Africa Nations Championship
+4356,Togo,CAF.CHAMPIONSHIP,Africa Nations Championship
+4211,Uganda,CAF.CHAMPIONSHIP,Africa Nations Championship
+4277,Zambia,CAF.CHAMPIONSHIP,Africa Nations Championship
+4214,Zimbabwe,CAF.CHAMPIONSHIP,Africa Nations Championship
+2844,Benin,WAFU.NATIONS,WAFU Cup of Nations
+2845,Burkina Faso,WAFU.NATIONS,WAFU Cup of Nations
+2597,Cape Verde Islands,WAFU.NATIONS,WAFU Cup of Nations
+7368,Gambia,WAFU.NATIONS,WAFU Cup of Nations
+4469,Ghana,WAFU.NATIONS,WAFU Cup of Nations
+2847,Guinea,WAFU.NATIONS,WAFU Cup of Nations
+8602,Guinea-Bissau,WAFU.NATIONS,WAFU Cup of Nations
+4789,Ivory Coast,WAFU.NATIONS,WAFU Cup of Nations
+4205,Liberia,WAFU.NATIONS,WAFU Cup of Nations
+2849,Mali,WAFU.NATIONS,WAFU Cup of Nations
+8940,Mauritania,WAFU.NATIONS,WAFU Cup of Nations
+2869,Morocco,WAFU.NATIONS,WAFU Cup of Nations
+8937,Niger,WAFU.NATIONS,WAFU Cup of Nations
+657,Nigeria,WAFU.NATIONS,WAFU Cup of Nations
+654,Senegal,WAFU.NATIONS,WAFU Cup of Nations
+8600,Sierra Leone,WAFU.NATIONS,WAFU Cup of Nations
+4356,Togo,WAFU.NATIONS,WAFU Cup of Nations
+2750,Argentina,FIFA.SHEBELIEVES,SheBelieves Cup
+2752,Brazil,FIFA.SHEBELIEVES,SheBelieves Cup
+2753,Canada,FIFA.SHEBELIEVES,SheBelieves Cup
+2765,United States,FIFA.SHEBELIEVES,SheBelieves Cup
+628,Australia,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+656,Cameroon,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+207,Chile,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+481,Germany,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+203,Mexico,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+2666,New Zealand,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+482,Portugal,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+454,Russia,FIFA.CONFEDERATIONS,FIFA Confederations Cup
+477,Croatia,NONFIFA,Non-FIFA Friendly
+7657,Guadeloupe,NONFIFA,Non-FIFA Friendly
+2847,Guinea,NONFIFA,Non-FIFA Friendly
+2728,Martinique,NONFIFA,Non-FIFA Friendly
+2869,Morocco,NONFIFA,Non-FIFA Friendly
+2659,Panama,NONFIFA,Non-FIFA Friendly
+4398,Qatar,NONFIFA,Non-FIFA Friendly
+6418,1. FC Heidenheim,GER.2,German 2. Bundesliga
+7017,Dynamo Dresden,GER.2,German 2. Bundesliga
+3849,FC Erzgebirge Aue,GER.2,German 2. Bundesliga
+6367,FC Ingolstadt 04,GER.2,German 2. Bundesliga
+9707,Fortuna Düsseldorf,GER.2,German 2. Bundesliga
+127,Hamburg SV,GER.2,German 2. Bundesliga
+2428,Hannover 96,GER.2,German 2. Bundesliga
+128,Hansa Rostock,GER.2,German 2. Bundesliga
+7884,Holstein Kiel,GER.2,German 2. Bundesliga
+4471,Karlsruher SC,GER.2,German 2. Bundesliga
+269,Nurnberg,GER.2,German 2. Bundesliga
+3307,SC Paderborn 07,GER.2,German 2. Bundesliga
+11017,SSV Jahn Regensburg,GER.2,German 2. Bundesliga
+3812,SV Darmstadt 98,GER.2,German 2. Bundesliga
+6392,SV Sandhausen,GER.2,German 2. Bundesliga
+133,Schalke 04,GER.2,German 2. Bundesliga
+270,St Pauli,GER.2,German 2. Bundesliga
+137,Werder Bremen,GER.2,German 2. Bundesliga
+11121,AD Alcorcón,ESP.2,Spanish LaLiga 2
+6832,Almería,ESP.2,Spanish LaLiga 2
+12587,Amorebieta,ESP.2,Spanish LaLiga 2
+12597,Burgos,ESP.2,Spanish LaLiga 2
+3752,Eibar,ESP.2,Spanish LaLiga 2
+5419,FC Cartagena,ESP.2,Spanish LaLiga 2
+5460,Fuenlabrada,ESP.2,Spanish LaLiga 2
+9812,Girona,ESP.2,Spanish LaLiga 2
+5413,Huesca,ESP.2,Spanish LaLiga 2
+98,Las Palmas,ESP.2,Spanish LaLiga 2
+17534,Leganés,ESP.2,Spanish LaLiga 2
+7266,Lugo,ESP.2,Spanish LaLiga 2
+4515,Mirandés,ESP.2,Spanish LaLiga 2
+99,Málaga,ESP.2,Spanish LaLiga 2
+5463,Ponferradina,ESP.2,Spanish LaLiga 2
+92,Real Oviedo,ESP.2,Spanish LaLiga 2
+20983,Real Sociedad II,ESP.2,Spanish LaLiga 2
+95,Real Valladolid,ESP.2,Spanish LaLiga 2
+91,Real Zaragoza,ESP.2,Spanish LaLiga 2
+3788,Sporting Gijón,ESP.2,Spanish LaLiga 2
+245,Tenerife,ESP.2,Spanish LaLiga 2
+20229,UD Ibiza,ESP.2,Spanish LaLiga 2
+93,Athletic Bilbao,ESP.SUPER_CUP,Spanish Supercopa
+1068,Atletico Madrid,ESP.SUPER_CUP,Spanish Supercopa
+83,Barcelona,ESP.SUPER_CUP,Spanish Supercopa
+86,Real Madrid,ESP.SUPER_CUP,Spanish Supercopa
+15784,Arouca,POR.1.PROMOTION.RELEGATION,Portuguese Liga Promotion/Relegation Playoffs
+3822,Rio Ave,POR.1.PROMOTION.RELEGATION,Portuguese Liga Promotion/Relegation Playoffs
+20946,RFC Seraing,BEL.PROMOTION.RELEGATION,Belgian First Division A - Promotion/Relegation Playoffs
+13450,Waasland-Beveren,BEL.PROMOTION.RELEGATION,Belgian First Division A - Promotion/Relegation Playoffs
+441,Anderlecht,BEL.1,Belgian First Division A
+17544,Antwerp,BEL.1,Belgian First Division A
+991,Beerschot,BEL.1,Belgian First Division A
+3610,Cercle Brugge KSV,BEL.1,Belgian First Division A
+570,Club Brugge,BEL.1,Belgian First Division A
+4689,Eupen,BEL.1,Belgian First Division A
+3611,KAA Gent,BEL.1,Belgian First Division A
+5786,KV Kortrijk,BEL.1,Belgian First Division A
+7879,KV Mechelen,BEL.1,Belgian First Division A
+3612,KV Oostende,BEL.1,Belgian First Division A
+5579,Oud-Heverlee Leuven,BEL.1,Belgian First Division A
+20946,RFC Seraing,BEL.1,Belgian First Division A
+938,Racing Genk,BEL.1,Belgian First Division A
+3616,Royal Charleroi SC,BEL.1,Belgian First Division A
+936,Sint-Truidense,BEL.1,Belgian First Division A
+559,Standard Liege,BEL.1,Belgian First Division A
+5807,Union St.-Gilloise,BEL.1,Belgian First Division A
+4691,Zulte-Waregem,BEL.1,Belgian First Division A
+1382,Austria Vienna,AUT.1,Austrian Bundesliga
+11485,FC Admira Wacker Modling,AUT.1,Austrian Bundesliga
+2790,FC Salzburg,AUT.1,Austrian Bundesliga
+4411,LASK Linz,AUT.1,Austrian Bundesliga
+519,Rapid Vienna,AUT.1,Austrian Bundesliga
+4405,SC Rheindorf Altach,AUT.1,Austrian Bundesliga
+20966,SK Austria Klagenfurt,AUT.1,Austrian Bundesliga
+3746,SK Sturm Graz,AUT.1,Austrian Bundesliga
+3759,SV Josko Ried,AUT.1,Austrian Bundesliga
+6907,TSV Hartberg,AUT.1,Austrian Bundesliga
+18794,WSG Swarovski Tirol,AUT.1,Austrian Bundesliga
+13294,Wolfsberger,AUT.1,Austrian Bundesliga
+20765,Adana Demirspor,TUR.1,Turkish Super Lig
+9078,Alanyaspor,TUR.1,Turkish Super Lig
+3789,Altay Izmir,TUR.1,Turkish Super Lig
+3794,Antalyaspor,TUR.1,Turkish Super Lig
+1895,Besiktas,TUR.1,Turkish Super Lig
+7656,Caykur Rizespor,TUR.1,Turkish Super Lig
+20736,Fatih Karagümrük,TUR.1,Turkish Super Lig
+436,Fenerbahce,TUR.1,Turkish Super Lig
+432,Galatasaray,TUR.1,Turkish Super Lig
+20070,Gazisehir Gaziantep,TUR.1,Turkish Super Lig
+21031,Giresunspor,TUR.1,Turkish Super Lig
+789,Goztepe,TUR.1,Turkish Super Lig
+20737,Hatayspor,TUR.1,Turkish Super Lig
+7914,Istanbul Basaksehir,TUR.1,Turkish Super Lig
+6870,Kasimpasa,TUR.1,Turkish Super Lig
+3643,Kayserispor,TUR.1,Turkish Super Lig
+7648,Konyaspor,TUR.1,Turkish Super Lig
+3691,Sivasspor,TUR.1,Turkish Super Lig
+997,Trabzonspor,TUR.1,Turkish Super Lig
+18790,Yeni Malatyaspor,TUR.1,Turkish Super Lig
+20966,SK Austria Klagenfurt,AUT.PROMOTION.RELEGATION,Austrian Bundesliga Promotion/Relegation Playoffs
+17519,St. Pölten,AUT.PROMOTION.RELEGATION,Austrian Bundesliga Promotion/Relegation Playoffs
+887,AEK Athens,GRE.1,Greek Super League
+15722,Apollon Smyrni,GRE.1,Greek Super League
+11553,Aris,GRE.1,Greek Super League
+8354,Asteras Tripoli,GRE.1,Greek Super League
+6790,Atromitos,GRE.1,Greek Super League
+21093,Ionikos FC,GRE.1,Greek Super League
+18814,Lamia,GRE.1,Greek Super League
+1010,OFI Crete,GRE.1,Greek Super League
+435,Olympiakos,GRE.1,Greek Super League
+605,PAOK Salonika,GRE.1,Greek Super League
+443,Panathinaikos,GRE.1,Greek Super League
+11431,Panetolikos,GRE.1,Greek Super League
+6848,Pas Giannina,GRE.1,Greek Super League
+20043,Volos NFC,GRE.1,Greek Super League
+2578,FC Xanthi,GRE.1.PROMOTION.RELEGATION,Greek Super League Promotion/Relegation Playoffs
+11431,Panetolikos,GRE.1.PROMOTION.RELEGATION,Greek Super League Promotion/Relegation Playoffs
+989,FC Basel,SUI.1,Swiss Super League
+7672,FC Lugano,SUI.1,Swiss Super League
+7640,FC Luzern,SUI.1,Swiss Super League
+3076,FC Sion,SUI.1,Swiss Super League
+3019,FC Zürich,SUI.1,Swiss Super League
+492,Grasshoppers,SUI.1,Swiss Super League
+11551,Lausanne Sports,SUI.1,Swiss Super League
+20032,Servette,SUI.1,Swiss Super League
+557,St Gallen,SUI.1,Swiss Super League
+2722,Young Boys,SUI.1,Swiss Super League
+3076,FC Sion,SUI.1.PROMOTION.RELEGATION,Swiss Super League Promotion/Relegation Playoffs
+3024,FC Thun,SUI.1.PROMOTION.RELEGATION,Swiss Super League Promotion/Relegation Playoffs
+21135,AEM,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21142,Aldaia,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21137,Alhama,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21139,CD Femarguín,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21156,CP Cacereño,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21141,Castellón,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21143,Córdoba,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21145,Deportivo de La Coruña,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21134,Elche,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21154,Espanyol,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21150,Friol,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21147,Fundación Albacete,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21140,Granada,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21148,Juan Grande,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21146,La Solana,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21149,Levante Las Planas,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21151,Osasuna,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21153,Parquesol,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21155,Pozoalbense,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21144,Pozuelo,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21157,Pradejón,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21152,Racing,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21138,Real Oviedo,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21158,Real Unión Tenerife,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+21136,Sporting Gijón,ESP.COPA_DE_LA_REINA,Spanish Copa de la Reina
+103,AC Milan,GLOBAL.CHAMPS_CUP,International Champions Cup
+104,AS Roma,GLOBAL.CHAMPS_CUP,International Champions Cup
+359,Arsenal,GLOBAL.CHAMPS_CUP,International Champions Cup
+1068,Atletico Madrid,GLOBAL.CHAMPS_CUP,International Champions Cup
+132,Bayern Munich,GLOBAL.CHAMPS_CUP,International Champions Cup
+1929,Benfica,GLOBAL.CHAMPS_CUP,International Champions Cup
+109,Fiorentina,GLOBAL.CHAMPS_CUP,International Champions Cup
+219,Guadalajara,GLOBAL.CHAMPS_CUP,International Champions Cup
+110,Internazionale,GLOBAL.CHAMPS_CUP,International Champions Cup
+111,Juventus,GLOBAL.CHAMPS_CUP,International Champions Cup
+360,Manchester United,GLOBAL.CHAMPS_CUP,International Champions Cup
+86,Real Madrid,GLOBAL.CHAMPS_CUP,International Champions Cup
+367,Tottenham Hotspur,GLOBAL.CHAMPS_CUP,International Champions Cup
+20091,Barcelona,GLOBAL.WCHAMPS_CUP,Women's International Champions Cup
+17346,Houston Dash,GLOBAL.WCHAMPS_CUP,Women's International Champions Cup
+19256,Lyon,GLOBAL.WCHAMPS_CUP,Women's International Champions Cup
+15362,Portland Thorns FC,GLOBAL.WCHAMPS_CUP,Women's International Champions Cup
+103,AC Milan,CLUB.FRIENDLY,Club Friendly
+104,AS Roma,CLUB.FRIENDLY,Club Friendly
+105,Atalanta,CLUB.FRIENDLY,Club Friendly
+93,Athletic Bilbao,CLUB.FRIENDLY,Club Friendly
+83,Barcelona,CLUB.FRIENDLY,Club Friendly
+132,Bayern Munich,CLUB.FRIENDLY,Club Friendly
+5,Boca Juniors,CLUB.FRIENDLY,Club Friendly
+107,Bologna,CLUB.FRIENDLY,Club Friendly
+124,Borussia Dortmund,CLUB.FRIENDLY,Club Friendly
+88,Espanyol,CLUB.FRIENDLY,Club Friendly
+122,FC Cologne,CLUB.FRIENDLY,Club Friendly
+129,Hertha Berlin,CLUB.FRIENDLY,Club Friendly
+110,Internazionale,CLUB.FRIENDLY,Club Friendly
+111,Juventus,CLUB.FRIENDLY,Club Friendly
+98,Las Palmas,CLUB.FRIENDLY,Club Friendly
+84,Mallorca,CLUB.FRIENDLY,Club Friendly
+114,Napoli,CLUB.FRIENDLY,Club Friendly
+100,Numancia,CLUB.FRIENDLY,Club Friendly
+97,Osasuna,CLUB.FRIENDLY,Club Friendly
+115,Parma,CLUB.FRIENDLY,Club Friendly
+86,Real Madrid,CLUB.FRIENDLY,Club Friendly
+91,Real Zaragoza,CLUB.FRIENDLY,Club Friendly
+118,Udinese,CLUB.FRIENDLY,Club Friendly
+94,Valencia,CLUB.FRIENDLY,Club Friendly
+102,Villarreal,CLUB.FRIENDLY,Club Friendly
+174,AS Monaco,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+575,Brøndby,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+256,Celtic,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+498,Dinamo Tbilisi,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+597,Dinamo Zagreb,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+572,FC Midtjylland,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+432,Galatasaray,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+566,HB Torshavn,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+502,HJK Helsinki,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+555,Legia Warsaw,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+611,Maccabi Haifa,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+504,Neftchi,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+435,Olympiakos,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+617,Omonia Nicosia,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+148,PSV Eindhoven,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+257,Rangers,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+519,Rapid Vienna,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+493,Shakhtar Donetsk,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+528,Shakhter Soligorsk,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+614,Sheriff Tiraspol,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+494,Slavia Prague,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+521,Slovan Bratislava,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+433,Sparta Prague,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+523,Zalgiris Vilnius,UEFA.CHAMPIONS_QUAL,UEFA Champions League Qualifying
+104,AS Roma,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+263,Aberdeen,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+441,Anderlecht,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+525,Apollon Limassol,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+534,Ararat Yerevan,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+497,BATE Borisov,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+506,Birkirkara,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+498,Dinamo Tbilisi,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+529,Elfsborg,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+484,FCSB,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+142,Feyenoord Rotterdam,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+489,Hajduk Split,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+258,Hibernian,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+524,Maccabi Tel-Aviv,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+504,Neftchi,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+500,Olimpija Ljubljana,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+541,Partizan Belgrade,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+511,Pogon Szczecin,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+438,Rosenborg,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+528,Shakhter Soligorsk,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+267,St Johnstone,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+169,Stade Rennais,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+367,Tottenham Hotspur,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+154,Vitesse,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+523,Zalgiris Vilnius,UEFA.EUROPA.CONF_QUAL,UEFA Europa Conference League Qualifying
+140,AZ Alkmaar,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+2550,Anorthosis,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+17544,Antwerp,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+5260,CFR Cluj-Napoca,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+256,Celtic,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+17520,FC Zorya Luhansk,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+436,Fenerbahce,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+12146,Flora,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+432,Galatasaray,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+502,HJK Helsinki,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+7922,Jablonec,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+2528,Kairat Almaty,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+555,Legia Warsaw,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+504,Neftchi,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+435,Olympiakos,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+617,Omonia Nicosia,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+3132,Randers FC,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+257,Rangers,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+519,Rapid Vienna,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+2290,Red Star Belgrade,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+3746,SK Sturm Graz,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+494,Slavia Prague,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+521,Slovan Bratislava,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+267,St Johnstone,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+523,Zalgiris Vilnius,UEFA.EUROPA_QUAL,UEFA Europa League Qualifying
+363,Chelsea,UEFA.SUPER_CUP,UEFA Super Cup
+102,Villarreal,UEFA.SUPER_CUP,UEFA Super Cup
+375,Leicester City,ENG.CHARITY,English FA Community Shield
+382,Manchester City,ENG.CHARITY,English FA Community Shield
+110,Internazionale,ITA.SUPER_CUP,Supercoppa Italiana
+166,Lille,FRA.SUPER_CUP,French Trophee des Champions
+160,Paris Saint-Germain ,FRA.SUPER_CUP,French Trophee des Champions
+139,Ajax Amsterdam,NED.SUPERCUP,Dutch Johan Cruyff Shield
+148,PSV Eindhoven,NED.SUPERCUP,Dutch Johan Cruyff Shield
+83,Barcelona,ESP.JOAN_GAMPER,Trofeo Joan Gamper
+111,Juventus,ESP.JOAN_GAMPER,Trofeo Joan Gamper
+132,Bayern Munich,GER.SUPER_CUP,German DFL-Supercup
+124,Borussia Dortmund,GER.SUPER_CUP,German DFL-Supercup
+132,Bayern Munich,GER.AUDI_CUP,Audi Cup
+436,Fenerbahce,GER.AUDI_CUP,Audi Cup
+86,Real Madrid,GER.AUDI_CUP,Audi Cup
+367,Tottenham Hotspur,GER.AUDI_CUP,Audi Cup
+382,Manchester City,ENG.ASIA_TROPHY,Premier League Asia Trophy
+361,Newcastle United,ENG.ASIA_TROPHY,Premier League Asia Trophy
+371,West Ham United,ENG.ASIA_TROPHY,Premier League Asia Trophy
+380,Wolverhampton Wanderers,ENG.ASIA_TROPHY,Premier League Asia Trophy
+359,Arsenal,FRIENDLY.EMIRATES_CUP,Emirates Cup
+167,Lyon,FRIENDLY.EMIRATES_CUP,Emirates Cup
+363,Chelsea,JPN.WORLD_CHALLENGE,Japanese J League World Challenge
+7112,Kawasaki Frontale,JPN.WORLD_CHALLENGE,Japanese J League World Challenge
+5488,Independiente Santa Fe,EUROAMERICANA.SUPERCOPA,SuperCopa Euroamericana
+243,Sevilla,EUROAMERICANA.SUPERCOPA,SuperCopa Euroamericana
+18232,Argentina U23,FIFA.OLYMPICS,Men's Olympic Tournament
+20948,Australia U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18212,Brazil U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18216,Egypt U23,FIFA.OLYMPICS,Men's Olympic Tournament
+20947,France U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18230,Germany U23,FIFA.OLYMPICS,Men's Olympic Tournament
+2875,Honduras U23,FIFA.OLYMPICS,Men's Olympic Tournament
+20951,Ivory Coast U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18214,Japan U23,FIFA.OLYMPICS,Men's Olympic Tournament
+2888,Mexico U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18224,New Zealand U23,FIFA.OLYMPICS,Men's Olympic Tournament
+20949,Romania U23,FIFA.OLYMPICS,Men's Olympic Tournament
+20950,Saudi Arabia U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18226,South Africa U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18213,South Korea U23,FIFA.OLYMPICS,Men's Olympic Tournament
+18220,Spain U23,FIFA.OLYMPICS,Men's Olympic Tournament
+2751,Australia,FIFA.W.OLYMPICS,Women's Olympic Tournament
+2752,Brazil,FIFA.W.OLYMPICS,Women's Olympic Tournament
+2753,Canada,FIFA.W.OLYMPICS,Women's Olympic Tournament
+18848,Chile,FIFA.W.OLYMPICS,Women's Olympic Tournament
+2754,China,FIFA.W.OLYMPICS,Women's Olympic Tournament
+13312,Great Britain,FIFA.W.OLYMPICS,Women's Olympic Tournament
+2758,Japan,FIFA.W.OLYMPICS,Women's Olympic Tournament
+7151,Netherlands,FIFA.W.OLYMPICS,Women's Olympic Tournament
+4153,New Zealand,FIFA.W.OLYMPICS,Women's Olympic Tournament
+2764,Sweden,FIFA.W.OLYMPICS,Women's Olympic Tournament
+2765,United States,FIFA.W.OLYMPICS,Women's Olympic Tournament
+20795,Zambia,FIFA.W.OLYMPICS,Women's Olympic Tournament
+18232,Argentina U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+20304,Bolivia U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+18212,Brazil U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+20306,Chile U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+18209,Colombia U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+20308,Ecuador U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+20303,Paraguay U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+20305,Peru U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+18218,Uruguay U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+20307,Venezuela U23,FIFA.CONMEBOL.OLYMPICSQ,CONMEBOL Pre-Olympic Tournament
+2873,Canada U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+18210,Costa Rica U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+20651,Dominican Republic U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+20650,El Salvador U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+9631,Haiti U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+2875,Honduras U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+2888,Mexico U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+2829,United States U23,FIFA.CONCACAF.OLYMPICSQ,CONCACAF Men's Olympic Qualifying
+2753,Canada,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+2894,Costa Rica,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+2891,Haiti,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+2893,Jamaica,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+2812,Mexico,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+2895,Panama,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+20302,St. Kitts and Nevis,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+2765,United States,FIFA.W.CONCACAF.OLYMPICSQ,CONCACAF Women's Olympic Qualifying Tournament
+2753,Canada,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+2894,Costa Rica,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+19334,Cuba,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+2893,Jamaica,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+2812,Mexico,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+2895,Panama,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+2892,Trinidad and Tobago,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+2765,United States,CONCACAF.WOMENS.CHAMPIONSHIP,CONCACAF Women's Championship
+2840,Argentina U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5209,Colombia U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+7341,Ecuador U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+12062,France U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+10608,Honduras U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5210,Italy U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5171,Japan U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+17763,Mali U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5172,Mexico U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+7790,New Zealand U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5212,Nigeria U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+19966,Norway U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5195,Panama U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+7851,Poland U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5169,Portugal U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+17766,Qatar U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+11653,Saudi Arabia U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+17765,Senegal U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+8451,South Africa U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+2836,South Korea U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+10616,Tahiti U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+5194,Ukraine U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+2833,United States U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+7345,Uruguay U20,FIFA.WORLD.U20,FIFA Under-20 World Cup
+20067,Angola U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8412,Argentina U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+17972,Australia U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+5377,Brazil U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+20066,Cameroon U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8454,Canada U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+17976,Chile U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+17973,Ecuador U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8415,France U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+20063,Haiti U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+6690,Hungary U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+16218,Italy U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8420,Japan U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+5379,Mexico U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+11412,Netherlands U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8422,New Zealand U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8421,Nigeria U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+17971,Paraguay U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+20064,Senegal U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+20065,Solomon Islands U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8414,South Korea U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+18767,Spain U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+8425,Tajikistan U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+17975,United States U17,FIFA.WORLD.U17,FIFA Under-17 World Cup
+20008,Bahrain U22,GLOBAL.TOULON,Toulon Tournament
+9190,Bahrain U23,GLOBAL.TOULON,Toulon Tournament
+2918,Brazil U20,GLOBAL.TOULON,Toulon Tournament
+20009,Brazil U22,GLOBAL.TOULON,Toulon Tournament
+5203,Chile U20,GLOBAL.TOULON,Toulon Tournament
+20013,Chile U22,GLOBAL.TOULON,Toulon Tournament
+20007,China U22,GLOBAL.TOULON,Toulon Tournament
+20002,China U23,GLOBAL.TOULON,Toulon Tournament
+8450,England U20,GLOBAL.TOULON,Toulon Tournament
+20011,France U18,GLOBAL.TOULON,Toulon Tournament
+11676,France U21,GLOBAL.TOULON,Toulon Tournament
+20012,Guatemala U22,GLOBAL.TOULON,Toulon Tournament
+9633,Guatemala U23,GLOBAL.TOULON,Toulon Tournament
+20014,Japan U22,GLOBAL.TOULON,Toulon Tournament
+18214,Japan U23,GLOBAL.TOULON,Toulon Tournament
+19216,Mexico U21,GLOBAL.TOULON,Toulon Tournament
+20006,Mexico U22,GLOBAL.TOULON,Toulon Tournament
+11118,Portugal U19,GLOBAL.TOULON,Toulon Tournament
+20010,Qatar U22,GLOBAL.TOULON,Toulon Tournament
+9129,Qatar U23,GLOBAL.TOULON,Toulon Tournament
+20003,Republic of Ireland U21,GLOBAL.TOULON,Toulon Tournament
+19348,Croatia U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4939,Czech Republic U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4366,Denmark U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4150,England U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+11676,France U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4379,Germany U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+20843,Hungary U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4282,Iceland U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+10343,Italy U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+11627,Netherlands U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+11692,Portugal U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+19349,Romania U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+14269,Russia U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+20844,Slovenia U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4371,Spain U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4257,Switzerland U21,UEFA.EURO_U21,UEFA European Under-21 Championship
+4209,Belarus U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+11669,Belgium U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+19348,Croatia U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4939,Czech Republic U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4366,Denmark U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4150,England U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+11676,France U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4379,Germany U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4282,Iceland U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+14290,Israel U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+10343,Italy U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+11627,Netherlands U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+18413,North Macedonia U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+14253,Norway U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+18414,Poland U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+11692,Portugal U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+14269,Russia U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+19213,Scotland U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+7751,Serbia U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+18415,Slovakia U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4371,Spain U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4365,Sweden U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4257,Switzerland U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+19208,Turkey U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+4207,Ukraine U21,UEFA.EURO_U21_QUAL,UEFA European Under-21 Championship Qualifying
+6983,Armenia U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+18724,Czech Rep U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+6930,France U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+9780,Italy U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+19232,Norway U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+11118,Portugal U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+9284,Republic of Ireland U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+9779,Spain U19,UEFA.EURO.U19,UEFA European Under-19 Championship
+4150,England U21,FIFA.FRIENDLY_U21,Under-21 International Friendly
+20956,Georgia U21,FIFA.FRIENDLY_U21,Under-21 International Friendly
+10343,Italy U21,FIFA.FRIENDLY_U21,Under-21 International Friendly
+19349,Romania U21,FIFA.FRIENDLY_U21,Under-21 International Friendly
+18444,Austria,UEFA.WEURO,UEFA Women's European Championship
+18736,Belgium,UEFA.WEURO,UEFA Women's European Championship
+2896,Denmark,UEFA.WEURO,UEFA Women's European Championship
+5159,England,UEFA.WEURO,UEFA Women's European Championship
+7536,Finland,UEFA.WEURO,UEFA Women's European Championship
+2755,France,UEFA.WEURO,UEFA Women's European Championship
+2756,Germany,UEFA.WEURO,UEFA Women's European Championship
+3683,Iceland,UEFA.WEURO,UEFA Women's European Championship
+2792,Italy,UEFA.WEURO,UEFA Women's European Championship
+7151,Netherlands,UEFA.WEURO,UEFA Women's European Championship
+20865,Northern Ireland,UEFA.WEURO,UEFA Women's European Championship
+2762,Norway,UEFA.WEURO,UEFA Women's European Championship
+2763,Russia ,UEFA.WEURO,UEFA Women's European Championship
+17640,Spain,UEFA.WEURO,UEFA Women's European Championship
+2764,Sweden,UEFA.WEURO,UEFA Women's European Championship
+17641,Switzerland,UEFA.WEURO,UEFA Women's European Championship
+2752,Brazil,GLOBAL.TORNEIO_INTER_FEMININO,Torneio Internacional de Futebol Feminino
+18848,Chile,GLOBAL.TORNEIO_INTER_FEMININO,Torneio Internacional de Futebol Feminino
+20885,India,GLOBAL.TORNEIO_INTER_FEMININO,Torneio Internacional de Futebol Feminino
+122,FC Cologne,GER.PLAYOFF.RELEGATION,German Bundesliga Promotion/Relegation Playoff
+7884,Holstein Kiel,GER.PLAYOFF.RELEGATION,German Bundesliga Promotion/Relegation Playoff
+6367,FC Ingolstadt 04,GER.2.PROMOTION.RELEGATION,German 2. Bundesliga Promotion/Relegation Playoffs
+7013,VfL Osnabruck,GER.2.PROMOTION.RELEGATION,German 2. Bundesliga Promotion/Relegation Playoffs
+19970,Chelsea,ENG.W.CHARITY,English Women's FA Community Shield
+19257,Manchester City,ENG.W.CHARITY,English Women's FA Community Shield
+308,Bristol Rovers,ENG.TROPHY,English EFL Trophy
+351,Cambridge United,ENG.TROPHY,English EFL Trophy
+322,Carlisle United,ENG.TROPHY,English EFL Trophy
+320,Cheltenham Town,ENG.TROPHY,English EFL Trophy
+339,Colchester United,ENG.TROPHY,English EFL Trophy
+279,Doncaster Rovers,ENG.TROPHY,English EFL Trophy
+324,Exeter City,ENG.TROPHY,English EFL Trophy
+282,Forest Green Rovers,ENG.TROPHY,English EFL Trophy
+323,Hartlepool United,ENG.TROPHY,English EFL Trophy
+309,Leyton Orient,ENG.TROPHY,English EFL Trophy
+314,Lincoln City,ENG.TROPHY,English EFL Trophy
+304,Mansfield Town,ENG.TROPHY,English EFL Trophy
+278,Morecambe,ENG.TROPHY,English EFL Trophy
+332,Oldham Athletic,ENG.TROPHY,English EFL Trophy
+311,Oxford United,ENG.TROPHY,English EFL Trophy
+307,Plymouth Argyle,ENG.TROPHY,English EFL Trophy
+348,Port Vale,ENG.TROPHY,English EFL Trophy
+303,Rochdale,ENG.TROPHY,English EFL Trophy
+313,Scunthorpe United,ENG.TROPHY,English EFL Trophy
+302,Shrewsbury Town,ENG.TROPHY,English EFL Trophy
+285,Stevenage,ENG.TROPHY,English EFL Trophy
+341,Swindon Town,ENG.TROPHY,English EFL Trophy
+345,Tranmere Rovers,ENG.TROPHY,English EFL Trophy
+350,Wigan Athletic,ENG.TROPHY,English EFL Trophy
+344,Wycombe Wanderers,ENG.TROPHY,English EFL Trophy
+3802,AFC Wimbledon,ENG.3,English League One
+2731,Accrington Stanley,ENG.3,English League One
+358,Bolton Wanderers,ENG.3,English League One
+2567,Burton Albion,ENG.3,English League One
+351,Cambridge United,ENG.3,English League One
+372,Charlton Athletic,ENG.3,English League One
+320,Cheltenham Town,ENG.3,English League One
+396,Crewe Alexandra,ENG.3,English League One
+279,Doncaster Rovers,ENG.3,English League One
+3891,Fleetwood Town,ENG.3,English League One
+389,Gillingham,ENG.3,English League One
+373,Ipswich Town,ENG.3,English League One
+314,Lincoln City,ENG.3,English League One
+390,Milton Keynes Dons,ENG.3,English League One
+278,Morecambe,ENG.3,English League One
+311,Oxford United,ENG.3,English League One
+307,Plymouth Argyle,ENG.3,English League One
+385,Portsmouth,ENG.3,English League One
+402,Rotherham United,ENG.3,English League One
+399,Sheffield Wednesday,ENG.3,English League One
+302,Shrewsbury Town,ENG.3,English League One
+366,Sunderland,ENG.3,English League One
+350,Wigan Athletic,ENG.3,English League One
+344,Wycombe Wanderers,ENG.3,English League One
+642,Barrow,ENG.4,English League Two
+387,Bradford City,ENG.4,English League Two
+308,Bristol Rovers,ENG.4,English League Two
+322,Carlisle United,ENG.4,English League Two
+339,Colchester United,ENG.4,English League Two
+2594,Crawley Town,ENG.4,English League Two
+324,Exeter City,ENG.4,English League Two
+282,Forest Green Rovers,ENG.4,English League Two
+19262,Harrogate Town,ENG.4,English League Two
+323,Hartlepool United,ENG.4,English League Two
+309,Leyton Orient,ENG.4,English League Two
+304,Mansfield Town,ENG.4,English League Two
+635,Newport County,ENG.4,English League Two
+353,Northampton Town,ENG.4,English League Two
+332,Oldham Athletic,ENG.4,English League Two
+348,Port Vale,ENG.4,English League Two
+303,Rochdale,ENG.4,English League Two
+4703,Salford City,ENG.4,English League Two
+313,Scunthorpe United,ENG.4,English League Two
+285,Stevenage,ENG.4,English League Two
+3231,Sutton United,ENG.4,English League Two
+341,Swindon Town,ENG.4,English League Two
+345,Tranmere Rovers,ENG.4,English League Two
+401,Walsall,ENG.4,English League Two
+632,Aldershot Town,ENG.5,English National League
+633,Altrincham,ENG.5,English National League
+280,Barnet,ENG.5,English National League
+2595,Boreham Wood,ENG.5,English National League
+3129,Bromley,ENG.5,English National League
+343,Chesterfield,ENG.5,English National League
+275,Dagenham & Redbridge,ENG.5,English National League
+293,Dover,ENG.5,English National League
+3897,Eastleigh,ENG.5,English National League
+312,FC Halifax Town,ENG.5,English National League
+386,Grimsby Town,ENG.5,English National League
+7156,Maidenhead Utd,ENG.5,English National League
+340,Notts County,ENG.5,English National League
+13061,Solihull Moors,ENG.5,English National League
+310,Southend United,ENG.5,English National League
+400,Stockport County,ENG.5,English National League
+321,Torquay United,ENG.5,English National League
+3887,Wealdstone,ENG.5,English National League
+3226,Weymouth,ENG.5,English National League
+290,Woking,ENG.5,English National League
+352,Wrexham,ENG.5,English National League
+284,Yeovil Town,ENG.5,English National League
+403,Alloa Athletic,SCO.TENNENTS,Scottish Cup
+252,Arbroath,SCO.TENNENTS,Scottish Cup
+248,Ayr United,SCO.TENNENTS,Scottish Cup
+412,Berwick Rangers,SCO.TENNENTS,Scottish Cup
+413,Brechin City,SCO.TENNENTS,Scottish Cup
+255,Clyde,SCO.TENNENTS,Scottish Cup
+404,Clydebank,SCO.TENNENTS,Scottish Cup
+410,Cowdenbeath,SCO.TENNENTS,Scottish Cup
+415,Dumbarton,SCO.TENNENTS,Scottish Cup
+265,Dunfermline Athletic,SCO.TENNENTS,Scottish Cup
+418,East Stirlingshire,SCO.TENNENTS,Scottish Cup
+254,Falkirk,SCO.TENNENTS,Scottish Cup
+408,Forfar Athletic,SCO.TENNENTS,Scottish Cup
+411,Greenock Morton,SCO.TENNENTS,Scottish Cup
+409,Hamilton Academical,SCO.TENNENTS,Scottish Cup
+253,Inverness Caledonian Thistle,SCO.TENNENTS,Scottish Cup
+260,Kilmarnock,SCO.TENNENTS,Scottish Cup
+414,Montrose,SCO.TENNENTS,Scottish Cup
+247,Partick Thistle,SCO.TENNENTS,Scottish Cup
+416,Peterhead,SCO.TENNENTS,Scottish Cup
+406,Queen of the South,SCO.TENNENTS,Scottish Cup
+249,Raith Rovers,SCO.TENNENTS,Scottish Cup
+405,Stenhousemuir,SCO.TENNENTS,Scottish Cup
+417,Stirling Albion,SCO.TENNENTS,Scottish Cup
+407,Stranraer,SCO.TENNENTS,Scottish Cup
+261,Dundee,SCO.1.PROMOTION.RELEGATION,Scottish Premiership Promotion/Relegation Playoffs
+265,Dunfermline Athletic,SCO.1.PROMOTION.RELEGATION,Scottish Premiership Promotion/Relegation Playoffs
+260,Kilmarnock,SCO.1.PROMOTION.RELEGATION,Scottish Premiership Promotion/Relegation Playoffs
+249,Raith Rovers,SCO.1.PROMOTION.RELEGATION,Scottish Premiership Promotion/Relegation Playoffs
+252,Arbroath,SCO.2,Scottish Championship
+248,Ayr United,SCO.2,Scottish Championship
+265,Dunfermline Athletic,SCO.2,Scottish Championship
+411,Greenock Morton,SCO.2,Scottish Championship
+409,Hamilton Academical,SCO.2,Scottish Championship
+253,Inverness Caledonian Thistle,SCO.2,Scottish Championship
+260,Kilmarnock,SCO.2,Scottish Championship
+247,Partick Thistle,SCO.2,Scottish Championship
+406,Queen of the South,SCO.2,Scottish Championship
+249,Raith Rovers,SCO.2,Scottish Championship
+2500,Airdrieonians,SCO.2.PROMOTION.RELEGATION,Scottish Championship Promotion/Relegation Playoffs
+2613,Cove Rangers,SCO.2.PROMOTION.RELEGATION,Scottish Championship Promotion/Relegation Playoffs
+411,Greenock Morton,SCO.2.PROMOTION.RELEGATION,Scottish Championship Promotion/Relegation Playoffs
+414,Montrose,SCO.2.PROMOTION.RELEGATION,Scottish Championship Promotion/Relegation Playoffs
+2500,Airdrieonians,SCO.3,Scottish League One
+403,Alloa Athletic,SCO.3,Scottish League One
+255,Clyde,SCO.3,Scottish League One
+2613,Cove Rangers,SCO.3,Scottish League One
+415,Dumbarton,SCO.3,Scottish League One
+421,East Fife,SCO.3,Scottish League One
+254,Falkirk,SCO.3,Scottish League One
+414,Montrose,SCO.3,Scottish League One
+416,Peterhead,SCO.3,Scottish League One
+422,Queen's Park,SCO.3,Scottish League One
+415,Dumbarton,SCO.3.PROMOTION.RELEGATION,Scottish League One Promotion/Relegation Playoffs
+2832,Edinburgh City,SCO.3.PROMOTION.RELEGATION,Scottish League One Promotion/Relegation Playoffs
+419,Elgin City,SCO.3.PROMOTION.RELEGATION,Scottish League One Promotion/Relegation Playoffs
+407,Stranraer,SCO.3.PROMOTION.RELEGATION,Scottish League One Promotion/Relegation Playoffs
+420,Albion Rovers,SCO.4,Scottish League Two
+7166,Annan Athletic,SCO.4,Scottish League Two
+410,Cowdenbeath,SCO.4,Scottish League Two
+2832,Edinburgh City,SCO.4,Scottish League Two
+419,Elgin City,SCO.4,Scottish League Two
+408,Forfar Athletic,SCO.4,Scottish League Two
+18018,Kelty Hearts,SCO.4,Scottish League Two
+405,Stenhousemuir,SCO.4,Scottish League Two
+417,Stirling Albion,SCO.4,Scottish League Two
+407,Stranraer,SCO.4,Scottish League Two
+413,Brechin City,SCO.4.PROMOTION.RELEGATION,Scottish League Two Promotion/Relegation Playoffs
+18018,Kelty Hearts,SCO.4.PROMOTION.RELEGATION,Scottish League Two Promotion/Relegation Playoffs
+420,Albion Rovers,SCO.CHALLENGE,Scottish League Challenge Cup
+403,Alloa Athletic,SCO.CHALLENGE,Scottish League Challenge Cup
+252,Arbroath,SCO.CHALLENGE,Scottish League Challenge Cup
+248,Ayr United,SCO.CHALLENGE,Scottish League Challenge Cup
+413,Brechin City,SCO.CHALLENGE,Scottish League Challenge Cup
+255,Clyde,SCO.CHALLENGE,Scottish League Challenge Cup
+410,Cowdenbeath,SCO.CHALLENGE,Scottish League Challenge Cup
+415,Dumbarton,SCO.CHALLENGE,Scottish League Challenge Cup
+265,Dunfermline Athletic,SCO.CHALLENGE,Scottish League Challenge Cup
+421,East Fife,SCO.CHALLENGE,Scottish League Challenge Cup
+419,Elgin City,SCO.CHALLENGE,Scottish League Challenge Cup
+254,Falkirk,SCO.CHALLENGE,Scottish League Challenge Cup
+408,Forfar Athletic,SCO.CHALLENGE,Scottish League Challenge Cup
+411,Greenock Morton,SCO.CHALLENGE,Scottish League Challenge Cup
+409,Hamilton Academical,SCO.CHALLENGE,Scottish League Challenge Cup
+253,Inverness Caledonian Thistle,SCO.CHALLENGE,Scottish League Challenge Cup
+260,Kilmarnock,SCO.CHALLENGE,Scottish League Challenge Cup
+414,Montrose,SCO.CHALLENGE,Scottish League Challenge Cup
+247,Partick Thistle,SCO.CHALLENGE,Scottish League Challenge Cup
+416,Peterhead,SCO.CHALLENGE,Scottish League Challenge Cup
+406,Queen of the South,SCO.CHALLENGE,Scottish League Challenge Cup
+249,Raith Rovers,SCO.CHALLENGE,Scottish League Challenge Cup
+405,Stenhousemuir,SCO.CHALLENGE,Scottish League Challenge Cup
+417,Stirling Albion,SCO.CHALLENGE,Scottish League Challenge Cup
+407,Stranraer,SCO.CHALLENGE,Scottish League Challenge Cup
+5291,Almere City,NED.PLAYOFF.RELEGATION,Dutch Eredivisie Promotion/Relegation Playoffs
+144,De Graafschap,NED.PLAYOFF.RELEGATION,Dutch Eredivisie Promotion/Relegation Playoffs
+3707,FC Emmen,NED.PLAYOFF.RELEGATION,Dutch Eredivisie Promotion/Relegation Playoffs
+2727,FC Volendam,NED.PLAYOFF.RELEGATION,Dutch Eredivisie Promotion/Relegation Playoffs
+141,NAC Breda,NED.PLAYOFF.RELEGATION,Dutch Eredivisie Promotion/Relegation Playoffs
+147,NEC Nijmegen,NED.PLAYOFF.RELEGATION,Dutch Eredivisie Promotion/Relegation Playoffs
+149,Roda JC Kerkrade,NED.PLAYOFF.RELEGATION,Dutch Eredivisie Promotion/Relegation Playoffs
+20796,Ajax,NED.W.EREDIVISIE_CUP,Dutch Eredivisie Cup
+20114,FC Twente,NED.W.EREDIVISIE_CUP,Dutch Eredivisie Cup
+2726,ADO Den Haag,NED.2,Dutch Keuken Kampioen Divisie
+5291,Almere City,NED.2,Dutch Keuken Kampioen Divisie
+144,De Graafschap,NED.2,Dutch Keuken Kampioen Divisie
+2566,Excelsior,NED.2,Dutch Keuken Kampioen Divisie
+271,FC Den Bosch,NED.2,Dutch Keuken Kampioen Divisie
+4426,FC Dordrecht,NED.2,Dutch Keuken Kampioen Divisie
+3732,FC Eindhoven,NED.2,Dutch Keuken Kampioen Divisie
+3707,FC Emmen,NED.2,Dutch Keuken Kampioen Divisie
+2727,FC Volendam,NED.2,Dutch Keuken Kampioen Divisie
+3775,Helmond Sport,NED.2,Dutch Keuken Kampioen Divisie
+18748,Jong AZ,NED.2,Dutch Keuken Kampioen Divisie
+10597,Jong Ajax,NED.2,Dutch Keuken Kampioen Divisie
+18278,Jong FC Utrecht,NED.2,Dutch Keuken Kampioen Divisie
+9983,Jong PSV,NED.2,Dutch Keuken Kampioen Divisie
+3730,MVV Maastricht,NED.2,Dutch Keuken Kampioen Divisie
+141,NAC Breda,NED.2,Dutch Keuken Kampioen Divisie
+149,Roda JC Kerkrade,NED.2,Dutch Keuken Kampioen Divisie
+3728,TOP Oss,NED.2,Dutch Keuken Kampioen Divisie
+3735,Telstar,NED.2,Dutch Keuken Kampioen Divisie
+3731,VVV-Venlo,NED.2,Dutch Keuken Kampioen Divisie
+8491,AFC,NED.3,Dutch Tweede Divisie
+7045,ASWH,NED.3,Dutch Tweede Divisie
+7057,De Treffers,NED.3,Dutch Tweede Divisie
+10618,Excelsior Maassluis,NED.3,Dutch Tweede Divisie
+9987,GVVV Veenendaal,NED.3,Dutch Tweede Divisie
+7051,HHC Hardenberg,NED.3,Dutch Tweede Divisie
+7044,IJsselmeervogels,NED.3,Dutch Tweede Divisie
+20739,Jong FC Volendam,NED.3,Dutch Tweede Divisie
+20738,Jong Sparta Rotterdam,NED.3,Dutch Tweede Divisie
+17992,Koninklijke HFC,NED.3,Dutch Tweede Divisie
+7059,Kozakken Boys,NED.3,Dutch Tweede Divisie
+8503,Noordwijk,NED.3,Dutch Tweede Divisie
+8497,Quick Boys,NED.3,Dutch Tweede Divisie
+7043,Rijnsburgse Boys,NED.3,Dutch Tweede Divisie
+18382,SVV Scheveningen,NED.3,Dutch Tweede Divisie
+8506,Spakenburg,NED.3,Dutch Tweede Divisie
+18377,TEC VV,NED.3,Dutch Tweede Divisie
+11170,VV Katwijk,NED.3,Dutch Tweede Divisie
+20798,ADO Den Haag,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20796,Ajax,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20799,Excelsior,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20114,FC Twente,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20800,Heerenveen,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20797,PEC Zwolle,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20802,PSV,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20801,VV Alkmaar,NED.W.KNVB_CUP,Dutch KNVB Beker Vrouwen
+20798,ADO Den Haag,NED.W.1,Dutch Vrouwen Eredivisie
+20796,Ajax,NED.W.1,Dutch Vrouwen Eredivisie
+20799,Excelsior,NED.W.1,Dutch Vrouwen Eredivisie
+20114,FC Twente,NED.W.1,Dutch Vrouwen Eredivisie
+20984,Feyenoord Rotterdam,NED.W.1,Dutch Vrouwen Eredivisie
+20800,Heerenveen,NED.W.1,Dutch Vrouwen Eredivisie
+20797,PEC Zwolle,NED.W.1,Dutch Vrouwen Eredivisie
+20802,PSV,NED.W.1,Dutch Vrouwen Eredivisie
+20801,VV Alkmaar,NED.W.1,Dutch Vrouwen Eredivisie
+10435,Alessandria,ITA.2,Italian Serie B
+3346,Ascoli,ITA.2,Italian Serie B
+4059,Benevento,ITA.2,Italian Serie B
+108,Brescia,ITA.2,Italian Serie B
+3943,Cittadella,ITA.2,Italian Serie B
+2572,Como,ITA.2,Italian Serie B
+8683,Cosenza,ITA.2,Italian Serie B
+4050,Cremonese,ITA.2,Italian Serie B
+3173,Crotone,ITA.2,Italian Serie B
+4057,Frosinone,ITA.2,Italian Serie B
+113,Lecce,ITA.2,Italian Serie B
+4007,Monza,ITA.2,Italian Serie B
+115,Parma,ITA.2,Italian Serie B
+116,Perugia,ITA.2,Italian Serie B
+3956,Pisa,ITA.2,Italian Serie B
+18348,Pordenone Calcio,ITA.2,Italian Serie B
+117,Reggina,ITA.2,Italian Serie B
+3958,SPAL,ITA.2,Italian Serie B
+3175,Ternana,ITA.2,Italian Serie B
+120,Vicenza,ITA.2,Italian Serie B
+6994,Grenoble,FRA.1.PROMOTION.RELEGATION,French Ligue 1 Promotion/Relegation Playoffs
+165,Nantes,FRA.1.PROMOTION.RELEGATION,French Ligue 1 Promotion/Relegation Playoffs
+6851,Paris FC,FRA.1.PROMOTION.RELEGATION,French Ligue 1 Promotion/Relegation Playoffs
+179,Toulouse,FRA.1.PROMOTION.RELEGATION,French Ligue 1 Promotion/Relegation Playoffs
+6990,Niort,FRA.2.PROMOTION.RELEGATION,French Ligue 2 Promotion/Relegation Playoffs
+10235,Villefranche,FRA.2.PROMOTION.RELEGATION,French Ligue 2 Promotion/Relegation Playoffs
+994,AIK,SWE.1,Swedish Allsvenskan
+7834,BK Hacken,SWE.1,Swedish Allsvenskan
+20856,Degerfors IF,SWE.1,Swedish Allsvenskan
+2339,Djurgardens IF,SWE.1,Swedish Allsvenskan
+529,Elfsborg,SWE.1,Swedish Allsvenskan
+3017,Halmstads BK,SWE.1,Swedish Allsvenskan
+2495,Hammarby,SWE.1,Swedish Allsvenskan
+2556,IFK,SWE.1,Swedish Allsvenskan
+8544,IFK Norrkoping,SWE.1,Swedish Allsvenskan
+3052,Kalmar FF,SWE.1,Swedish Allsvenskan
+2720,Malmo FF,SWE.1,Swedish Allsvenskan
+20301,Mjallby,SWE.1,Swedish Allsvenskan
+7944,Orebro SK,SWE.1,Swedish Allsvenskan
+8547,Sirius,SWE.1,Swedish Allsvenskan
+6545,Varbergs BoIS FC,SWE.1,Swedish Allsvenskan
+5043,Östersunds FK,SWE.1,Swedish Allsvenskan
+7853,AGF Aarhus,DEN.1,Danish Superliga
+2986,AaB,DEN.1,Danish Superliga
+575,Brøndby,DEN.1,Danish Superliga
+909,FC Copenhagen,DEN.1,Danish Superliga
+572,FC Midtjylland,DEN.1,Danish Superliga
+3101,FC Nordsjaelland,DEN.1,Danish Superliga
+11550,Odense Boldklub,DEN.1,Danish Superliga
+3132,Randers FC,DEN.1,Danish Superliga
+607,Silkeborg IF,DEN.1,Danish Superliga
+8118,Sonderjyske,DEN.1,Danish Superliga
+12498,Vejle BK,DEN.1,Danish Superliga
+3153,Viborg FF,DEN.1,Danish Superliga
+12502,Hobro IK,DEN.PROMOTION.RELEGATION,Danish SAS-Ligaen Promotion/Relegation Playoffs
+7860,Lyngby,DEN.PROMOTION.RELEGATION,Danish SAS-Ligaen Promotion/Relegation Playoffs
+2503,AC Ajaccio,FRA.2,French Ligue 2
+172,AJ Auxerre,FRA.2,French Ligue 2
+3267,AS Nancy Lorraine,FRA.2,French Ligue 2
+173,Bastia,FRA.2,French Ligue 2
+2927,Caen,FRA.2,French Ligue 2
+3170,Dijon FCO,FRA.2,French Ligue 2
+7732,Dunkerque,FRA.2,French Ligue 2
+6994,Grenoble,FRA.2,French Ligue 2
+171,Guingamp,FRA.2,French Ligue 2
+3236,Le Havre AC,FRA.2,French Ligue 2
+7730,Nimes,FRA.2,French Ligue 2
+6990,Niort,FRA.2,French Ligue 2
+6851,Paris FC,FRA.2,French Ligue 2
+10678,Pau,FRA.2,French Ligue 2
+7719,Rodez Aveyron,FRA.2,French Ligue 2
+3335,SC Amiens,FRA.2,French Ligue 2
+272,Sochaux,FRA.2,French Ligue 2
+179,Toulouse,FRA.2,French Ligue 2
+7721,US Quevilly,FRA.2,French Ligue 2
+6732,Valenciennes,FRA.2,French Ligue 2
+20706,CS Mioveni,ROU.1.PROMOTION.RELEGATION,Romanian Liga 1 Promotion/Relegation Playoffs
+19266,Dunarea Calarasi,ROU.1.PROMOTION.RELEGATION,Romanian Liga 1 Promotion/Relegation Playoffs
+19265,Hermannstadt,ROU.1.PROMOTION.RELEGATION,Romanian Liga 1 Promotion/Relegation Playoffs
+18332,Voluntari,ROU.1.PROMOTION.RELEGATION,Romanian Liga 1 Promotion/Relegation Playoffs
+20042,Academica Clinceni,ROU.1,Romanian Liga 1
+5260,CFR Cluj-Napoca,ROU.1,Romanian Liga 1
+20706,CS Mioveni,ROU.1,Romanian Liga 1
+19230,Chindia Targoviste,ROU.1,Romanian Liga 1
+2496,Dinamo Bucuresti,ROU.1,Romanian Liga 1
+20725,FC Arges,ROU.1,Romanian Liga 1
+9682,FC Botosani,ROU.1,Romanian Liga 1
+6731,FC Farul Constanta,ROU.1,Romanian Liga 1
+484,FCSB,ROU.1,Romanian Liga 1
+11450,Gaz Metan,ROU.1,Romanian Liga 1
+545,Rapid Bucuresti,ROU.1,Romanian Liga 1
+18773,Sepsi Sfantu Gheorghe,ROU.1,Romanian Liga 1
+20985,U Craiova 1948,ROU.1,Romanian Liga 1
+6912,UTA Arad,ROU.1,Romanian Liga 1
+8089,Universitatea Craiova,ROU.1,Romanian Liga 1
+18332,Voluntari,ROU.1,Romanian Liga 1
+12098,Mjondalen IF,NOR.1.PROMOTION.RELEGATION,Norwegian Eliteserien Promotion/Relegation Playoffs
+3049,Sogndal,NOR.1.PROMOTION.RELEGATION,Norwegian Eliteserien Promotion/Relegation Playoffs
+2980,Bodo/Glimt,NOR.1,Norwegian Eliteserien
+3327,Haugesund,NOR.1,Norwegian Eliteserien
+6672,Kristiansund BK,NOR.1,Norwegian Eliteserien
+987,Lillestrom,NOR.1,Norwegian Eliteserien
+12098,Mjondalen IF,NOR.1,Norwegian Eliteserien
+2715,Molde,NOR.1,Norwegian Eliteserien
+602,Odds BK,NOR.1,Norwegian Eliteserien
+438,Rosenborg,NOR.1,Norwegian Eliteserien
+620,SK Brann,NOR.1,Norwegian Eliteserien
+3279,Sandefjord,NOR.1,Norwegian Eliteserien
+5002,Sarpsborg FK,NOR.1,Norwegian Eliteserien
+2554,Stabaek,NOR.1,Norwegian Eliteserien
+9811,Stromsgodset,NOR.1,Norwegian Eliteserien
+5270,Tromso,NOR.1,Norwegian Eliteserien
+2791,Valerenga,NOR.1,Norwegian Eliteserien
+510,Viking FK,NOR.1,Norwegian Eliteserien
+17859,Balzan FC,MLT.1,Maltese Premier League
+506,Birkirkara,MLT.1,Maltese Premier League
+7857,Floriana FC,MLT.1,Maltese Premier League
+20084,Gudja United,MLT.1,Maltese Premier League
+12934,Gzira United,MLT.1,Maltese Premier League
+7858,Hamrun Spartans,MLT.1,Maltese Premier League
+2499,Hibernians,MLT.1,Maltese Premier League
+18355,Mosta FC,MLT.1,Maltese Premier League
+20004,Santa Lucia,MLT.1,Maltese Premier League
+20083,Sirens FC,MLT.1,Maltese Premier League
+543,Sliema Wanderers,MLT.1,Maltese Premier League
+2698,Valletta,MLT.1,Maltese Premier League
+5218,Beitar Jerusalem,ISR.1,Israeli Premier League
+8329,Bnei Sakhnin,ISR.1,Israeli Premier League
+13083,Hapoel Be'er,ISR.1,Israeli Premier League
+19255,Hapoel Hadera,ISR.1,Israeli Premier League
+9577,Hapoel Haifa,ISR.1,Israeli Premier League
+20970,Hapoel Jerusalem,ISR.1,Israeli Premier League
+8327,Hapoel Kiryat Shmona,ISR.1,Israeli Premier League
+20969,Hapoel Nof HaGalil,ISR.1,Israeli Premier League
+1037,Hapoel Tel Aviv,ISR.1,Israeli Premier League
+611,Maccabi Haifa,ISR.1,Israeli Premier League
+5945,Maccabi Netanya,ISR.1,Israeli Premier League
+2983,Maccabi Petah-Tikva,ISR.1,Israeli Premier League
+524,Maccabi Tel-Aviv,ISR.1,Israeli Premier League
+5269,Moadon Sport Ashdod,ISR.1,Israeli Premier League
+18968,Waterford,IR1.1.PROMOTION.RELEGATION,Irish Premier Division Promotion/Relegation Playoffs
+615,Bohemians,IRL.1,Irish Premier Division
+2712,Derry City,IRL.1,Irish Premier Division
+6741,Drogheda Utd,IRL.1,Irish Premier Division
+2559,Dundalk,IRL.1,Irish Premier Division
+8749,Finn Harps,IRL.1,Irish Premier Division
+538,Longford Town,IRL.1,Irish Premier Division
+2564,Shamrock Rovers,IRL.1,Irish Premier Division
+7601,Sligo,IRL.1,Irish Premier Division
+7588,St Patricks,IRL.1,Irish Premier Division
+18968,Waterford,IRL.1,Irish Premier Division
+7612,Aberystwyth,WAL.1,Welsh Premier League
+10496,Bala Town,WAL.1,Welsh Premier League
+621,Barry Town,WAL.1,Welsh Premier League
+7590,Caernarfon,WAL.1,Welsh Premier League
+18288,Cardiff MU,WAL.1,Welsh Premier League
+7593,Cefn Druids,WAL.1,Welsh Premier League
+7591,Connah's Quay,WAL.1,Welsh Premier League
+20745,Flint Town United FC,WAL.1,Welsh Premier League
+2934,Haverfordwest,WAL.1,Welsh Premier League
+4172,Newtown,WAL.1,Welsh Premier League
+20038,Penybont FC,WAL.1,Welsh Premier League
+576,The New Saints,WAL.1,Welsh Premier League
+7595,Ballymena,NIR.1,Northern Irish Premiership
+11691,Carrick,NIR.1,Northern Irish Premiership
+7597,Cliftonville,NIR.1,Northern Irish Premiership
+2723,Coleraine,NIR.1,Northern Irish Premiership
+7599,Crusaders,NIR.1,Northern Irish Premiership
+4926,Dungannon Swifts,NIR.1,Northern Irish Premiership
+573,Glenavon,NIR.1,Northern Irish Premiership
+571,Glentoran,NIR.1,Northern Irish Premiership
+20039,Larne,NIR.1,Northern Irish Premiership
+2555,Linfield,NIR.1,Northern Irish Premiership
+2509,Portadown,NIR.1,Northern Irish Premiership
+15369,Warrenpoint Town,NIR.1,Northern Irish Premiership
+3,Argentinos Juniors,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2686,Barcelona SC,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+5,Boca Juniors,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2681,Bolívar,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+4811,Caracas FC,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2671,Cerro Porteño,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+819,Flamengo,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+3445,Fluminense,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+1936,Internacional,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2670,Libertad,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2684,Nacional,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2675,Olimpia,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2029,Palmeiras,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+15,Racing Club,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+16,River Plate,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+18,San Lorenzo,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2674,Santos,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2673,Sporting Cristal,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2026,São Paulo,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2687,The Strongest,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+885,Universidad Católica,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+4139,Universidad de Chile,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2685,Universitario,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+4132,Unión Española,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+21,Vélez Sarsfield,CONMEBOL.LIBERTADORES,CONMEBOL Copa Libertadores
+2677,12 de Octubre,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+6036,Aragua,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2635,Arsenal de Sarandí,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+3458,Athletico-PR,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+4815,Atlético Junior,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+6017,Aucas,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2681,Bolívar,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+874,Corinthians,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+5489,Deportes Tolima,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+4818,Deportivo Táchira,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2668,Emelec,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+4134,Huachipato,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+11,Independiente,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+12,Lanús,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2670,Libertad,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+4816,Liga de Quito,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2684,Nacional,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+14,Newell's Old Boys,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+4422,Palestino,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2683,Peñarol,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+17,Rosario Central,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+18,San Lorenzo,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2674,Santos,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+2673,Sporting Cristal,CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+19,Talleres (Córdoba),CONMEBOL.SUDAMERICANA,CONMEBOL Copa Sudamericana
+8950,Defensa y Justicia,CONMEBOL.RECOPA,CONMEBOL Recopa Sudamericana
+2029,Palmeiras,CONMEBOL.RECOPA,CONMEBOL Recopa Sudamericana
+9739,Aldosivi,ARG.1,Argentine Liga Profesional de Fútbol
+3,Argentinos Juniors,ARG.1,Argentine Liga Profesional de Fútbol
+2635,Arsenal de Sarandí,ARG.1,Argentine Liga Profesional de Fútbol
+9785,Atlético Tucumán,ARG.1,Argentine Liga Profesional de Fútbol
+235,Banfield,ARG.1,Argentine Liga Profesional de Fútbol
+5,Boca Juniors,ARG.1,Argentine Liga Profesional de Fútbol
+7,Colón (Santa Fe),ARG.1,Argentine Liga Profesional de Fútbol
+8950,Defensa y Justicia,ARG.1,Argentine Liga Profesional de Fútbol
+8,Estudiantes de La Plata,ARG.1,Argentine Liga Profesional de Fútbol
+9,Gimnasia La Plata,ARG.1,Argentine Liga Profesional de Fútbol
+6756,Godoy Cruz Antonio Tomba,ARG.1,Argentine Liga Profesional de Fútbol
+10,Huracán,ARG.1,Argentine Liga Profesional de Fútbol
+11,Independiente,ARG.1,Argentine Liga Profesional de Fútbol
+12,Lanús,ARG.1,Argentine Liga Profesional de Fútbol
+14,Newell's Old Boys,ARG.1,Argentine Liga Profesional de Fútbol
+10374,Patronato,ARG.1,Argentine Liga Profesional de Fútbol
+7764,Platense,ARG.1,Argentine Liga Profesional de Fútbol
+15,Racing Club,ARG.1,Argentine Liga Profesional de Fútbol
+16,River Plate,ARG.1,Argentine Liga Profesional de Fútbol
+17,Rosario Central,ARG.1,Argentine Liga Profesional de Fútbol
+18,San Lorenzo,ARG.1,Argentine Liga Profesional de Fútbol
+10158,Sarmiento (Junín),ARG.1,Argentine Liga Profesional de Fútbol
+19,Talleres (Córdoba),ARG.1,Argentine Liga Profesional de Fútbol
+20,Unión (Santa Fe),ARG.1,Argentine Liga Profesional de Fútbol
+21,Vélez Sarsfield,ARG.1,Argentine Liga Profesional de Fútbol
+9739,Aldosivi,ARG.COPA,Copa Argentina
+3,Argentinos Juniors,ARG.COPA,Copa Argentina
+2635,Arsenal de Sarandí,ARG.COPA,Copa Argentina
+235,Banfield,ARG.COPA,Copa Argentina
+5,Boca Juniors,ARG.COPA,Copa Argentina
+7,Colón (Santa Fe),ARG.COPA,Copa Argentina
+8950,Defensa y Justicia,ARG.COPA,Copa Argentina
+8,Estudiantes de La Plata,ARG.COPA,Copa Argentina
+9,Gimnasia La Plata,ARG.COPA,Copa Argentina
+6756,Godoy Cruz Antonio Tomba,ARG.COPA,Copa Argentina
+10,Huracán,ARG.COPA,Copa Argentina
+11,Independiente,ARG.COPA,Copa Argentina
+2975,Instituto (Córdoba),ARG.COPA,Copa Argentina
+12,Lanús,ARG.COPA,Copa Argentina
+14,Newell's Old Boys,ARG.COPA,Copa Argentina
+7764,Platense,ARG.COPA,Copa Argentina
+15,Racing Club,ARG.COPA,Copa Argentina
+16,River Plate,ARG.COPA,Copa Argentina
+17,Rosario Central,ARG.COPA,Copa Argentina
+18,San Lorenzo,ARG.COPA,Copa Argentina
+7845,San Martín (San Juan),ARG.COPA,Copa Argentina
+19,Talleres (Córdoba),ARG.COPA,Copa Argentina
+7767,Tigre,ARG.COPA,Copa Argentina
+20,Unión (Santa Fe),ARG.COPA,Copa Argentina
+21,Vélez Sarsfield,ARG.COPA,Copa Argentina
+9739,Aldosivi,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+3,Argentinos Juniors,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+2635,Arsenal de Sarandí,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+9785,Atlético Tucumán,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+235,Banfield,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+5,Boca Juniors,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+7,Colón (Santa Fe),ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+8950,Defensa y Justicia,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+8,Estudiantes de La Plata,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+9,Gimnasia La Plata,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+6756,Godoy Cruz Antonio Tomba,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+10,Huracán,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+11,Independiente,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+12,Lanús,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+14,Newell's Old Boys,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+10374,Patronato,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+7764,Platense,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+15,Racing Club,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+16,River Plate,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+17,Rosario Central,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+18,San Lorenzo,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+10158,Sarmiento (Junín),ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+19,Talleres (Córdoba),ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+20,Unión (Santa Fe),ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+21,Vélez Sarsfield,ARG.COPA_LPF,Argentine Copa de la Liga Profesional
+9739,Aldosivi,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+3,Argentinos Juniors,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+2635,Arsenal de Sarandí,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+9785,Atlético Tucumán,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+235,Banfield,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+5,Boca Juniors,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+11989,Central Córdoba (Santiago del Estero),ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+7,Colón (Santa Fe),ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+8950,Defensa y Justicia,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+8,Estudiantes de La Plata,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+9,Gimnasia La Plata,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+6756,Godoy Cruz Antonio Tomba,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+10,Huracán,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+11,Independiente,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+12,Lanús,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+14,Newell's Old Boys,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+10374,Patronato,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+15,Racing Club,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+16,River Plate,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+17,Rosario Central,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+18,San Lorenzo,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+19,Talleres (Córdoba),ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+20,Unión (Santa Fe),ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+21,Vélez Sarsfield,ARG.COPA_DE_LA_SUPERLIGA,Argentine Copa de la Superliga
+15,Racing Club,ARG.TROFEO_DE_LA_CAMPEONES,Argentine Trofeo de Campeones de la Superliga
+7767,Tigre,ARG.TROFEO_DE_LA_CAMPEONES,Argentine Trofeo de Campeones de la Superliga
+15,Racing Club,ARG.SUPERCOPA,Argentine Supercopa
+16,River Plate,ARG.SUPERCOPA,Argentine Supercopa
+9786,All Boys,ARG.2,Argentine Nacional B
+2,Almagro,ARG.2,Argentine Nacional B
+9740,Almirante Brown,ARG.2,Argentine Nacional B
+10146,Atlanta,ARG.2,Argentine Nacional B
+9747,Atletico Rafaela,ARG.2,Argentine Nacional B
+10060,Barracas Central,ARG.2,Argentine Nacional B
+4,Belgrano (Córdoba),ARG.2,Argentine Nacional B
+10147,Brown (Adrogué),ARG.2,Argentine Nacional B
+6,Chacarita Juniors,ARG.2,Argentine Nacional B
+10151,Defensores de Belgrano,ARG.2,Argentine Nacional B
+10154,Deportivo Morón,ARG.2,Argentine Nacional B
+9743,Ferro Carril Oeste,ARG.2,Argentine Nacional B
+5263,Gimnasia y Esgrima (Jujuy),ARG.2,Argentine Nacional B
+9744,Independiente Rivadavia,ARG.2,Argentine Nacional B
+2975,Instituto (Córdoba),ARG.2,Argentine Nacional B
+236,Nueva Chicago,ARG.2,Argentine Nacional B
+2741,Quilmes,ARG.2,Argentine Nacional B
+7845,San Martín (San Juan),ARG.2,Argentine Nacional B
+10157,San Telmo,ARG.2,Argentine Nacional B
+10996,Santamarina,ARG.2,Argentine Nacional B
+10162,Temperley,ARG.2,Argentine Nacional B
+7767,Tigre,ARG.2,Argentine Nacional B
+10163,Tristán Suárez,ARG.2,Argentine Nacional B
+10064,Villa Dálmine,ARG.2,Argentine Nacional B
+10145,Acassuso,ARG.3,Argentine Primera B
+17693,Argentino de Quilmes,ARG.3,Argentine Primera B
+10046,Cañuelas,ARG.3,Argentine Primera B
+10149,Colegiales,ARG.3,Argentine Primera B
+14074,Comunicaciones,ARG.3,Argentine Primera B
+17697,Defensores Unidos,ARG.3,Argentine Primera B
+10152,Deportivo Armenio,ARG.3,Argentine Primera B
+17704,Deportivo Merlo,ARG.3,Argentine Primera B
+10156,Flandria,ARG.3,Argentine Primera B
+10053,Fénix,ARG.3,Argentine Primera B
+17696,JJ Urquiza,ARG.3,Argentine Primera B
+13,Los Andes,ARG.3,Argentine Primera B
+10051,Sacachispas,ARG.3,Argentine Primera B
+10058,San Miguel,ARG.3,Argentine Primera B
+10161,Talleres,ARG.3,Argentine Primera B
+17705,UAI Urquiza,ARG.3,Argentine Primera B
+10052,Villa San Carlos,ARG.3,Argentine Primera B
+17700,Argentino (Merlo),ARG.4,Argentine Primera C
+10099,Atlas,ARG.4,Argentine Primera C
+17349,Berazategui,ARG.4,Argentine Primera C
+10148,Central Córdoba (Rosario),ARG.4,Argentine Primera C
+10102,Claypole,ARG.4,Argentine Primera C
+17701,Deportivo Español,ARG.4,Argentine Primera C
+17695,Deportivo Laferrere,ARG.4,Argentine Primera C
+10103,Dock Sud,ARG.4,Argentine Primera C
+10061,El Porvenir,ARG.4,Argentine Primera C
+10054,Excursionistas,ARG.4,Argentine Primera C
+17699,General Lamadrid,ARG.4,Argentine Primera C
+10105,Ituzaingó,ARG.4,Argentine Primera C
+17708,Leandro N. Alem,ARG.4,Argentine Primera C
+6499,Luján,ARG.4,Argentine Primera C
+10109,Midland,ARG.4,Argentine Primera C
+18844,Real Pilar,ARG.4,Argentine Primera C
+17692,San Martín (Burzaco),ARG.4,Argentine Primera C
+17703,Sportivo Italiano,ARG.4,Argentine Primera C
+10114,Victoriano Arenas,ARG.4,Argentine Primera C
+10048,Argentino (Rosario),ARG.5,Argentine Primera D
+17694,Cambaceres,ARG.5,Argentine Primera D
+10100,Central Ballester,ARG.5,Argentine Primera D
+10101,Centro Español,ARG.5,Argentine Primera D
+10110,Deportivo Paraguayo,ARG.5,Argentine Primera D
+17698,Juventud Unida,ARG.5,Argentine Primera D
+10107,Liniers,ARG.5,Argentine Primera D
+623,Lugano,ARG.5,Argentine Primera D
+17707,Muñiz,ARG.5,Argentine Primera D
+10111,Puerto Nuevo,ARG.5,Argentine Primera D
+17706,Sportivo Barracas,ARG.5,Argentine Primera D
+10115,Yupanqui,ARG.5,Argentine Primera D
+819,Flamengo,BRA.SUPERCOPA_DO_BRAZIL,Supercopa Do Brazil
+2029,Palmeiras,BRA.SUPERCOPA_DO_BRAZIL,Supercopa Do Brazil
+6154,América-MG,BRA.1,Brazilian Serie A
+3458,Athletico-PR,BRA.1,Brazilian Serie A
+10357,Atlético-GO,BRA.1,Brazilian Serie A
+7632,Atlético-MG,BRA.1,Brazilian Serie A
+9967,Bahia,BRA.1,Brazilian Serie A
+9969,Ceará,BRA.1,Brazilian Serie A
+9318,Chapecoense,BRA.1,Brazilian Serie A
+874,Corinthians,BRA.1,Brazilian Serie A
+17313,Cuiabá,BRA.1,Brazilian Serie A
+819,Flamengo,BRA.1,Brazilian Serie A
+3445,Fluminense,BRA.1,Brazilian Serie A
+6272,Fortaleza,BRA.1,Brazilian Serie A
+6273,Grêmio,BRA.1,Brazilian Serie A
+1936,Internacional,BRA.1,Brazilian Serie A
+6270,Juventude,BRA.1,Brazilian Serie A
+2029,Palmeiras,BRA.1,Brazilian Serie A
+6079,Red Bull Bragantino,BRA.1,Brazilian Serie A
+2674,Santos,BRA.1,Brazilian Serie A
+7635,Sport,BRA.1,Brazilian Serie A
+2026,São Paulo,BRA.1,Brazilian Serie A
+9966,Avaí,BRA.2,Brazilian Serie B
+6086,Botafogo,BRA.2,Brazilian Serie B
+17134,Brasil de Pelotas,BRA.2,Brazilian Serie B
+18428,Brusque,BRA.2,Brazilian Serie B
+9970,CRB,BRA.2,Brazilian Serie B
+7531,CSA,BRA.2,Brazilian Serie B
+4875,Confiança,BRA.2,Brazilian Serie B
+3456,Coritiba,BRA.2,Brazilian Serie B
+2022,Cruzeiro,BRA.2,Brazilian Serie B
+3395,Goiás,BRA.2,Brazilian Serie B
+3448,Guarani,BRA.2,Brazilian Serie B
+17333,Londrina,BRA.2,Brazilian Serie B
+7633,Náutico,BRA.2,Brazilian Serie B
+18187,Operario PR,BRA.2,Brazilian Serie B
+3459,Ponte Preta,BRA.2,Brazilian Serie B
+4936,Remo,BRA.2,Brazilian Serie B
+4873,Sampaio Corrêa,BRA.2,Brazilian Serie B
+3454,Vasco da Gama,BRA.2,Brazilian Serie B
+9973,Vila Nova-GO,BRA.2,Brazilian Serie B
+3457,Vitória,BRA.2,Brazilian Serie B
+18433,Altos,BRA.3,Brazilian Serie C
+17317,Botafogo PB,BRA.3,Brazilian Serie C
+10281,Botafogo SP,BRA.3,Brazilian Serie C
+9971,Criciúma,BRA.3,Brazilian Serie C
+18828,Ferroviário Beira,BRA.3,Brazilian Serie C
+3461,Figueirense,BRA.3,Brazilian Serie C
+18958,Floresta,BRA.3,Brazilian Serie C
+4774,Ituano,BRA.3,Brazilian Serie C
+17713,Jacuipense,BRA.3,Brazilian Serie C
+18959,Manaus,BRA.3,Brazilian Serie C
+9169,Mirassol,BRA.3,Brazilian Serie C
+18127,Novorizontino,BRA.3,Brazilian Serie C
+10263,Oeste,BRA.3,Brazilian Serie C
+3453,Paraná,BRA.3,Brazilian Serie C
+15424,Paysandu,BRA.3,Brazilian Serie C
+4929,Santa Cruz,BRA.3,Brazilian Serie C
+7389,São José-RS,BRA.3,Brazilian Serie C
+17339,Tombense,BRA.3,Brazilian Serie C
+4806,Volta Redonda,BRA.3,Brazilian Serie C
+4935,Ypiranga,BRA.3,Brazilian Serie C
+3458,Athletico-PR,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+900,Boavista,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+4875,Confiança,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+874,Corinthians,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3456,Coritiba,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+2022,Cruzeiro,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3461,Figueirense,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+819,Flamengo,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3445,Fluminense,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3395,Goiás,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+1936,Internacional,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+4786,Madureira,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+4782,Marília AC,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+2029,Palmeiras,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3453,Paraná,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3459,Ponte Preta,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+1361,Salgueiro,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+4873,Sampaio Corrêa,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+2674,Santos,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+4874,Sergipe SE,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+2026,São Paulo,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+4881,União Rondonópolis-MT,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3454,Vasco da Gama,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+3457,Vitória,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+4806,Volta Redonda,BRA.COPA_DO_BRAZIL,Copa Do Brasil
+20867,4 de Julho Piripiri,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+9965,ABC,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+18433,Altos,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+9967,Bahia,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+17317,Botafogo PB,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+9970,CRB,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+7531,CSA,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+9969,Ceará,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+4875,Confiança,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+6272,Fortaleza,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+1361,Salgueiro,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+4873,Sampaio Corrêa,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+4929,Santa Cruz,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+7635,Sport,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+4902,Treze,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+3457,Vitória,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
+9687,Americano Campos,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+4880,América-RJ,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+10265,Bangu,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+900,Boavista,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+6086,Botafogo,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+4801,Cabofriense,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+819,Flamengo,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+3445,Fluminense,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+4799,Friburguense,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+9176,Macaé,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+4786,Madureira,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+6087,Nova Iguaçu,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+18134,Portuguesa-RJ,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+9177,Resende,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+20855,Sampaio Correa RJ,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+3454,Vasco da Gama,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+4806,Volta Redonda,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+10281,Botafogo SP,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+874,Corinthians,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+18126,Ferroviária,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+3448,Guarani,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+18963,Inter de Limeira,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+4774,Ituano,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+9169,Mirassol,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+18127,Novorizontino,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+2029,Palmeiras,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+3459,Ponte Preta,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+6079,Red Bull Bragantino,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+17720,Santo André,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+2674,Santos,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+6083,São Bento,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+6084,São Caetano,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+2026,São Paulo,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
+17130,Aimoré,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+17134,Brasil de Pelotas,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+17131,Caxias do Sul,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+17129,EC Pelotas,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+4904,Esportivo-RS,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+6273,Grêmio,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+1936,Internacional,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+6270,Juventude,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+7388,Novo Hamburgo,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+7389,São José-RS,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+7391,São Luiz-RS,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+4935,Ypiranga,BRA.CAMP.GAUCHO,Brazilian Campeonato Gaucho
+6154,América-MG,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+20851,Athletic Club (Minas Gerais),BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+7632,Atlético-MG,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+15560,Boa Esporte,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+17318,Caldense,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+20233,Coimbra,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+2022,Cruzeiro,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+18900,Patrocinense,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+20852,Pouso Alegre,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+17339,Tombense,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+18399,URT,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+9460,Uberlândia,BRA.CAMP.MINEIRO,Brazilian Campeonato Mineiro
+6071,Antofagasta,CHI.1,Chilean Primera División
+4138,Audax Italiano,CHI.1,Chilean Primera División
+4133,Cobresal,CHI.1,Chilean Primera División
+2688,Colo Colo,CHI.1,Chilean Primera División
+17365,Curicó Unido,CHI.1,Chilean Primera División
+4129,Everton CD,CHI.1,Chilean Primera División
+4134,Huachipato,CHI.1,Chilean Primera División
+4137,La Serena,CHI.1,Chilean Primera División
+8104,Melipilla,CHI.1,Chilean Primera División
+6072,O'Higgins,CHI.1,Chilean Primera División
+4422,Palestino,CHI.1,Chilean Primera División
+3552,Santiago Wanderers,CHI.1,Chilean Primera División
+885,Universidad Católica,CHI.1,Chilean Primera División
+4139,Universidad de Chile,CHI.1,Chilean Primera División
+4132,Unión Española,CHI.1,Chilean Primera División
+10144,Unión La Calera,CHI.1,Chilean Primera División
+7427,Ñublense,CHI.1,Chilean Primera División
+6071,Antofagasta,CHI.COPA_CHI,Copa Chile
+4138,Audax Italiano,CHI.COPA_CHI,Copa Chile
+2678,Cobreloa,CHI.COPA_CHI,Copa Chile
+4133,Cobresal,CHI.COPA_CHI,Copa Chile
+2688,Colo Colo,CHI.COPA_CHI,Copa Chile
+8186,Coquimbo Unido,CHI.COPA_CHI,Copa Chile
+8110,Deportes Concepcion,CHI.COPA_CHI,Copa Chile
+4128,Deportes Temuco,CHI.COPA_CHI,Copa Chile
+4129,Everton CD,CHI.COPA_CHI,Copa Chile
+4134,Huachipato,CHI.COPA_CHI,Copa Chile
+4137,La Serena,CHI.COPA_CHI,Copa Chile
+8104,Melipilla,CHI.COPA_CHI,Copa Chile
+6072,O'Higgins,CHI.COPA_CHI,Copa Chile
+4422,Palestino,CHI.COPA_CHI,Copa Chile
+4423,Puerto Montt,CHI.COPA_CHI,Copa Chile
+4135,Rangers de Talca,CHI.COPA_CHI,Copa Chile
+10138,San Marcos de Arica,CHI.COPA_CHI,Copa Chile
+6073,Santiago Morning,CHI.COPA_CHI,Copa Chile
+3552,Santiago Wanderers,CHI.COPA_CHI,Copa Chile
+885,Universidad Católica,CHI.COPA_CHI,Copa Chile
+4139,Universidad de Chile,CHI.COPA_CHI,Copa Chile
+5362,Universidad de Concepción,CHI.COPA_CHI,Copa Chile
+4132,Unión Española,CHI.COPA_CHI,Copa Chile
+4130,Unión San Felipe,CHI.COPA_CHI,Copa Chile
+7427,Ñublense,CHI.COPA_CHI,Copa Chile
+2688,Colo Colo,CHI.SUPER_CUP,Chilean Supercopa
+885,Universidad Católica,CHI.SUPER_CUP,Chilean Supercopa
+9999,Boston River,URU.1,Uruguayan Primera Division
+4726,Cerrito,URU.1,Uruguayan Primera Division
+9902,Cerro Largo,URU.1,Uruguayan Primera Division
+10000,Deportivo Maldonado,URU.1,Uruguayan Primera Division
+2689,Fénix ,URU.1,Uruguayan Primera Division
+5492,Liverpool,URU.1,Uruguayan Primera Division
+19002,Montevideo City Torque,URU.1,Uruguayan Primera Division
+2684,Nacional,URU.1,Uruguayan Primera Division
+2683,Peñarol,URU.1,Uruguayan Primera Division
+5495,Plaza Colonia,URU.1,Uruguayan Primera Division
+6866,Progreso,URU.1,Uruguayan Primera Division
+5497,Rentistas,URU.1,Uruguayan Primera Division
+5498,River Plate,URU.1,Uruguayan Primera Division
+10005,Sud América,URU.1,Uruguayan Primera Division
+9908,Villa Española,URU.1,Uruguayan Primera Division
+5501,Wanderers,URU.1,Uruguayan Primera Division
+8109,América de Cali,COL.SUPERLIGA,Colombian SuperLiga
+5488,Independiente Santa Fe,COL.SUPERLIGA,Colombian SuperLiga
+9761,Alianza Petrolera,COL.1,Colombian Primera A
+8109,América de Cali,COL.1,Colombian Primera A
+5482,Atlético Huila,COL.1,Colombian Primera A
+4815,Atlético Junior,COL.1,Colombian Primera A
+5264,Atlético Nacional,COL.1,Colombian Primera A
+5480,Boyacá Chicó,COL.1,Colombian Primera A
+6137,Bucaramanga,COL.1,Colombian Primera A
+5487,Deportes Quindío,COL.1,Colombian Primera A
+5489,Deportes Tolima,COL.1,Colombian Primera A
+2672,Deportivo Cali,COL.1,Colombian Primera A
+5485,Deportivo Pasto,COL.1,Colombian Primera A
+5486,Deportivo Pereira,COL.1,Colombian Primera A
+5481,Envigado,COL.1,Colombian Primera A
+2690,Independiente Medellín,COL.1,Colombian Primera A
+5488,Independiente Santa Fe,COL.1,Colombian Primera A
+10309,Jaguares de Córdoba,COL.1,Colombian Primera A
+7445,La Equidad,COL.1,Colombian Primera A
+5484,Millonarios,COL.1,Colombian Primera A
+2919,Once Caldas,COL.1,Colombian Primera A
+9773,Patriotas,COL.1,Colombian Primera A
+9762,Rionegro Águilas,COL.1,Colombian Primera A
+17370,Atlético FC,COL.2,Colombian Primera B
+5482,Atlético Huila,COL.2,Colombian Primera B
+17373,Barranquilla FC,COL.2,Colombian Primera B
+17372,Boca Juniors de Cali,COL.2,Colombian Primera B
+17371,Bogotá FC,COL.2,Colombian Primera B
+5480,Boyacá Chicó,COL.2,Colombian Primera B
+9767,Cortuluá,COL.2,Colombian Primera B
+5487,Deportes Quindío,COL.2,Colombian Primera B
+4928,Fortaleza CEIF,COL.2,Colombian Primera B
+9769,Leones,COL.2,Colombian Primera B
+7915,Llaneros,COL.2,Colombian Primera B
+18156,Orsomarso SC,COL.2,Colombian Primera B
+5479,Real Cartagena,COL.2,Colombian Primera B
+9774,Real Santander,COL.2,Colombian Primera B
+9770,Tigres,COL.2,Colombian Primera B
+17374,Unión Magdalena,COL.2,Colombian Primera B
+9775,Valledupar FC,COL.2,Colombian Primera B
+20293,Atlético Grau,PER.SUPERCOPA,Peruvian Supercopa
+18985,Deportivo Binacional,PER.SUPERCOPA,Peruvian Supercopa
+9761,Alianza Petrolera,COL.COPA,Copa Colombia
+8109,América de Cali,COL.COPA,Copa Colombia
+5482,Atlético Huila,COL.COPA,Copa Colombia
+4815,Atlético Junior,COL.COPA,Copa Colombia
+5264,Atlético Nacional,COL.COPA,Copa Colombia
+5480,Boyacá Chicó,COL.COPA,Copa Colombia
+6137,Bucaramanga,COL.COPA,Copa Colombia
+9767,Cortuluá,COL.COPA,Copa Colombia
+5487,Deportes Quindío,COL.COPA,Copa Colombia
+5489,Deportes Tolima,COL.COPA,Copa Colombia
+2672,Deportivo Cali,COL.COPA,Copa Colombia
+5485,Deportivo Pasto,COL.COPA,Copa Colombia
+5486,Deportivo Pereira,COL.COPA,Copa Colombia
+5481,Envigado,COL.COPA,Copa Colombia
+4928,Fortaleza CEIF,COL.COPA,Copa Colombia
+2690,Independiente Medellín,COL.COPA,Copa Colombia
+5488,Independiente Santa Fe,COL.COPA,Copa Colombia
+7445,La Equidad,COL.COPA,Copa Colombia
+9769,Leones,COL.COPA,Copa Colombia
+7915,Llaneros,COL.COPA,Copa Colombia
+5484,Millonarios,COL.COPA,Copa Colombia
+2919,Once Caldas,COL.COPA,Copa Colombia
+5479,Real Cartagena,COL.COPA,Copa Colombia
+9762,Rionegro Águilas,COL.COPA,Copa Colombia
+9770,Tigres,COL.COPA,Copa Colombia
+18442,Academia Cantolao,PER.1,Peruvian Primera Profesional
+5267,Alianza Atlético,PER.1,Peruvian Primera Profesional
+2680,Alianza Lima,PER.1,Peruvian Primera Profesional
+19432,Alianza Universidad,PER.1,Peruvian Primera Profesional
+10116,Ayacucho FC,PER.1,Peruvian Primera Profesional
+19433,Carlos A. Mannucci,PER.1,Peruvian Primera Profesional
+20652,Carlos Stein,PER.1,Peruvian Primera Profesional
+3372,Cienciano del Cusco,PER.1,Peruvian Primera Profesional
+11995,Cusco FC,PER.1,Peruvian Primera Profesional
+5567,César Vallejo,PER.1,Peruvian Primera Profesional
+18985,Deportivo Binacional,PER.1,Peruvian Primera Profesional
+7548,Deportivo Municipal,PER.1,Peruvian Primera Profesional
+7312,Melgar,PER.1,Peruvian Primera Profesional
+3359,San Martin,PER.1,Peruvian Primera Profesional
+5570,Sport Boys,PER.1,Peruvian Primera Profesional
+10318,Sport Huancayo,PER.1,Peruvian Primera Profesional
+2673,Sporting Cristal,PER.1,Peruvian Primera Profesional
+10122,UTC,PER.1,Peruvian Primera Profesional
+2685,Universitario,PER.1,Peruvian Primera Profesional
+2677,12 de Octubre,PAR.1,Paraguayan Primera Division
+2671,Cerro Porteño,PAR.1,Paraguayan Primera Division
+20292,Guaireña,PAR.1,Paraguayan Primera Division
+7385,Guarani,PAR.1,Paraguayan Primera Division
+2670,Libertad,PAR.1,Paraguayan Primera Division
+5584,Nacional,PAR.1,Paraguayan Primera Division
+2675,Olimpia,PAR.1,Paraguayan Primera Division
+18136,River Plate (Asunción),PAR.1,Paraguayan Primera Division
+7465,Sol de América,PAR.1,Paraguayan Primera Division
+5583,Sportivo Luqueño,PAR.1,Paraguayan Primera Division
+20859,9 de Octubre,ECU.1,Ecuadoran Primera A
+6017,Aucas,ECU.1,Ecuadoran Primera A
+2686,Barcelona SC,ECU.1,Ecuadoran Primera A
+1011,Delfín,ECU.1,Ecuadoran Primera A
+4812,Deportivo Cuenca,ECU.1,Ecuadoran Primera A
+2668,Emelec,ECU.1,Ecuadoran Primera A
+11124,Guayaquil City FC,ECU.1,Ecuadoran Primera A
+17086,Independiente del Valle,ECU.1,Ecuadoran Primera A
+4816,Liga de Quito,ECU.1,Ecuadoran Primera A
+18439,Macará,ECU.1,Ecuadoran Primera A
+10307,Manta F.C.,ECU.1,Ecuadoran Primera A
+17176,Mushuc Runa,ECU.1,Ecuadoran Primera A
+4819,Olmedo,ECU.1,Ecuadoran Primera A
+20695,Orense,ECU.1,Ecuadoran Primera A
+9292,Técnico Universitario,ECU.1,Ecuadoran Primera A
+9283,Universidad Católica (Quito),ECU.1,Ecuadoran Primera A
+20859,9 de Octubre,ECU.SUPERCOPA,Ecuadoran Supercopa
+2686,Barcelona SC,ECU.SUPERCOPA,Ecuadoran Supercopa
+1011,Delfín,ECU.SUPERCOPA,Ecuadoran Supercopa
+2668,Emelec,ECU.SUPERCOPA,Ecuadoran Supercopa
+17086,Independiente del Valle,ECU.SUPERCOPA,Ecuadoran Supercopa
+4816,Liga de Quito,ECU.SUPERCOPA,Ecuadoran Supercopa
+18995,Academia Puerto Cabello,VEN.1,Venezuelan Primera Profesional
+6036,Aragua,VEN.1,Venezuelan Primera Profesional
+10522,Atlético Venezuela,VEN.1,Venezuelan Primera Profesional
+6037,Carabobo,VEN.1,Venezuelan Primera Profesional
+4811,Caracas FC,VEN.1,Venezuelan Primera Profesional
+17090,Deportivo La Guaira,VEN.1,Venezuelan Primera Profesional
+17092,Deportivo Lara,VEN.1,Venezuelan Primera Profesional
+4818,Deportivo Táchira,VEN.1,Venezuelan Primera Profesional
+6038,Estudiantes de Mérida,VEN.1,Venezuelan Primera Profesional
+20680,Gran Valencia Maracay,VEN.1,Venezuelan Primera Profesional
+20887,Hermanos Colmenarez,VEN.1,Venezuelan Primera Profesional
+19429,LALA FC,VEN.1,Venezuelan Primera Profesional
+13481,Metropolitanos FC,VEN.1,Venezuelan Primera Profesional
+17093,Mineros de Guayana,VEN.1,Venezuelan Primera Profesional
+6041,Monagas SC,VEN.1,Venezuelan Primera Profesional
+6762,Portuguesa,VEN.1,Venezuelan Primera Profesional
+5268,Trujillanos,VEN.1,Venezuelan Primera Profesional
+10094,Universidad Central,VEN.1,Venezuelan Primera Profesional
+10096,Yaracuyanos,VEN.1,Venezuelan Primera Profesional
+6763,Zamora,VEN.1,Venezuelan Primera Profesional
+9789,Zulia,VEN.1,Venezuelan Primera Profesional
+15360,Chicago Red Stars,USA.NWSL.CUP,United States NWSL Challenge Cup
+17346,Houston Dash,USA.NWSL.CUP,United States NWSL Challenge Cup
+20907,Kansas City Current,USA.NWSL.CUP,United States NWSL Challenge Cup
+15364,NJ/NY Gotham FC,USA.NWSL.CUP,United States NWSL Challenge Cup
+15366,North Carolina Courage,USA.NWSL.CUP,United States NWSL Challenge Cup
+15363,OL Reign,USA.NWSL.CUP,United States NWSL Challenge Cup
+18206,Orlando Pride,USA.NWSL.CUP,United States NWSL Challenge Cup
+15362,Portland Thorns FC,USA.NWSL.CUP,United States NWSL Challenge Cup
+20905,Racing Louisville FC,USA.NWSL.CUP,United States NWSL Challenge Cup
+15365,Washington Spirit,USA.NWSL.CUP,United States NWSL Challenge Cup
+19425,Always Ready,BOL.1,Bolivian Liga Profesional
+20654,Atlético Palmaflor,BOL.1,Bolivian Liga Profesional
+6046,Aurora,BOL.1,Bolivian Liga Profesional
+6047,Blooming,BOL.1,Bolivian Liga Profesional
+2681,Bolívar,BOL.1,Bolivian Liga Profesional
+9497,Guabirá,BOL.1,Bolivian Liga Profesional
+20889,Independiente Petrolero,BOL.1,Bolivian Liga Profesional
+6054,Jorge Wilstermann,BOL.1,Bolivian Liga Profesional
+10311,Nacional Potosí,BOL.1,Bolivian Liga Profesional
+2682,Oriente Petrolero,BOL.1,Bolivian Liga Profesional
+6051,Real Potosí,BOL.1,Bolivian Liga Profesional
+20655,Real Santa Cruz,BOL.1,Bolivian Liga Profesional
+20890,Real Tomayapo,BOL.1,Bolivian Liga Profesional
+18984,Royal Pari,BOL.1,Bolivian Liga Profesional
+6052,San José,BOL.1,Bolivian Liga Profesional
+2687,The Strongest,BOL.1,Bolivian Liga Profesional
+218,Cruz Azul,MEX.SUPERCOPA,Mexican Supercopa MX
+229,Necaxa,MEX.SUPERCOPA,Mexican Supercopa MX
+5634,Binghamton,USA.NCAA.M.1,NCAA Men's Soccer
+5592,Boston College,USA.NCAA.M.1,NCAA Men's Soccer
+5624,Boston University,USA.NCAA.M.1,NCAA Men's Soccer
+5628,Charlotte,USA.NCAA.M.1,NCAA Men's Soccer
+5629,Clemson,USA.NCAA.M.1,NCAA Men's Soccer
+5615,Creighton,USA.NCAA.M.1,NCAA Men's Soccer
+5593,Duke,USA.NCAA.M.1,NCAA Men's Soccer
+5602,Holy Cross,USA.NCAA.M.1,NCAA Men's Soccer
+5585,Indiana,USA.NCAA.M.1,NCAA Men's Soccer
+5630,Longwood,USA.NCAA.M.1,NCAA Men's Soccer
+5617,Maryland,USA.NCAA.M.1,NCAA Men's Soccer
+5610,North Carolina,USA.NCAA.M.1,NCAA Men's Soccer
+5599,Northwestern,USA.NCAA.M.1,NCAA Men's Soccer
+5604,Notre Dame,USA.NCAA.M.1,NCAA Men's Soccer
+5598,Penn State,USA.NCAA.M.1,NCAA Men's Soccer
+5614,Portland,USA.NCAA.M.1,NCAA Men's Soccer
+5633,Quinnipiac,USA.NCAA.M.1,NCAA Men's Soccer
+5603,SMU,USA.NCAA.M.1,NCAA Men's Soccer
+5620,Saint Louis,USA.NCAA.M.1,NCAA Men's Soccer
+5601,St. John's,USA.NCAA.M.1,NCAA Men's Soccer
+5618,UC Santa Barbara,USA.NCAA.M.1,NCAA Men's Soccer
+5589,UCLA,USA.NCAA.M.1,NCAA Men's Soccer
+5627,UNC Greensboro,USA.NCAA.M.1,NCAA Men's Soccer
+5612,Virginia,USA.NCAA.M.1,NCAA Men's Soccer
+5613,Wake Forest,USA.NCAA.M.1,NCAA Men's Soccer
+2057,Alajuelense,CONCACAF.CHAMPIONS,CONCACAF Champions League
+227,América,CONCACAF.CHAMPIONS,CONCACAF Champions League
+20751,Arcahaie,CONCACAF.CHAMPIONS,CONCACAF Champions League
+18418,Atlanta United FC,CONCACAF.CHAMPIONS,CONCACAF Champions League
+19351,Atlético Pantoja,CONCACAF.CHAMPIONS,CONCACAF Champions League
+183,Columbus Crew,CONCACAF.CHAMPIONS,CONCACAF Champions League
+218,Cruz Azul,CONCACAF.CHAMPIONS,CONCACAF Champions League
+228,León,CONCACAF.CHAMPIONS,CONCACAF Champions League
+7249,Marathon,CONCACAF.CHAMPIONS,CONCACAF Champions League
+220,Monterrey,CONCACAF.CHAMPIONS,CONCACAF Champions League
+884,Olimpia,CONCACAF.CHAMPIONS,CONCACAF Champions League
+10739,Philadelphia Union,CONCACAF.CHAMPIONS,CONCACAF Champions League
+9723,Portland Timbers,CONCACAF.CHAMPIONS,CONCACAF Champions League
+9945,Real Estelí,CONCACAF.CHAMPIONS,CONCACAF Champions League
+858,Saprissa,CONCACAF.CHAMPIONS,CONCACAF Champions League
+7318,Toronto FC,CONCACAF.CHAMPIONS,CONCACAF Champions League
+218,Cruz Azul,MEX.Campeon,Mexican Campeon de Campeones
+228,León,MEX.Campeon,Mexican Campeon de Campeones
+228,León,CONCACAF.LEAGUES.CUP,Leagues Cup
+17606,New York City FC,CONCACAF.LEAGUES.CUP,Leagues Cup
+12011,Orlando City SC,CONCACAF.LEAGUES.CUP,Leagues Cup
+233,Pumas UNAM,CONCACAF.LEAGUES.CUP,Leagues Cup
+225,Santos,CONCACAF.LEAGUES.CUP,Leagues Cup
+9726,Seattle Sounders FC,CONCACAF.LEAGUES.CUP,Leagues Cup
+186,Sporting Kansas City,CONCACAF.LEAGUES.CUP,Leagues Cup
+232,Tigres UANL,CONCACAF.LEAGUES.CUP,Leagues Cup
+183,Columbus Crew,CAMPEONES.CUP,Campeones Cup
+218,Cruz Azul,CAMPEONES.CUP,Campeones Cup
+17590,Abilene Christian,USA.NCAA.W.1,NCAA Women's Soccer
+20316,Boston College,USA.NCAA.W.1,NCAA Women's Soccer
+20317,Duke,USA.NCAA.W.1,NCAA Women's Soccer
+20315,Fairleigh Dickinson,USA.NCAA.W.1,NCAA Women's Soccer
+20311,Gonzaga,USA.NCAA.W.1,NCAA Women's Soccer
+20309,Indiana,USA.NCAA.W.1,NCAA Women's Soccer
+18357,Kansas State,USA.NCAA.W.1,NCAA Women's Soccer
+20321,New Mexico,USA.NCAA.W.1,NCAA Women's Soccer
+19286,North Alabama,USA.NCAA.W.1,NCAA Women's Soccer
+20334,North Carolina,USA.NCAA.W.1,NCAA Women's Soccer
+20323,Northwestern,USA.NCAA.W.1,NCAA Women's Soccer
+20328,Notre Dame,USA.NCAA.W.1,NCAA Women's Soccer
+20331,Ohio State,USA.NCAA.W.1,NCAA Women's Soccer
+20322,Penn State,USA.NCAA.W.1,NCAA Women's Soccer
+20338,Portland,USA.NCAA.W.1,NCAA Women's Soccer
+20312,Santa Clara,USA.NCAA.W.1,NCAA Women's Soccer
+20325,St. John's,USA.NCAA.W.1,NCAA Women's Soccer
+17579,Texas A&M-CC,USA.NCAA.W.1,NCAA Women's Soccer
+20313,UCLA,USA.NCAA.W.1,NCAA Women's Soccer
+18834,UT Rio Grande Valley,USA.NCAA.W.1,NCAA Women's Soccer
+20333,VCU,USA.NCAA.W.1,NCAA Women's Soccer
+20336,Virginia,USA.NCAA.W.1,NCAA Women's Soccer
+20337,Wake Forest,USA.NCAA.W.1,NCAA Women's Soccer
+20324,Western Kentucky,USA.NCAA.W.1,NCAA Women's Soccer
+20310,Wisconsin,USA.NCAA.W.1,NCAA Women's Soccer
+2873,Canada U23,CONCACAF.U23,CONCACAF U23 Tournament
+9632,Cuba U23,CONCACAF.U23,CONCACAF U23 Tournament
+2650,El Salvador,CONCACAF.U23,CONCACAF U23 Tournament
+2875,Honduras U23,CONCACAF.U23,CONCACAF U23 Tournament
+2888,Mexico U23,CONCACAF.U23,CONCACAF U23 Tournament
+2874,Panama U23,CONCACAF.U23,CONCACAF U23 Tournament
+11790,Trinidad y Tobago,CONCACAF.U23,CONCACAF U23 Tournament
+2829,United States U23,CONCACAF.U23,CONCACAF U23 Tournament
+7242,CD Motagua,CONCACAF.LEAGUE,CONCACAF League
+7257,Comunicaciones,CONCACAF.LEAGUE,CONCACAF League
+20026,Forge FC,CONCACAF.LEAGUE,CONCACAF League
+17516,Guastatoya,CONCACAF.LEAGUE,CONCACAF League
+13830,C.D.Real Sociedad,HON.1,Honduran Primera Division
+7242,CD Motagua,HON.1,Honduran Primera Division
+17528,Honduras Progreso,HON.1,Honduran Primera Division
+7249,Marathon,HON.1,Honduran Primera Division
+884,Olimpia,HON.1,Honduran Primera Division
+7243,Platense,HON.1,Honduran Primera Division
+7245,Real Espana,HON.1,Honduran Primera Division
+18809,UPNFM,HON.1,Honduran Primera Division
+7885,Victoria,HON.1,Honduran Primera Division
+7247,Vida,HON.1,Honduran Primera Division
+20982,AD Guanacasteca,CRC.1,Costa Rican Primera Division
+2057,Alajuelense,CRC.1,Costa Rican Primera Division
+7239,Cartagines,CRC.1,Costa Rican Primera Division
+18763,Grecia,CRC.1,Costa Rican Primera Division
+18762,Guadalupe,CRC.1,Costa Rican Primera Division
+862,Herediano,CRC.1,Costa Rican Primera Division
+20037,Jicaral,CRC.1,Costa Rican Primera Division
+7234,Perez Zeledon,CRC.1,Costa Rican Primera Division
+859,San Carlos,CRC.1,Costa Rican Primera Division
+913,Santos,CRC.1,Costa Rican Primera Division
+858,Saprissa,CRC.1,Costa Rican Primera Division
+20705,Sporting San José,CRC.1,Costa Rican Primera Division
+20727,Achuapa,GUA.1,Guatemalan Liga Nacional
+7253,Antigua,GUA.1,Guatemalan Liga Nacional
+7254,Coban Imperial,GUA.1,Guatemalan Liga Nacional
+7257,Comunicaciones,GUA.1,Guatemalan Liga Nacional
+17516,Guastatoya,GUA.1,Guatemalan Liga Nacional
+15886,Iztapa,GUA.1,Guatemalan Liga Nacional
+7870,Malacateco,GUA.1,Guatemalan Liga Nacional
+7258,Municipal,GUA.1,Guatemalan Liga Nacional
+20979,Nueva Concepcíon,GUA.1,Guatemalan Liga Nacional
+20035,Santa Lucía Cotzumalguapa,GUA.1,Guatemalan Liga Nacional
+20978,Sololá,GUA.1,Guatemalan Liga Nacional
+7259,Xelaju,GUA.1,Guatemalan Liga Nacional
+20286,Adelaide United ,AUS.W.1,Australian A-League Women
+20281,Brisbane Roar,AUS.W.1,Australian A-League Women
+20288,Canberra United ,AUS.W.1,Australian A-League Women
+20280,Melbourne City,AUS.W.1,Australian A-League Women
+20284,Melbourne Victory ,AUS.W.1,Australian A-League Women
+20287,Newcastle Jets ,AUS.W.1,Australian A-League Women
+20282,Perth Glory,AUS.W.1,Australian A-League Women
+20285,Sydney FC ,AUS.W.1,Australian A-League Women
+21133,Wellington Phoenix,AUS.W.1,Australian A-League Women
+20283,Western Sydney ,AUS.W.1,Australian A-League Women
+7226,Aguila,SLV.1,Salvadoran Primera Division
+7225,Alianza FC,SLV.1,Salvadoran Primera Division
+10509,Atletico Marte,SLV.1,Salvadoran Primera Division
+7229,CD FAS,SLV.1,Salvadoran Primera Division
+17932,CD Sonsonate,SLV.1,Salvadoran Primera Division
+17933,Chalatenango,SLV.1,Salvadoran Primera Division
+19270,Jocoro FC,SLV.1,Salvadoran Primera Division
+7232,Luis Angel Firpo,SLV.1,Salvadoran Primera Division
+7224,Metapan,SLV.1,Salvadoran Primera Division
+7231,Municipal Limeño,SLV.1,Salvadoran Primera Division
+20074,Once Deportivo,SLV.1,Salvadoran Primera Division
+21092,Platense Zacatecoluca,SLV.1,Salvadoran Primera Division
+13301,Santa Tecla,SLV.1,Salvadoran Primera Division
+5518,Cambodia,AFF.CHAMPIONSHIP,AFF Cup
+4895,Indonesia,AFF.CHAMPIONSHIP,AFF Cup
+7348,Laos,AFF.CHAMPIONSHIP,AFF Cup
+2405,Malaysia,AFF.CHAMPIONSHIP,AFF Cup
+6770,Myanmar,AFF.CHAMPIONSHIP,AFF Cup
+7347,Philippines,AFF.CHAMPIONSHIP,AFF Cup
+4384,Singapore,AFF.CHAMPIONSHIP,AFF Cup
+4396,Thailand,AFF.CHAMPIONSHIP,AFF Cup
+7349,Vietnam,AFF.CHAMPIONSHIP,AFF Cup
+20774,ATK Mohun Bagan,AFC.CUP,AFC Cup
+21010,Ahal,AFC.CUP,AFC Cup
+21007,Al Ahed,AFC.CUP,AFC Cup
+21006,Al Muharraq,AFC.CUP,AFC Cup
+21009,Al Salt,AFC.CUP,AFC Cup
+11233,Al Wahda,AFC.CUP,AFC Cup
+21016,Athletic 220,AFC.CUP,AFC Cup
+17733,Bali United,AFC.CUP,AFC Cup
+21012,Bashundara Kings,AFC.CUP,AFC Cup
+18851,Bengaluru FC,AFC.CUP,AFC Cup
+21013,Boeung Ket,AFC.CUP,AFC Cup
+18460,Eastern SC,AFC.CUP,AFC Cup
+7938,Geylang International,AFC.CUP,AFC Cup
+21011,Hanoi,AFC.CUP,AFC Cup
+8835,Kedah,AFC.CUP,AFC Cup
+21008,Kuwait SC,AFC.CUP,AFC Cup
+21017,Lee Man,AFC.CUP,AFC Cup
+8040,Lion City Sailors,AFC.CUP,AFC Cup
+21014,Maziya,AFC.CUP,AFC Cup
+8217,Nasaf Quarshi,AFC.CUP,AFC Cup
+7139,Persipura,AFC.CUP,AFC Cup
+21015,Saigon,AFC.CUP,AFC Cup
+21018,Tainan City,AFC.CUP,AFC Cup
+8830,Terengganu,AFC.CUP,AFC Cup
+5783,Bangladesh,AFC.SAFF.CHAMPIONSHIP,SAFF Championship
+4385,India,AFC.SAFF.CHAMPIONSHIP,SAFF Championship
+4390,Maldives,AFC.SAFF.CHAMPIONSHIP,SAFF Championship
+5785,Nepal,AFC.SAFF.CHAMPIONSHIP,SAFF Championship
+5782,Sri Lanka,AFC.SAFF.CHAMPIONSHIP,SAFF Championship
+18203,Hangzhou Greentown,CHN.1.PROMOTION.RELEGATION,Chinese Super League Promotion/Relegation Playoffs
+19788,Wuhan,CHN.1.PROMOTION.RELEGATION,Chinese Super League Promotion/Relegation Playoffs
+7107,Avispa Fukuoka,JPN.1,Japanese J League
+7109,Cerezo Osaka,JPN.1,Japanese J League
+9249,Consadole Sapporo,JPN.1,Japanese J League
+3384,FC Tokyo,JPN.1,Japanese J League
+7102,Gamba Osaka,JPN.1,Japanese J League
+7115,Kashima Antlers,JPN.1,Japanese J League
+7476,Kashiwa Reysol,JPN.1,Japanese J League
+7112,Kawasaki Frontale,JPN.1,Japanese J League
+7108,Nagoya Grampus,JPN.1,Japanese J League
+7105,Oita Trinita,JPN.1,Japanese J League
+6911,Sagan Tosu,JPN.1,Japanese J League
+7114,Sanfrecce Hiroshima,JPN.1,Japanese J League
+7104,Shimizu S-Pulse,JPN.1,Japanese J League
+6902,Shonan Bellmare,JPN.1,Japanese J League
+6903,Tokushima Vortis,JPN.1,Japanese J League
+3385,Urawa Red Diamonds,JPN.1,Japanese J League
+6918,Vegalta Sendai,JPN.1,Japanese J League
+7477,Vissel Kobe,JPN.1,Japanese J League
+7116,Yokohama F. Marinos,JPN.1,Japanese J League
+7145,Yokohama FC,JPN.1,Japanese J League
+7137,Arema Indonesia,IDN.1,Indonesian Liga 1
+17733,Bali United,IDN.1,Indonesian Liga 1
+17725,Barito Putera,IDN.1,Indonesian Liga 1
+18734,Bhayangkara Surabaya,IDN.1,Indonesian Liga 1
+18732,Madura United,IDN.1,Indonesian Liga 1
+8027,PSIS Semarang,IDN.1,Indonesian Liga 1
+8112,PSM Makassar,IDN.1,Indonesian Liga 1
+8292,PSS Sleman,IDN.1,Indonesian Liga 1
+8016,Persebaya Surabaya,IDN.1,Indonesian Liga 1
+8031,Persela,IDN.1,Indonesian Liga 1
+8293,Persib,IDN.1,Indonesian Liga 1
+8030,Persija,IDN.1,Indonesian Liga 1
+7524,Persik Kediri,IDN.1,Indonesian Liga 1
+7139,Persipura,IDN.1,Indonesian Liga 1
+8026,Persiraja Banda Aceh,IDN.1,Indonesian Liga 1
+8033,Persita Tangerang,IDN.1,Indonesian Liga 1
+17732,Pusamania Borneo,IDN.1,Indonesian Liga 1
+18733,TIRA-Persikabo,IDN.1,Indonesian Liga 1
+20774,ATK Mohun Bagan,IND.1,Indian Super League
+18851,Bengaluru FC,IND.1,Indian Super League
+18000,Chennaiyin FC,IND.1,Indian Super League
+18003,FC Goa,IND.1,Indian Super League
+20174,Hyderabad,IND.1,Indian Super League
+18850,Jamshedpur FC,IND.1,Indian Super League
+17997,Kerala Blasters FC,IND.1,Indian Super League
+18002,Mumbai City FC,IND.1,Indian Super League
+18004,NorthEast United FC,IND.1,Indian Super League
+17998,Odisha FC,IND.1,Indian Super League
+8897,SC East Bengal,IND.1,Indian Super League
+18895,Aizawl FC,IND.2,Indian I-League
+18897,Chennai City,IND.2,Indian I-League
+8896,Churchill Brothers,IND.2,Indian I-League
+18896,Gokulam Kerala FC,IND.2,Indian I-League
+18899,Indian Arrows,IND.2,Indian I-League
+18894,Minerva Punjab,IND.2,Indian I-League
+20842,Mohammedan SC,IND.2,Indian I-League
+18893,NEROCA FC,IND.2,Indian I-League
+19341,Real Kashmir,IND.2,Indian I-League
+20841,Sudeva ,IND.2,Indian I-League
+20211,TRAU FC,IND.2,Indian I-League
+17689,Johor Darul Ta'zim,MYS.1,Malaysian Super League
+8835,Kedah,MYS.1,Malaysian Super League
+18983,Kuala Lumpur,MYS.1,Malaysian Super League
+18436,Melaka,MYS.1,Malaysian Super League
+17740,Pahang,MYS.1,Malaysian Super League
+18162,Penang,MYS.1,Malaysian Super League
+8831,Perak,MYS.1,Malaysian Super League
+19428,Petaling Jaya City FC,MYS.1,Malaysian Super League
+20298,Sabah,MYS.1,Malaysian Super League
+17739,Selangor,MYS.1,Malaysian Super League
+8830,Terengganu,MYS.1,Malaysian Super League
+20299,UiTM,MYS.1,Malaysian Super League
+8011,Albirex Niigata,SGP.1,Singaporean Premier League
+7939,Balestier Khalsa,SGP.1,Singaporean Premier League
+7938,Geylang International,SGP.1,Singaporean Premier League
+17736,Hougang United,SGP.1,Singaporean Premier League
+8040,Lion City Sailors,SGP.1,Singaporean Premier League
+7998,Tampines Rovers,SGP.1,Singaporean Premier League
+20682,Tanjong Pagar United,SGP.1,Singaporean Premier League
+8039,Young Lions,SGP.1,Singaporean Premier League
+8519,BG Pathum United,THA.1,Thai League 1
+7522,Bangkok United,THA.1,Thai League 1
+7138,Buriram United,THA.1,Thai League 1
+21098,Chiangmai United,THA.1,Thai League 1
+17755,Chiangrai United,THA.1,Thai League 1
+8524,Chonburi,THA.1,Thai League 1
+21096,Khon Kaen United,THA.1,Thai League 1
+15106,Muangthong United,THA.1,Thai League 1
+17759,Nakhonratchasima,THA.1,Thai League 1
+21097,Nong Bua Pitchaya,THA.1,Thai League 1
+18994,PT Prachuap,THA.1,Thai League 1
+8514,Police Tero,THA.1,Thai League 1
+17757,Port,THA.1,Thai League 1
+17760,Ratchaburi Mitrphol,THA.1,Thai League 1
+18171,Samut Prakan City,THA.1,Thai League 1
+8516,Suphanburi,THA.1,Thai League 1
+5783,Bangladesh,BANGABANDHU.CUP,Bangabandhu Cup
+5779,Burundi,BANGABANDHU.CUP,Bangabandhu Cup
+5534,Mauritius,BANGABANDHU.CUP,Bangabandhu Cup
+6167,Palestine,BANGABANDHU.CUP,Bangabandhu Cup
+6726,Seychelles,BANGABANDHU.CUP,Bangabandhu Cup
+5782,Sri Lanka,BANGABANDHU.CUP,Bangabandhu Cup
+4245,Botswana,CAF.COSAFA,COSAFA Cup
+6686,Eswatini,CAF.COSAFA,COSAFA Cup
+6640,Lesotho,CAF.COSAFA,COSAFA Cup
+4325,Malawi,CAF.COSAFA,COSAFA Cup
+8939,Mozambique,CAF.COSAFA,COSAFA Cup
+6725,Namibia,CAF.COSAFA,COSAFA Cup
+654,Senegal,CAF.COSAFA,COSAFA Cup
+467,South Africa,CAF.COSAFA,COSAFA Cup
+4277,Zambia,CAF.COSAFA,COSAFA Cup
+4214,Zimbabwe,CAF.COSAFA,COSAFA Cup
+18829,AS Vita Club,CAF.CHAMPIONS,CAF Champions League
+10207,Al Ahly,CAF.CHAMPIONS,CAF Champions League
+18832,Al Hilal Omdurman,CAF.CHAMPIONS,CAF Champions League
+18831,Al-Merrikh,CAF.CHAMPIONS,CAF Champions League
+20853,CR Belouizdad,CAF.CHAMPIONS,CAF Champions League
+8377,Esperance Sportive de Tunis,CAF.CHAMPIONS,CAF Champions League
+18822,Horoya,CAF.CHAMPIONS,CAF Champions League
+7081,Kaizer Chiefs,CAF.CHAMPIONS,CAF Champions League
+7501,MC Alger,CAF.CHAMPIONS,CAF Champions League
+7084,Mamelodi Sundowns,CAF.CHAMPIONS,CAF Champions League
+19436,Petro de Luanda,CAF.CHAMPIONS,CAF Champions League
+19414,Simba SC,CAF.CHAMPIONS,CAF Champions League
+10674,TP Mazembe,CAF.CHAMPIONS,CAF Champions League
+20854,Teungueth,CAF.CHAMPIONS,CAF Champions League
+8625,Wydad Casablanca,CAF.CHAMPIONS,CAF Champions League
+8392,Zamalek,CAF.CHAMPIONS,CAF Champions League
+11913,Chippa United,RSA.1.PROMOTION.RELEGATION,South African Premiership Promotion/Relegation Playoffs
+18825,Richards Bay,RSA.1.PROMOTION.RELEGATION,South African Premiership Promotion/Relegation Playoffs
+18616,Royal AM,RSA.1.PROMOTION.RELEGATION,South African Premiership Promotion/Relegation Playoffs
+20881,Al Ahli Benghazi,CAF.CONFED,CAF Confederations Cup
+8380,Club Sportif Sfaxien,CAF.CONFED,CAF Confederations Cup
+7986,Coton Sport Garoua,CAF.CONFED,CAF Confederations Cup
+8525,ES Setif,CAF.CONFED,CAF Confederations Cup
+2227,Enyimba,CAF.CONFED,CAF Confederations Cup
+2346,Etoile Sahel,CAF.CONFED,CAF Confederations Cup
+7314,JS Kabylie,CAF.CONFED,CAF Confederations Cup
+20880,Jaraaf,CAF.CONFED,CAF Confederations Cup
+18670,NAPSA Stars,CAF.CONFED,CAF Confederations Cup
+20888,Namungo,CAF.CONFED,CAF Confederations Cup
+18669,Nkana,CAF.CONFED,CAF Confederations Cup
+7085,Orlando Pirates,CAF.CONFED,CAF Confederations Cup
+20220,Pyramids FC,CAF.CONFED,CAF Confederations Cup
+19221,RSB Berkane,CAF.CONFED,CAF Confederations Cup
+8618,Raja Casablanca,CAF.CONFED,CAF Confederations Cup
+19438,Salitas,CAF.CONFED,CAF Confederations Cup
+7079,Amazulu,RSA.1,South African Premiership
+18359,Baroka FC,RSA.1,South African Premiership
+7100,Cape Town City,RSA.1,South African Premiership
+11913,Chippa United,RSA.1,South African Premiership
+7077,Golden Arrows,RSA.1,South African Premiership
+7081,Kaizer Chiefs,RSA.1,South African Premiership
+7084,Mamelodi Sundowns,RSA.1,South African Premiership
+7082,Maritzburg United,RSA.1,South African Premiership
+13317,Marumo Gallants,RSA.1,South African Premiership
+7073,Moroka Swallows,RSA.1,South African Premiership
+7085,Orlando Pirates,RSA.1,South African Premiership
+18616,Royal AM,RSA.1,South African Premiership
+20814,Sekhukhune United,RSA.1,South African Premiership
+18615,Stellenbosch,RSA.1,South African Premiership
+7080,SuperSport United,RSA.1,South African Premiership
+19298,TS Galaxy,RSA.1,South African Premiership
+7072,Black Leopards,RSA.2,South African First Division
+18612,Cape Town All Stars,RSA.2,South African First Division
+7075,Cape Town Spurs FC,RSA.2,South African First Division
+7097,Free State Stars,RSA.2,South African First Division
+20657,Hungry Lions,RSA.2,South African First Division
+20069,JDR Stars,RSA.2,South African First Division
+7078,Jomo Cosmos,RSA.2,South African First Division
+21094,Platinum City Rovers,RSA.2,South African First Division
+7099,Polokwane City,RSA.2,South African First Division
+20816,Pretoria Callies,RSA.2,South African First Division
+7096,Pretoria Univ,RSA.2,South African First Division
+18825,Richards Bay,RSA.2,South African First Division
+19297,TS Sporting,RSA.2,South African First Division
+21109,Tshakhuma Tsha Madzivhandila,RSA.2,South African First Division
+18824,Uthongathi,RSA.2,South African First Division
+21095,Venda Football Acadamy,RSA.2,South African First Division
+7079,Amazulu,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+18359,Baroka FC,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7083,Bidvest Wits,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7072,Black Leopards,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7071,Bloemfontein Celtic,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7100,Cape Town City,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+11913,Chippa United,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7077,Golden Arrows,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+18360,Highlands Park,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7081,Kaizer Chiefs,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7084,Mamelodi Sundowns,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7082,Maritzburg United,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7085,Orlando Pirates,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7099,Polokwane City,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+18615,Stellenbosch,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7080,SuperSport United,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
+7072,Black Leopards,RSA.NEDBANK,South African Nedbank Cup
+7078,Jomo Cosmos,RSA.NEDBANK,South African Nedbank Cup
+21094,Platinum City Rovers,RSA.NEDBANK,South African Nedbank Cup
+7096,Pretoria Univ,RSA.NEDBANK,South African Nedbank Cup
+18825,Richards Bay,RSA.NEDBANK,South African Nedbank Cup
+19297,TS Sporting,RSA.NEDBANK,South African Nedbank Cup
+21109,Tshakhuma Tsha Madzivhandila,RSA.NEDBANK,South African Nedbank Cup
+21095,Venda Football Acadamy,RSA.NEDBANK,South African Nedbank Cup
+7071,Bloemfontein Celtic,RSA.MTN8,South African MTN 8 Cup
+7100,Cape Town City,RSA.MTN8,South African MTN 8 Cup
+7081,Kaizer Chiefs,RSA.MTN8,South African MTN 8 Cup
+7084,Mamelodi Sundowns,RSA.MTN8,South African MTN 8 Cup
+7082,Maritzburg United,RSA.MTN8,South African MTN 8 Cup
+13317,Marumo Gallants,RSA.MTN8,South African MTN 8 Cup
+7085,Orlando Pirates,RSA.MTN8,South African MTN 8 Cup
+7080,SuperSport United,RSA.MTN8,South African MTN 8 Cup
+17792,Abia Warriors,NGA.1,Nigerian Professional League
+17793,Akwa United,NGA.1,Nigerian Professional League
+20208,Dakkada FC,NGA.1,Nigerian Professional League
+17797,Enugu Rangers,NGA.1,Nigerian Professional League
+2227,Enyimba,NGA.1,Nigerian Professional League
+18422,Gombe United,NGA.1,Nigerian Professional League
+17801,Heartland,NGA.1,Nigerian Professional League
+17802,Kano Pillars,NGA.1,Nigerian Professional League
+18420,Katsina United,NGA.1,Nigerian Professional League
+17803,Kwara United,NGA.1,Nigerian Professional League
+17804,Lobi Stars,NGA.1,Nigerian Professional League
+18182,MFM FC,NGA.1,Nigerian Professional League
+17805,Nasarawa United,NGA.1,Nigerian Professional League
+18184,Niger Tornadoes,NGA.1,Nigerian Professional League
+18181,Plateau United,NGA.1,Nigerian Professional League
+18421,Remo Stars,NGA.1,Nigerian Professional League
+17795,Rivers United FC,NGA.1,Nigerian Professional League
+17808,Sunshine Stars,NGA.1,Nigerian Professional League
+17811,Wikki Tourists,NGA.1,Nigerian Professional League
+21168,Accra Lions,GHA.1,Ghanaian Premier League
+18603,Aduana Stars,GHA.1,Ghanaian Premier League
+18606,Asante Kotoko,GHA.1,Ghanaian Premier League
+18608,Ashanti Gold,GHA.1,Ghanaian Premier League
+18602,Bechem United,GHA.1,Ghanaian Premier League
+18604,Berekum Chelsea,GHA.1,Ghanaian Premier League
+21167,Bibiani Gold Stars,GHA.1,Ghanaian Premier League
+18990,Dreams F.C.,GHA.1,Ghanaian Premier League
+18991,Eleven Wonders,GHA.1,Ghanaian Premier League
+18594,Elmina Sharks,GHA.1,Ghanaian Premier League
+18605,Great Olympics,GHA.1,Ghanaian Premier League
+18597,Hearts of Oak,GHA.1,Ghanaian Premier League
+18992,Karela,GHA.1,Ghanaian Premier League
+20294,King Faisal Babes,GHA.1,Ghanaian Premier League
+18609,Legon Cities,GHA.1,Ghanaian Premier League
+18601,Medeama,GHA.1,Ghanaian Premier League
+21169,RTU,GHA.1,Ghanaian Premier League
+18667,Buildcon,ZAM.1,Zambian Super League
+21107,Chambishi,ZAM.1,Zambian Super League
+8051,Forest Rangers,ZAM.1,Zambian Super League
+8053,Green Buffaloes,ZAM.1,Zambian Super League
+18672,Green Eagles,ZAM.1,Zambian Super League
+20766,Indeni,ZAM.1,Zambian Super League
+8055,Kabwe Warriors,ZAM.1,Zambian Super League
+21108,Kafue Celtic,ZAM.1,Zambian Super League
+20120,Kansanshi Dynamos,ZAM.1,Zambian Super League
+8057,Konkola Blades,ZAM.1,Zambian Super League
+8058,Lusaka Dynamos,ZAM.1,Zambian Super League
+18669,Nkana,ZAM.1,Zambian Super League
+18671,Nkwazi,ZAM.1,Zambian Super League
+8054,Power Dynamos,ZAM.1,Zambian Super League
+19476,Prison Leopards,ZAM.1,Zambian Super League
+8062,Red Arrows,ZAM.1,Zambian Super League
+8061,Zanaco,ZAM.1,Zambian Super League
+8063,Zesco United,ZAM.1,Zambian Super League
+18639,AFC Leopards,KEN.1,Kenyan Premier League
+18641,Bandari Mtwara,KEN.1,Kenyan Premier League
+20761,Bidco United,KEN.1,Kenyan Premier League
+8004,Gor Mahia,KEN.1,Kenyan Premier League
+8305,KCB,KEN.1,Kenyan Premier League
+18643,Kakamega Homeboys,KEN.1,Kenyan Premier League
+18644,Kariobangi Sharks,KEN.1,Kenyan Premier League
+8043,Mathare United,KEN.1,Kenyan Premier League
+20762,Nairobi City Stars,KEN.1,Kenyan Premier League
+18645,Nzoia United,KEN.1,Kenyan Premier League
+18303,Police United,KEN.1,Kenyan Premier League
+18648,Posta Rangers,KEN.1,Kenyan Premier League
+18646,Sofapaka,KEN.1,Kenyan Premier League
+21131,Talanta,KEN.1,Kenyan Premier League
+8534,Tusker,KEN.1,Kenyan Premier League
+8045,Ulinzi Stars,KEN.1,Kenyan Premier League
+21132,Vihiga Bullets,KEN.1,Kenyan Premier League
+18972,Wazito,KEN.1,Kenyan Premier League
+8297,Black Rhinos,ZIM.1,Zimbabwean Premier Soccer League
+19147,Bulawayo Chiefs,ZIM.1,Zimbabwean Premier Soccer League
+18650,Bulawayo City FC,ZIM.1,Zimbabwean Premier Soccer League
+8266,CAPS United,ZIM.1,Zimbabwean Premier Soccer League
+18654,Chicken Inn,ZIM.1,Zimbabwean Premier Soccer League
+21203,Cranborne Bullets,ZIM.1,Zimbabwean Premier Soccer League
+19140,Dynamos,ZIM.1,Zimbabwean Premier Soccer League
+18659,Harare City,ZIM.1,Zimbabwean Premier Soccer League
+19150,Herentals,ZIM.1,Zimbabwean Premier Soccer League
+8265,Highlanders,ZIM.1,Zimbabwean Premier Soccer League
+18655,Kariba,ZIM.1,Zimbabwean Premier Soccer League
+19978,Manica Diamonds F.C.,ZIM.1,Zimbabwean Premier Soccer League
+18652,Ngezi Platinum,ZIM.1,Zimbabwean Premier Soccer League
+19136,Platinum,ZIM.1,Zimbabwean Premier Soccer League
+21204,Tenax,ZIM.1,Zimbabwean Premier Soccer League
+18658,Triangle,ZIM.1,Zimbabwean Premier Soccer League
+21205,Wha Wha FC,ZIM.1,Zimbabwean Premier Soccer League
+18660,Yadah,ZIM.1,Zimbabwean Premier Soccer League
+21170,Arua Hill SC,UGA.1,Ugandan Premier League
+18618,Bright Stars,UGA.1,Ugandan Premier League
+18621,Bul FC,UGA.1,Ugandan Premier League
+18623,Busoga United,UGA.1,Ugandan Premier League
+8715,Express,UGA.1,Ugandan Premier League
+21171,Gaddafi,UGA.1,Ugandan Premier League
+18625,KCCA,UGA.1,Ugandan Premier League
+18841,Mbarara,UGA.1,Ugandan Premier League
+18622,Onduparaka,UGA.1,Ugandan Premier League
+7957,Police FC,UGA.1,Ugandan Premier League
+8714,SC Villa,UGA.1,Ugandan Premier League
+18627,Tooro United,UGA.1,Ugandan Premier League
+18843,UPDF,UGA.1,Ugandan Premier League
+18630,URA,UGA.1,Ugandan Premier League
+18628,Vipers,UGA.1,Ugandan Premier League
+20118,Wakiso Giants,UGA.1,Ugandan Premier League

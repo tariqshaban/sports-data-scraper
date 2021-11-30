@@ -5,12 +5,22 @@ import matplotlib.pyplot as plt
 
 
 class PlotsProvider:
-    __teams_id = None
+    """
+    Static methods which perform the plotting functionality.
+
+    Attributes
+    ----------
+
+    Methods
+    -------
+        plot_players_nationality_uefa_super_cup_league_known_clubs_2020():
+            Shows players nationalities in the UEFA super cup league in 2020 (for selected known clubs) as a plot
+    """
 
     @staticmethod
     def plot_players_nationality_uefa_super_cup_league_known_clubs_2020():
         """
-        Plots players information
+        Shows players nationalities in the UEFA super cup league in 2020 (for selected known clubs) as a plot.
 
         :return: An array of two dataframe containing match results (0: Elapsed, 1: Fixtures)
         """
@@ -22,7 +32,7 @@ class PlotsProvider:
 
         season_years = [2020]
         leagues = ['UEFA Super Cup']
-        clubs = SportsScraper.get_teams_id(leagues=SportsScraper.scrap_leagues()['URL'].tolist())
+        clubs = SportsScraper.get_clubs()
 
         df = SportsScraper.scrap_players(season_years=season_years,
                                          leagues=leagues,
