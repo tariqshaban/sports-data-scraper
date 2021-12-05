@@ -13,7 +13,7 @@ from models.league import League
 
 class SportsScraper:
     """
-    Set of static methods that aid some progress manipulations.
+    Static methods which perform the scraping functionality.
 
     Attributes
     ----------
@@ -22,22 +22,25 @@ class SportsScraper:
 
     Methods
     -------
-        scrap_players(season_years=None, leagues=None, clubs=None):
-            Scraps data containing information about club's players.
         __scrap_leagues():
             Scraps data containing a list of leagues.
         scrap_leagues():
             Calls __get_leagues if __leagues is None, otherwise, it retrieves __leagues immediately.
-        scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
-            Scraps data containing information about the results of the matches.
-        __get_clubs(leagues, tolerate_too_many_requests=False, top=None):
-            Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/clubs iteratively to fetch all clubs ids.
-        get_clubs(leagues, tolerate_too_many_requests=False, top=None):
-            Calls __get_clubs if __clubs is None, otherwise, it retrieves __clubs immediately.
+
         __get_cached_clubs():
             Retrieves the clubs snapshot.
-        __cache_clubs():
+        cache_clubs():
             Collects a snapshot of the clubs for faster fetch in the future.
+        __get_clubs(leagues, tolerate_too_many_requests=False):
+            Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/clubs iteratively to fetch all clubs ids.
+        get_clubs(leagues, tolerate_too_many_requests=False):
+            Calls __get_clubs if __clubs is None, otherwise, it retrieves __clubs immediately.
+
+        scrap_players(season_years=None, leagues=None, clubs=None):
+            Scraps data containing information about club's players.
+
+        scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
+            Scraps data containing information about the results of the matches.
     """
 
     __clubs = None
@@ -79,7 +82,7 @@ class SportsScraper:
             SportsScraper.__leagues = SportsScraper.__scrap_leagues()
             print('Received leagues\n')
 
-        return SportsScraper.__leagues
+        return SportsScraper.__leagues.copy()
 
     @staticmethod
     def __get_cached_clubs():
@@ -116,15 +119,13 @@ class SportsScraper:
         # noinspection PyTypeChecker
         df.to_csv('cached_clubs.csv')
 
-        print(df)
-
     @staticmethod
     def __get_clubs(tolerate_too_many_requests=False, fast_fetch=False):
         """
         Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/clubs iteratively to fetch all clubs ids.
 
         :param bool tolerate_too_many_requests: Specify to whether throw an exception if the status code is not 200
-        :param bool fast_fetch: Retrieves clubs from an only snapshot instantly
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
         :return: A list of clubs object
         """
 
@@ -153,16 +154,16 @@ class SportsScraper:
         """
         Calls __get_clubs if __clubs is None, otherwise, it retrieves __clubs immediately.
 
-        :param bool fast_fetch: Retrieves clubs from an only snapshot instantly
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
         :return: A list of clubs object
         """
 
         if SportsScraper.__clubs is None:
-            print('Fetching clubs, this is a one time process (if top maintained the same value)...')
+            print('Fetching clubs, this is a one time process...')
             SportsScraper.__clubs = SportsScraper.__get_clubs(tolerate_too_many_requests=True, fast_fetch=fast_fetch)
             print('Received clubs\n')
 
-        return SportsScraper.__clubs
+        return SportsScraper.__clubs.copy()
 
     @staticmethod
     def scrap_players(season_years=None, leagues=None, clubs=None, fast_fetch_clubs=False):
@@ -172,7 +173,7 @@ class SportsScraper:
         :param list[int] season_years: Collect the data from the provided year(s)
         :param list[str] leagues: Specify the desired league(s)
         :param list[str] clubs: Specify the desired club(s)
-        :param bool fast_fetch_clubs: Retrieves clubs from an only snapshot instantly
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
         :return: A dataframe containing club players
         """
 
@@ -190,10 +191,7 @@ class SportsScraper:
 
         if (clubs is not None) and (len(clubs) != 0):
             scraped_clubs = list(
-                filter(lambda x:
-                       x.name in clubs and
-                       x.league.name in [x.name for x in scraped_leagues]
-                       , scraped_clubs))
+                filter(lambda x: x.name in clubs and x.league.name in [x.name for x in scraped_leagues], scraped_clubs))
 
         if not all(isinstance(x, np.int32) or isinstance(x, int) for x in season_years):
             raise ValueError('season_year must be a list of integer')

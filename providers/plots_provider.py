@@ -21,8 +21,6 @@ class PlotsProvider:
     def plot_players_nationality_uefa_champions_league_2020():
         """
         Shows players nationalities in the UEFA Champions League in 2020 as a plot.
-
-        :return: An array of two dataframe containing match results (0: Elapsed, 1: Fixtures)
         """
 
         # season_years = [datetime.date.today().year]
