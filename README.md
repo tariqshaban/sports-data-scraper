@@ -164,7 +164,6 @@ We successfully collected information of the following:
     * Dropped rows that contained less than three non-null values
 
 ### What illustrations have you made?
-
 ***TBA***
 
 ### What experiments have you conducted?

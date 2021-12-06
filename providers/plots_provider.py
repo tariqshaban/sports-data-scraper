@@ -102,3 +102,34 @@ class PlotsProvider:
         sns.lineplot(data=df,x='Year',y='Goals')
         plt.show()
 
+    @staticmethod
+    def plot_show_relation_between_playersAge_and_Goals2019_English_Premier_League():
+        season_years = [2019]
+        leagues = ['English Premier League']
+        clubs = [x.name for x in SportsScraper.get_clubs(fast_fetch=True)]
+        df = SportsScraper.scrap_players(season_years=season_years,leagues=leagues,
+                                         clubs=clubs
+                                         )
+        df1=pd.DataFrame()
+        df1['Age_mean']=df.groupby('CLUB')['AGE'].mean()
+        df1['Goals']=df.groupby('CLUB')['G'].sum()
+        print(df1.head(10))
+        sns.regplot(x="Age_mean", y="Goals", data=df1)
+        plt.show()
+
+    @staticmethod
+    def most_ligue_contain_red_and_yellow_cards():
+        season_years = [2020]
+        leagues = ['UEFA Champions League','English Premier League','German Bundesliga','Spanish LaLiga','French Ligue 1']
+        clubs = [x.name for x in SportsScraper.get_clubs(fast_fetch=True)]
+        df = SportsScraper.scrap_players(season_years=season_years,
+                                         leagues=leagues,
+                                         clubs=clubs)
+        df1=pd.DataFrame()
+        df1['Yellow_card']=df.groupby('LEAGUE')['YC'].sum()
+        df1['Red_card']=df.groupby('LEAGUE')['RC'].sum()
+        df1.plot(kind='barh', color={'Yellow_card': "yellow", 'Red_card': 'red'})
+        plt.title("Number of Yellow cards and Red cards for most 5 common Leagu")
+        plt.ylabel("Leagu")
+        plt.xlabel("Number of cards")
+        plt.show()
