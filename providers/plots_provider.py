@@ -1,8 +1,8 @@
 import numpy as np
-
+import pandas as pd
+import seaborn as sns
 from providers.sports_scraper import SportsScraper
 import matplotlib.pyplot as plt
-
 
 class PlotsProvider:
     """
@@ -51,5 +51,54 @@ class PlotsProvider:
         ax.set_xticks(np.arange(len(df.index)))
         ax.set_xticklabels(df.index, rotation=45)
         fig.suptitle('Players Nationality in UEFA Champions League 2020', fontsize=20)
-
         plt.show()
+# ---********--------*********---------****
+    @staticmethod
+    def Barcelona_golas_over_last_10years_spanishlaliga():
+        years_2010,years_2011,years_2012,years_2013,years_2014,years_2015,years_2016,years_2017,years_2018,\
+        years_2019,years_2020= [2010],[2011],[2012],[2013],[2014],[2015],[2016],[2017],[2018],[2019],[2020]
+        leagues = ['Spanish LaLiga']
+        clubs = [x.name for x in SportsScraper.get_clubs(fast_fetch=True)]
+        Barcelona_players_in_2010 = SportsScraper.scrap_players(season_years=years_2010, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2011 = SportsScraper.scrap_players(season_years=years_2011, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2012 = SportsScraper.scrap_players(season_years=years_2012, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2013 = SportsScraper.scrap_players(season_years=years_2013, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2014 = SportsScraper.scrap_players(season_years=years_2014, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2015 = SportsScraper.scrap_players(season_years=years_2015, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2016 = SportsScraper.scrap_players(season_years=years_2016, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2017 = SportsScraper.scrap_players(season_years=years_2017, leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2018 = SportsScraper.scrap_players(season_years=years_2018,leagues=leagues,
+                                                                clubs=['Barcelona'])
+        Barcelona_players_in_2019 = SportsScraper.scrap_players(season_years=years_2019,leagues=leagues,
+                                                                clubs=['Barcelona']
+                                                                )
+        Barcelona_players_in_2020 = SportsScraper.scrap_players(season_years=years_2020,leagues=leagues,
+                                                                clubs=['Barcelona']
+                                                                )
+        Total_golas_in_2010 = Barcelona_players_in_2010['G'].sum()
+        Total_golas_in_2011 = Barcelona_players_in_2011['G'].sum()
+        Total_golas_in_2012 = Barcelona_players_in_2012['G'].sum()
+        Total_golas_in_2013 = Barcelona_players_in_2013['G'].sum()
+        Total_golas_in_2014 = Barcelona_players_in_2014['G'].sum()
+        Total_golas_in_2015 = Barcelona_players_in_2015['G'].sum()
+        Total_golas_in_2016 = Barcelona_players_in_2016['G'].sum()
+        Total_golas_in_2017 = Barcelona_players_in_2017['G'].sum()
+        Total_golas_in_2018 = Barcelona_players_in_2018['G'].sum()
+        Total_golas_in_2019 = Barcelona_players_in_2019['G'].sum()
+        Total_golas_in_2020 = Barcelona_players_in_2020['G'].sum()
+        df=pd.DataFrame({'Year':[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],
+                         'Goals':[Total_golas_in_2010,Total_golas_in_2011,Total_golas_in_2012,
+                         Total_golas_in_2013,Total_golas_in_2014,Total_golas_in_2015,
+                         Total_golas_in_2016,Total_golas_in_2017,Total_golas_in_2018,
+                         Total_golas_in_2019,Total_golas_in_2020]})
+        sns.lineplot(data=df,x='Year',y='Goals')
+        plt.show()
+

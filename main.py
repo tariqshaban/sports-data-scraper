@@ -30,6 +30,6 @@ print('--------------------------------------------------')
 
 
 PlotsProvider.plot_players_nationality_uefa_champions_league_2020()
-
+PlotsProvider.Barcelona_golas_over_last_10years_spanishlaliga()
 print('--------------------------------------------------')
 print('Done.')
