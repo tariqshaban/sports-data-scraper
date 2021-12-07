@@ -29,9 +29,9 @@ print('--------------------------------------------------')
 # print(df[1])
 
 
-PlotsProvider.plot_players_nationality_uefa_champions_league_2020()
-PlotsProvider.Barcelona_golas_over_last_10years_spanishlaliga()
-PlotsProvider.plot_show_relation_between_playersAge_and_Goals2019_English_Premier_League()
-PlotsProvider.most_ligue_contain_red_and_yellow_cards()
+# PlotsProvider.plot_players_nationality_uefa_champions_league_2020()
+# PlotsProvider.barcelona_goals_over_last_10_years_spanish_laliga()
+# PlotsProvider.plot_show_relation_between_players_age_and_goals_2019_english_premier_league()
+PlotsProvider.most_league_contain_red_and_yellow_cards()
 print('--------------------------------------------------')
 print('Done.')

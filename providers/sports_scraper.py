@@ -229,14 +229,14 @@ class SportsScraper:
                         cols = row.find_all('td')
                         cols = [ele.text.strip() for ele in cols]  # Strips elements
                         if cols:  # If column is not empty
-                            buff = [club.league.name, club.name] + [ele for ele in cols if
+                            buff = [season_year, club.league.name, club.name] + [ele for ele in cols if
                                                                     ele]  # If element is not empty
-                            number_list = re.findall(r'\d+$', buff[2])
+                            number_list = re.findall(r'\d+$', buff[3])
                             if number_list:  # Checks if there is a number for the player
-                                buff.insert(3, number_list[0])  # Extract player's number
-                                buff[2] = re.findall(r'^([^0-9]*)', buff[2])[0]  # Remove player's name number
+                                buff.insert(4, number_list[0])  # Extract player's number
+                                buff[3] = re.findall(r'^([^0-9]*)', buff[3])[0]  # Remove player's name number
                             else:
-                                buff.insert(3, np.nan)
+                                buff.insert(4, np.nan)
                             data.append(buff)
 
                     if x == 0:
@@ -250,10 +250,10 @@ class SportsScraper:
         if players_df_player.empty:
             players_df_player = pd.DataFrame(np.empty((0, 19)))
 
-        players_df_goalkeeper.columns = ['LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
+        players_df_goalkeeper.columns = ['YEAR', 'LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
                                          'SV', 'GA', 'A',
                                          'FC', 'FA', 'YC', 'RC']
-        players_df_player.columns = ['LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
+        players_df_player.columns = ['YEAR', 'LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
                                      'G', 'A', 'SH', 'ST',
                                      'FC', 'FA', 'YC', 'RC']
 
