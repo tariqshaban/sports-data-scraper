@@ -1,3 +1,4 @@
+# Timestamp: 2021-12-07 18:23:05.856224,,,
 club_id,club_name,league_url,league_name
 103,AC Milan,UEFA.CHAMPIONS,UEFA Champions League
 139,Ajax Amsterdam,UEFA.CHAMPIONS,UEFA Champions League
@@ -196,23 +197,31 @@ club_id,club_name,league_url,league_name
 3243,Stade de Reims,FRA.1,French Ligue 1
 180,Strasbourg,FRA.1,French Ligue 1
 170,Troyes,FRA.1,French Ligue 1
+96,Alavés,ESP.COPA_DEL_REY,Spanish Copa del Rey
 2737,Albacete,ESP.COPA_DEL_REY,Spanish Copa del Rey
-5535,Badajoz,ESP.COPA_DEL_REY,Spanish Copa del Rey
-18338,CD Calahorra,ESP.COPA_DEL_REY,Spanish Copa del Rey
-17890,CD Ebro,ESP.COPA_DEL_REY,Spanish Copa del Rey
-8807,Cacereno,ESP.COPA_DEL_REY,Spanish Copa del Rey
-8447,Córdoba,ESP.COPA_DEL_REY,Spanish Copa del Rey
-16741,Extremadura UD,ESP.COPA_DEL_REY,Spanish Copa del Rey
-8977,Gernika Club,ESP.COPA_DEL_REY,Spanish Copa del Rey
-6825,Gimnastica Segoviana,ESP.COPA_DEL_REY,Spanish Copa del Rey
-6858,Guijuelo,ESP.COPA_DEL_REY,Spanish Copa del Rey
-17572,Leioa,ESP.COPA_DEL_REY,Spanish Copa del Rey
-20223,Linares Deportivo,ESP.COPA_DEL_REY,Spanish Copa del Rey
-7041,Peña Sport,ESP.COPA_DEL_REY,Spanish Copa del Rey
-5428,Talavera,ESP.COPA_DEL_REY,Spanish Copa del Rey
-9553,Teruel,ESP.COPA_DEL_REY,Spanish Copa del Rey
-12594,UCAM Murcia,ESP.COPA_DEL_REY,Spanish Copa del Rey
-8070,Velez Mostar,ESP.COPA_DEL_REY,Spanish Copa del Rey
+85,Celta Vigo,ESP.COPA_DEL_REY,Spanish Copa del Rey
+90,Deportivo La Coruña,ESP.COPA_DEL_REY,Spanish Copa del Rey
+3752,Eibar,ESP.COPA_DEL_REY,Spanish Copa del Rey
+3751,Elche,ESP.COPA_DEL_REY,Spanish Copa del Rey
+88,Espanyol,ESP.COPA_DEL_REY,Spanish Copa del Rey
+2922,Getafe,ESP.COPA_DEL_REY,Spanish Copa del Rey
+3747,Granada,ESP.COPA_DEL_REY,Spanish Copa del Rey
+98,Las Palmas,ESP.COPA_DEL_REY,Spanish Copa del Rey
+1538,Levante,ESP.COPA_DEL_REY,Spanish Copa del Rey
+84,Mallorca,ESP.COPA_DEL_REY,Spanish Copa del Rey
+99,Málaga,ESP.COPA_DEL_REY,Spanish Copa del Rey
+97,Osasuna,ESP.COPA_DEL_REY,Spanish Copa del Rey
+101,Rayo Vallecano,ESP.COPA_DEL_REY,Spanish Copa del Rey
+244,Real Betis,ESP.COPA_DEL_REY,Spanish Copa del Rey
+92,Real Oviedo,ESP.COPA_DEL_REY,Spanish Copa del Rey
+89,Real Sociedad,ESP.COPA_DEL_REY,Spanish Copa del Rey
+95,Real Valladolid,ESP.COPA_DEL_REY,Spanish Copa del Rey
+91,Real Zaragoza,ESP.COPA_DEL_REY,Spanish Copa del Rey
+243,Sevilla,ESP.COPA_DEL_REY,Spanish Copa del Rey
+3788,Sporting Gijón,ESP.COPA_DEL_REY,Spanish Copa del Rey
+245,Tenerife,ESP.COPA_DEL_REY,Spanish Copa del Rey
+94,Valencia,ESP.COPA_DEL_REY,Spanish Copa del Rey
+102,Villarreal,ESP.COPA_DEL_REY,Spanish Copa del Rey
 349,AFC Bournemouth,ENG.2,English League Championship
 397,Barnsley,ENG.2,English League Championship
 392,Birmingham City,ENG.2,English League Championship
@@ -240,19 +249,17 @@ club_id,club_name,league_url,league_name
 308,Bristol Rovers,ENG.FA,English FA Cup
 322,Carlisle United,ENG.FA,English FA Cup
 320,Cheltenham Town,ENG.FA,English FA Cup
-339,Colchester United,ENG.FA,English FA Cup
 275,Dagenham & Redbridge,ENG.FA,English FA Cup
 279,Doncaster Rovers,ENG.FA,English FA Cup
-324,Exeter City,ENG.FA,English FA Cup
 312,FC Halifax Town,ENG.FA,English FA Cup
 282,Forest Green Rovers,ENG.FA,English FA Cup
 323,Hartlepool United,ENG.FA,English FA Cup
+306,Hull City,ENG.FA,English FA Cup
 319,Kidderminster Harriers,ENG.FA,English FA Cup
 309,Leyton Orient,ENG.FA,English FA Cup
 314,Lincoln City,ENG.FA,English FA Cup
+301,Luton Town,ENG.FA,English FA Cup
 304,Mansfield Town,ENG.FA,English FA Cup
-278,Morecambe,ENG.FA,English FA Cup
-332,Oldham Athletic,ENG.FA,English FA Cup
 311,Oxford United,ENG.FA,English FA Cup
 307,Plymouth Argyle,ENG.FA,English FA Cup
 303,Rochdale,ENG.FA,English FA Cup
@@ -260,6 +267,7 @@ club_id,club_name,league_url,league_name
 302,Shrewsbury Town,ENG.FA,English FA Cup
 310,Southend United,ENG.FA,English FA Cup
 285,Stevenage,ENG.FA,English FA Cup
+318,Swansea City,ENG.FA,English FA Cup
 284,Yeovil Town,ENG.FA,English FA Cup
 315,York City,ENG.FA,English FA Cup
 331,Brighton & Hove Albion,ENG.LEAGUE_CUP,English Carabao Cup
@@ -277,7 +285,6 @@ club_id,club_name,league_url,league_name
 314,Lincoln City,ENG.LEAGUE_CUP,English Carabao Cup
 301,Luton Town,ENG.LEAGUE_CUP,English Carabao Cup
 304,Mansfield Town,ENG.LEAGUE_CUP,English Carabao Cup
-278,Morecambe,ENG.LEAGUE_CUP,English Carabao Cup
 332,Oldham Athletic,ENG.LEAGUE_CUP,English Carabao Cup
 311,Oxford United,ENG.LEAGUE_CUP,English Carabao Cup
 307,Plymouth Argyle,ENG.LEAGUE_CUP,English Carabao Cup
@@ -337,30 +344,31 @@ club_id,club_name,league_url,league_name
 121,VfL Bochum,GER.DFB_POKAL,German DFB Pokal
 138,VfL Wolfsburg,GER.DFB_POKAL,German DFB Pokal
 137,Werder Bremen,GER.DFB_POKAL,German DFB Pokal
-19396,ASF Andrézieux-Bouthéon,FRA.COUPE_DE_FRANCE,French Coupe de France
-18405,Bergerac Périgord FC,FRA.COUPE_DE_FRANCE,French Coupe de France
+172,AJ Auxerre,FRA.COUPE_DE_FRANCE,French Coupe de France
+174,AS Monaco,FRA.COUPE_DE_FRANCE,French Coupe de France
+173,Bastia,FRA.COUPE_DE_FRANCE,French Coupe de France
 159,Bordeaux,FRA.COUPE_DE_FRANCE,French Coupe de France
-17620,Dinan Lehon,FRA.COUPE_DE_FRANCE,French Coupe de France
-20274,EF Reims Sainte-Anne,FRA.COUPE_DE_FRANCE,French Coupe de France
-20275,ESA Linas-Montlhery,FRA.COUPE_DE_FRANCE,French Coupe de France
-7723,Feignies,FRA.COUPE_DE_FRANCE,French Coupe de France
+3171,Clermont Foot,FRA.COUPE_DE_FRANCE,French Coupe de France
+3170,Dijon FCO,FRA.COUPE_DE_FRANCE,French Coupe de France
 171,Guingamp,FRA.COUPE_DE_FRANCE,French Coupe de France
-16939,Jura Sud Foot,FRA.COUPE_DE_FRANCE,French Coupe de France
+175,Lens,FRA.COUPE_DE_FRANCE,French Coupe de France
 166,Lille,FRA.COUPE_DE_FRANCE,French Coupe de France
-19392,Lyon-Duchère,FRA.COUPE_DE_FRANCE,French Coupe de France
-18071,Montauban,FRA.COUPE_DE_FRANCE,French Coupe de France
-18113,Panazol,FRA.COUPE_DE_FRANCE,French Coupe de France
-6851,Paris FC,FRA.COUPE_DE_FRANCE,French Coupe de France
-11884,Red Star FC 93,FRA.COUPE_DE_FRANCE,French Coupe de France
+273,Lorient,FRA.COUPE_DE_FRANCE,French Coupe de France
+167,Lyon,FRA.COUPE_DE_FRANCE,French Coupe de France
+176,Marseille,FRA.COUPE_DE_FRANCE,French Coupe de France
+177,Metz,FRA.COUPE_DE_FRANCE,French Coupe de France
+274,Montpellier,FRA.COUPE_DE_FRANCE,French Coupe de France
+165,Nantes,FRA.COUPE_DE_FRANCE,French Coupe de France
+2502,Nice,FRA.COUPE_DE_FRANCE,French Coupe de France
+160,Paris Saint-Germain ,FRA.COUPE_DE_FRANCE,French Coupe de France
+178,Saint-Etienne,FRA.COUPE_DE_FRANCE,French Coupe de France
 272,Sochaux,FRA.COUPE_DE_FRANCE,French Coupe de France
-20872,Stade Poitevin,FRA.COUPE_DE_FRANCE,French Coupe de France
+3266,Stade Laval,FRA.COUPE_DE_FRANCE,French Coupe de France
 169,Stade Rennais,FRA.COUPE_DE_FRANCE,French Coupe de France
-21303,Thaon ES,FRA.COUPE_DE_FRANCE,French Coupe de France
+3243,Stade de Reims,FRA.COUPE_DE_FRANCE,French Coupe de France
+180,Strasbourg,FRA.COUPE_DE_FRANCE,French Coupe de France
 179,Toulouse,FRA.COUPE_DE_FRANCE,French Coupe de France
 170,Troyes,FRA.COUPE_DE_FRANCE,French Coupe de France
-7721,US Quevilly,FRA.COUPE_DE_FRANCE,French Coupe de France
-6732,Valenciennes,FRA.COUPE_DE_FRANCE,French Coupe de France
-11307,Wasquehal,FRA.COUPE_DE_FRANCE,French Coupe de France
 140,AZ Alkmaar,NED.1,Dutch Eredivisie
 139,Ajax Amsterdam,NED.1,Dutch Eredivisie
 145,FC Groningen,NED.1,Dutch Eredivisie
@@ -422,22 +430,6 @@ club_id,club_name,league_url,league_name
 2250,Sporting CP,POR.1,Portuguese Liga
 12706,Tondela,POR.1,Portuguese Liga
 20995,Vizela,POR.1,Portuguese Liga
-2991,Akhmat Grozny,RUS.1,Russian Premier League
-1963,CSKA Moscow,RUS.1,Russian Premier League
-596,Dinamo Moscow,RUS.1,Russian Premier League
-17495,FC Arsenal Tula,RUS.1,Russian Premier League
-7424,FC Khimki,RUS.1,Russian Premier League
-17368,FC Ufa,RUS.1,Russian Premier League
-15582,FC Ural Ekaterinburg,RUS.1,Russian Premier League
-11336,Krasnodar,RUS.1,Russian Premier League
-3850,Krylia Sovetov,RUS.1,Russian Premier League
-442,Lokomotiv Moscow,RUS.1,Russian Premier League
-13150,Nizhny Novgorod,RUS.1,Russian Premier League
-3852,Rostov,RUS.1,Russian Premier League
-3851,Rubin Kazan,RUS.1,Russian Premier League
-20019,Sochi,RUS.1,Russian Premier League
-1941,Spartak Moscow,RUS.1,Russian Premier League
-2533,Zenit St Petersburg,RUS.1,Russian Premier League
 227,América,MEX.1,Mexican Liga BBVA MX
 216,Atlas,MEX.1,Mexican Liga BBVA MX
 15720,Atlético San Luis,MEX.1,Mexican Liga BBVA MX
@@ -512,8 +504,17 @@ club_id,club_name,league_url,league_name
 21128,Real Madrid,UEFA.WCHAMPIONS,UEFA Women's Champions League
 20835,Servette,UEFA.WCHAMPIONS,UEFA Women's Champions League
 21126,TSG Hoffenheim,UEFA.WCHAMPIONS,UEFA Women's Champions League
-20107,VfL Wolfsburg,UEFA.WCHAMPIONS,UEFA Women's Champions League
 21125,WFC Kharkiv,UEFA.WCHAMPIONS,UEFA Women's Champions League
+15360,Chicago Red Stars,USA.NWSL,United States NWSL
+17346,Houston Dash,USA.NWSL,United States NWSL
+20907,Kansas City Current,USA.NWSL,United States NWSL
+15364,NJ/NY Gotham FC,USA.NWSL,United States NWSL
+15366,North Carolina Courage,USA.NWSL,United States NWSL
+15363,OL Reign,USA.NWSL,United States NWSL
+18206,Orlando Pride,USA.NWSL,United States NWSL
+15362,Portland Thorns FC,USA.NWSL,United States NWSL
+20905,Racing Louisville FC,USA.NWSL,United States NWSL
+15365,Washington Spirit,USA.NWSL,United States NWSL
 19973,Arsenal,ENG.W.1,FA Women's Super League
 20707,Aston Villa,ENG.W.1,FA Women's Super League
 19968,Birmingham City,ENG.W.1,FA Women's Super League
@@ -526,36 +527,12 @@ club_id,club_name,league_url,league_name
 19969,Reading,ENG.W.1,FA Women's Super League
 20062,Tottenham Hotspur,ENG.W.1,FA Women's Super League
 19975,West Ham United,ENG.W.1,FA Women's Super League
-15360,Chicago Red Stars,USA.NWSL,United States NWSL
-17346,Houston Dash,USA.NWSL,United States NWSL
-20907,Kansas City Current,USA.NWSL,United States NWSL
-15364,NJ/NY Gotham FC,USA.NWSL,United States NWSL
-15366,North Carolina Courage,USA.NWSL,United States NWSL
-15363,OL Reign,USA.NWSL,United States NWSL
-18206,Orlando Pride,USA.NWSL,United States NWSL
-15362,Portland Thorns FC,USA.NWSL,United States NWSL
-20905,Racing Louisville FC,USA.NWSL,United States NWSL
-15365,Washington Spirit,USA.NWSL,United States NWSL
-21083,Actonians,ENG.W.FA,English Women's FA Cup
-19973,Arsenal,ENG.W.FA,English Women's FA Cup
-21084,Barnsely,ENG.W.FA,English Women's FA Cup
-19968,Birmingham City,ENG.W.FA,English Women's FA Cup
-21081,Boldmere St. Michael's,ENG.W.FA,English Women's FA Cup
 21056,Brighouse Town,ENG.W.FA,English Women's FA Cup
-19976,Brighton & Hove Albion,ENG.W.FA,English Women's FA Cup
-21035,Charlton Athletic,ENG.W.FA,English Women's FA Cup
-19970,Chelsea,ENG.W.FA,English Women's FA Cup
 21059,Cheltenham Town,ENG.W.FA,English Women's FA Cup
-21079,Enfield Town,ENG.W.FA,English Women's FA Cup
 21068,Ipswich Town,ENG.W.FA,English Women's FA Cup
 21074,Kent,ENG.W.FA,English Women's FA Cup
-21036,Leicester City,ENG.W.FA,English Women's FA Cup
 21075,Lincoln City,ENG.W.FA,English Women's FA Cup
-19257,Manchester City,ENG.W.FA,English Women's FA Cup
 21039,Southampton,ENG.W.FA,English Women's FA Cup
-21082,Stourbridge,ENG.W.FA,English Women's FA Cup
-20062,Tottenham Hotspur,ENG.W.FA,English Women's FA Cup
-21061,Wem Town,ENG.W.FA,English Women's FA Cup
 21042,Wolverhampton,ENG.W.FA,English Women's FA Cup
 9729,Charleston Battery,USA.OPEN,United States Open Cup
 17826,Charlotte Independence,USA.OPEN,United States Open Cup
@@ -618,96 +595,6 @@ club_id,club_name,league_url,league_name
 19181,South Georgia Tormenta FC,USA.USL.L1,USL League One
 18447,Toronto FC II,USA.USL.L1,USL League One
 20684,Union Omaha,USA.USL.L1,USL League One
-12008,Al Duhail,AFC.CHAMPIONS,AFC Champions League
-929,Al Hilal,AFC.CHAMPIONS,AFC Champions League
-817,Al Nassr,AFC.CHAMPIONS,AFC Champions League
-7527,Al Rayyan,AFC.CHAMPIONS,AFC Champions League
-7135,Al Sadd,AFC.CHAMPIONS,AFC Champions League
-8346,Al-Ahli,AFC.CHAMPIONS,AFC Champions League
-9655,Al-Shorta,AFC.CHAMPIONS,AFC Champions League
-7134,Al-Wahda,AFC.CHAMPIONS,AFC Champions League
-8519,BG Pathum United,AFC.CHAMPIONS,AFC Champions League
-2052,Beijing Guoan,AFC.CHAMPIONS,AFC Champions League
-7109,Cerezo Osaka,AFC.CHAMPIONS,AFC Champions League
-6974,Daegu FC,AFC.CHAMPIONS,AFC Champions League
-7525,Esteghlal,AFC.CHAMPIONS,AFC Champions League
-7121,Foolad,AFC.CHAMPIONS,AFC Champions League
-7102,Gamba Osaka,AFC.CHAMPIONS,AFC Champions League
-12009,Guangzhou,AFC.CHAMPIONS,AFC Champions League
-7119,Jeonbuk Motors,AFC.CHAMPIONS,AFC Champions League
-7112,Kawasaki Frontale,AFC.CHAMPIONS,AFC Champions League
-7108,Nagoya Grampus,AFC.CHAMPIONS,AFC Champions League
-7123,Pakhtakor Tashkent,AFC.CHAMPIONS,AFC Champions League
-9693,Pohang Steelers,AFC.CHAMPIONS,AFC Champions League
-790,Shabab Al-Ahli,AFC.CHAMPIONS,AFC Champions League
-8371,Sharjah,AFC.CHAMPIONS,AFC Champions League
-7998,Tampines Rovers,AFC.CHAMPIONS,AFC Champions League
-7120,Ulsan Hyundai,AFC.CHAMPIONS,AFC Champions League
-263,Aberdeen,SCO.1,Scottish Premiership
-256,Celtic,SCO.1,Scottish Premiership
-261,Dundee,SCO.1,Scottish Premiership
-264,Dundee United,SCO.1,Scottish Premiership
-262,Heart of Midlothian,SCO.1,Scottish Premiership
-258,Hibernian,SCO.1,Scottish Premiership
-259,Livingston,SCO.1,Scottish Premiership
-266,Motherwell,SCO.1,Scottish Premiership
-257,Rangers,SCO.1,Scottish Premiership
-251,Ross County,SCO.1,Scottish Premiership
-267,St Johnstone,SCO.1,Scottish Premiership
-250,St Mirren,SCO.1,Scottish Premiership
-263,Aberdeen,SCO.CIS,Scottish League Cup
-403,Alloa Athletic,SCO.CIS,Scottish League Cup
-252,Arbroath,SCO.CIS,Scottish League Cup
-248,Ayr United,SCO.CIS,Scottish League Cup
-256,Celtic,SCO.CIS,Scottish League Cup
-255,Clyde,SCO.CIS,Scottish League Cup
-261,Dundee,SCO.CIS,Scottish League Cup
-264,Dundee United,SCO.CIS,Scottish League Cup
-265,Dunfermline Athletic,SCO.CIS,Scottish League Cup
-254,Falkirk,SCO.CIS,Scottish League Cup
-262,Heart of Midlothian,SCO.CIS,Scottish League Cup
-258,Hibernian,SCO.CIS,Scottish League Cup
-253,Inverness Caledonian Thistle,SCO.CIS,Scottish League Cup
-260,Kilmarnock,SCO.CIS,Scottish League Cup
-259,Livingston,SCO.CIS,Scottish League Cup
-266,Motherwell,SCO.CIS,Scottish League Cup
-247,Partick Thistle,SCO.CIS,Scottish League Cup
-406,Queen of the South,SCO.CIS,Scottish League Cup
-249,Raith Rovers,SCO.CIS,Scottish League Cup
-257,Rangers,SCO.CIS,Scottish League Cup
-251,Ross County,SCO.CIS,Scottish League Cup
-267,St Johnstone,SCO.CIS,Scottish League Cup
-250,St Mirren,SCO.CIS,Scottish League Cup
-405,Stenhousemuir,SCO.CIS,Scottish League Cup
-407,Stranraer,SCO.CIS,Scottish League Cup
-5321,Adelaide United,AUS.1,Australian A-League Men
-5326,Brisbane Roar,AUS.1,Australian A-League Men
-5325,Central Coast Mariners,AUS.1,Australian A-League Men
-19340,Macarthur FC,AUS.1,Australian A-League Men
-11143,Melbourne City FC,AUS.1,Australian A-League Men
-5328,Melbourne Victory,AUS.1,Australian A-League Men
-5323,Newcastle Jets,AUS.1,Australian A-League Men
-5322,Perth Glory,AUS.1,Australian A-League Men
-5327,Sydney FC,AUS.1,Australian A-League Men
-8352,Wellington Phoenix FC,AUS.1,Australian A-League Men
-13696,Western Sydney Wanderers,AUS.1,Australian A-League Men
-20086,Western United,AUS.1,Australian A-League Men
-2052,Beijing Guoan,CHN.1,Chinese Super League
-18199,Cangzhou Mighty Lions,CHN.1,Chinese Super League
-8225,Changchun Yatai,CHN.1,Chinese Super League
-18202,Chongqing Liangjiang Athletic,CHN.1,Chinese Super League
-19139,Dalian Professional,CHN.1,Chinese Super League
-12009,Guangzhou,CHN.1,Chinese Super League
-17688,Guangzhou City,CHN.1,Chinese Super League
-18200,Hebei FC,CHN.1,Chinese Super League
-8240,Henan Songshan Longmen,CHN.1,Chinese Super League
-20681,Qingdao,CHN.1,Chinese Super League
-7521,Shandong Taishan,CHN.1,Chinese Super League
-15515,Shanghai Port,CHN.1,Chinese Super League
-977,Shanghai Shenhua,CHN.1,Chinese Super League
-2038,Shenzhen FC,CHN.1,Chinese Super League
-8239,Tianjin Tigers,CHN.1,Chinese Super League
-19788,Wuhan,CHN.1,Chinese Super League
 459,Belgium,FIFA.FRIENDLY,International Friendly
 204,Bolivia,FIFA.FRIENDLY,International Friendly
 452,Bosnia and Herzegovina,FIFA.FRIENDLY,International Friendly
@@ -733,6 +620,122 @@ club_id,club_name,league_url,league_name
 451,South Korea,FIFA.FRIENDLY,International Friendly
 164,Spain,FIFA.FRIENDLY,International Friendly
 457,Ukraine,FIFA.FRIENDLY,International Friendly
+263,Aberdeen,SCO.1,Scottish Premiership
+256,Celtic,SCO.1,Scottish Premiership
+261,Dundee,SCO.1,Scottish Premiership
+264,Dundee United,SCO.1,Scottish Premiership
+262,Heart of Midlothian,SCO.1,Scottish Premiership
+258,Hibernian,SCO.1,Scottish Premiership
+259,Livingston,SCO.1,Scottish Premiership
+266,Motherwell,SCO.1,Scottish Premiership
+257,Rangers,SCO.1,Scottish Premiership
+251,Ross County,SCO.1,Scottish Premiership
+267,St Johnstone,SCO.1,Scottish Premiership
+250,St Mirren,SCO.1,Scottish Premiership
+2991,Akhmat Grozny,RUS.1,Russian Premier League
+1963,CSKA Moscow,RUS.1,Russian Premier League
+596,Dinamo Moscow,RUS.1,Russian Premier League
+17495,FC Arsenal Tula,RUS.1,Russian Premier League
+7424,FC Khimki,RUS.1,Russian Premier League
+17368,FC Ufa,RUS.1,Russian Premier League
+15582,FC Ural Ekaterinburg,RUS.1,Russian Premier League
+11336,Krasnodar,RUS.1,Russian Premier League
+3850,Krylia Sovetov,RUS.1,Russian Premier League
+442,Lokomotiv Moscow,RUS.1,Russian Premier League
+13150,Nizhny Novgorod,RUS.1,Russian Premier League
+3852,Rostov,RUS.1,Russian Premier League
+3851,Rubin Kazan,RUS.1,Russian Premier League
+20019,Sochi,RUS.1,Russian Premier League
+1941,Spartak Moscow,RUS.1,Russian Premier League
+2533,Zenit St Petersburg,RUS.1,Russian Premier League
+263,Aberdeen,SCO.CIS,Scottish League Cup
+403,Alloa Athletic,SCO.CIS,Scottish League Cup
+252,Arbroath,SCO.CIS,Scottish League Cup
+248,Ayr United,SCO.CIS,Scottish League Cup
+256,Celtic,SCO.CIS,Scottish League Cup
+255,Clyde,SCO.CIS,Scottish League Cup
+261,Dundee,SCO.CIS,Scottish League Cup
+264,Dundee United,SCO.CIS,Scottish League Cup
+265,Dunfermline Athletic,SCO.CIS,Scottish League Cup
+254,Falkirk,SCO.CIS,Scottish League Cup
+262,Heart of Midlothian,SCO.CIS,Scottish League Cup
+258,Hibernian,SCO.CIS,Scottish League Cup
+253,Inverness Caledonian Thistle,SCO.CIS,Scottish League Cup
+260,Kilmarnock,SCO.CIS,Scottish League Cup
+259,Livingston,SCO.CIS,Scottish League Cup
+266,Motherwell,SCO.CIS,Scottish League Cup
+247,Partick Thistle,SCO.CIS,Scottish League Cup
+406,Queen of the South,SCO.CIS,Scottish League Cup
+249,Raith Rovers,SCO.CIS,Scottish League Cup
+257,Rangers,SCO.CIS,Scottish League Cup
+251,Ross County,SCO.CIS,Scottish League Cup
+267,St Johnstone,SCO.CIS,Scottish League Cup
+250,St Mirren,SCO.CIS,Scottish League Cup
+405,Stenhousemuir,SCO.CIS,Scottish League Cup
+407,Stranraer,SCO.CIS,Scottish League Cup
+12008,Al Duhail,AFC.CHAMPIONS,AFC Champions League
+929,Al Hilal,AFC.CHAMPIONS,AFC Champions League
+817,Al Nassr,AFC.CHAMPIONS,AFC Champions League
+7527,Al Rayyan,AFC.CHAMPIONS,AFC Champions League
+7135,Al Sadd,AFC.CHAMPIONS,AFC Champions League
+8346,Al-Ahli,AFC.CHAMPIONS,AFC Champions League
+9655,Al-Shorta,AFC.CHAMPIONS,AFC Champions League
+7134,Al-Wahda,AFC.CHAMPIONS,AFC Champions League
+8519,BG Pathum United,AFC.CHAMPIONS,AFC Champions League
+2052,Beijing Guoan,AFC.CHAMPIONS,AFC Champions League
+7109,Cerezo Osaka,AFC.CHAMPIONS,AFC Champions League
+6974,Daegu FC,AFC.CHAMPIONS,AFC Champions League
+7525,Esteghlal,AFC.CHAMPIONS,AFC Champions League
+7121,Foolad,AFC.CHAMPIONS,AFC Champions League
+7102,Gamba Osaka,AFC.CHAMPIONS,AFC Champions League
+12009,Guangzhou,AFC.CHAMPIONS,AFC Champions League
+7119,Jeonbuk Motors,AFC.CHAMPIONS,AFC Champions League
+7112,Kawasaki Frontale,AFC.CHAMPIONS,AFC Champions League
+7108,Nagoya Grampus,AFC.CHAMPIONS,AFC Champions League
+7123,Pakhtakor Tashkent,AFC.CHAMPIONS,AFC Champions League
+9693,Pohang Steelers,AFC.CHAMPIONS,AFC Champions League
+790,Shabab Al-Ahli,AFC.CHAMPIONS,AFC Champions League
+8371,Sharjah,AFC.CHAMPIONS,AFC Champions League
+7998,Tampines Rovers,AFC.CHAMPIONS,AFC Champions League
+7120,Ulsan Hyundai,AFC.CHAMPIONS,AFC Champions League
+2052,Beijing Guoan,CHN.1,Chinese Super League
+18199,Cangzhou Mighty Lions,CHN.1,Chinese Super League
+8225,Changchun Yatai,CHN.1,Chinese Super League
+18202,Chongqing Liangjiang Athletic,CHN.1,Chinese Super League
+19139,Dalian Professional,CHN.1,Chinese Super League
+12009,Guangzhou,CHN.1,Chinese Super League
+17688,Guangzhou City,CHN.1,Chinese Super League
+18200,Hebei FC,CHN.1,Chinese Super League
+8240,Henan Songshan Longmen,CHN.1,Chinese Super League
+20681,Qingdao,CHN.1,Chinese Super League
+7521,Shandong Taishan,CHN.1,Chinese Super League
+15515,Shanghai Port,CHN.1,Chinese Super League
+977,Shanghai Shenhua,CHN.1,Chinese Super League
+2038,Shenzhen FC,CHN.1,Chinese Super League
+8239,Tianjin Tigers,CHN.1,Chinese Super League
+19788,Wuhan,CHN.1,Chinese Super League
+5321,Adelaide United,AUS.1,Australian A-League Men
+5326,Brisbane Roar,AUS.1,Australian A-League Men
+5325,Central Coast Mariners,AUS.1,Australian A-League Men
+19340,Macarthur FC,AUS.1,Australian A-League Men
+11143,Melbourne City FC,AUS.1,Australian A-League Men
+5328,Melbourne Victory,AUS.1,Australian A-League Men
+5323,Newcastle Jets,AUS.1,Australian A-League Men
+5322,Perth Glory,AUS.1,Australian A-League Men
+5327,Sydney FC,AUS.1,Australian A-League Men
+8352,Wellington Phoenix FC,AUS.1,Australian A-League Men
+13696,Western Sydney Wanderers,AUS.1,Australian A-League Men
+20086,Western United,AUS.1,Australian A-League Men
+20286,Adelaide United ,AUS.W.1,Australian A-League Women
+20281,Brisbane Roar,AUS.W.1,Australian A-League Women
+20288,Canberra United ,AUS.W.1,Australian A-League Women
+20280,Melbourne City,AUS.W.1,Australian A-League Women
+20284,Melbourne Victory ,AUS.W.1,Australian A-League Women
+20287,Newcastle Jets ,AUS.W.1,Australian A-League Women
+20282,Perth Glory,AUS.W.1,Australian A-League Women
+20285,Sydney FC ,AUS.W.1,Australian A-League Women
+21133,Wellington Phoenix,AUS.W.1,Australian A-League Women
+20283,Western Sydney ,AUS.W.1,Australian A-League Women
 2750,Argentina,FIFA.FRIENDLY.W,Women's International Friendly
 2751,Australia,FIFA.FRIENDLY.W,Women's International Friendly
 2752,Brazil,FIFA.FRIENDLY.W,Women's International Friendly
@@ -868,12 +871,6 @@ club_id,club_name,league_url,league_name
 4396,Thailand,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
 4397,United Arab Emirates,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
 2570,Uzbekistan,FIFA.WORLDQ.AFC,FIFA World Cup Qualifying - AFC
-4862,Fiji,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
-4888,New Caledonia,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
-2666,New Zealand,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
-4885,Papua New Guinea,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
-4861,Solomon Islands,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
-4863,Tahiti,FIFA.WORLDQ.OFC,FIFA World Cup Qualifying - OFC
 202,Argentina,FIFA.WORLD,FIFA World Cup
 628,Australia,FIFA.WORLD,FIFA World Cup
 459,Belgium,FIFA.WORLD,FIFA World Cup
@@ -899,23 +896,10 @@ club_id,club_name,league_url,league_name
 466,Sweden,FIFA.WORLD,FIFA World Cup
 475,Switzerland,FIFA.WORLD,FIFA World Cup
 212,Uruguay,FIFA.WORLD,FIFA World Cup
-2750,Argentina,FIFA.WWC,FIFA Women's World Cup
 2751,Australia,FIFA.WWC,FIFA Women's World Cup
-2752,Brazil,FIFA.WWC,FIFA Women's World Cup
-2753,Canada,FIFA.WWC,FIFA Women's World Cup
-2754,China,FIFA.WWC,FIFA Women's World Cup
-5159,England,FIFA.WWC,FIFA Women's World Cup
-2755,France,FIFA.WWC,FIFA Women's World Cup
-2756,Germany,FIFA.WWC,FIFA Women's World Cup
-2792,Italy,FIFA.WWC,FIFA Women's World Cup
-2893,Jamaica,FIFA.WWC,FIFA Women's World Cup
-2758,Japan,FIFA.WWC,FIFA Women's World Cup
 4153,New Zealand,FIFA.WWC,FIFA Women's World Cup
-2761,Nigeria,FIFA.WWC,FIFA Women's World Cup
-2762,Norway,FIFA.WWC,FIFA Women's World Cup
-2764,Sweden,FIFA.WWC,FIFA Women's World Cup
-2765,United States,FIFA.WWC,FIFA Women's World Cup
 8364,Al-Jazira,FIFA.CWC,FIFA Club World Cup
+7279,Auckland City,FIFA.CWC,FIFA Club World Cup
 206,Canada,CONCACAF.GOLD,CONCACAF Gold Cup
 214,Costa Rica,CONCACAF.GOLD,CONCACAF Gold Cup
 2650,El Salvador,CONCACAF.GOLD,CONCACAF Gold Cup
@@ -1483,6 +1467,7 @@ club_id,club_name,league_url,league_name
 375,Leicester City,ENG.CHARITY,English FA Community Shield
 382,Manchester City,ENG.CHARITY,English FA Community Shield
 110,Internazionale,ITA.SUPER_CUP,Supercoppa Italiana
+111,Juventus,ITA.SUPER_CUP,Supercoppa Italiana
 166,Lille,FRA.SUPER_CUP,French Trophee des Champions
 160,Paris Saint-Germain ,FRA.SUPER_CUP,French Trophee des Champions
 139,Ajax Amsterdam,NED.SUPERCUP,Dutch Johan Cruyff Shield
@@ -1726,7 +1711,6 @@ club_id,club_name,league_url,league_name
 309,Leyton Orient,ENG.TROPHY,English EFL Trophy
 314,Lincoln City,ENG.TROPHY,English EFL Trophy
 304,Mansfield Town,ENG.TROPHY,English EFL Trophy
-278,Morecambe,ENG.TROPHY,English EFL Trophy
 332,Oldham Athletic,ENG.TROPHY,English EFL Trophy
 311,Oxford United,ENG.TROPHY,English EFL Trophy
 307,Plymouth Argyle,ENG.TROPHY,English EFL Trophy
@@ -1753,7 +1737,6 @@ club_id,club_name,league_url,league_name
 373,Ipswich Town,ENG.3,English League One
 314,Lincoln City,ENG.3,English League One
 390,Milton Keynes Dons,ENG.3,English League One
-278,Morecambe,ENG.3,English League One
 311,Oxford United,ENG.3,English League One
 307,Plymouth Argyle,ENG.3,English League One
 385,Portsmouth,ENG.3,English League One
@@ -2009,6 +1992,8 @@ club_id,club_name,league_url,league_name
 8547,Sirius,SWE.1,Swedish Allsvenskan
 6545,Varbergs BoIS FC,SWE.1,Swedish Allsvenskan
 5043,Östersunds FK,SWE.1,Swedish Allsvenskan
+3017,Halmstads BK,SWE.1.PROMOTION.RELEGATION,Swedish Allsvenskanliga Promotion/Relegation Playoffs
+535,Helsingborg,SWE.1.PROMOTION.RELEGATION,Swedish Allsvenskanliga Promotion/Relegation Playoffs
 7853,AGF Aarhus,DEN.1,Danish Superliga
 2986,AaB,DEN.1,Danish Superliga
 575,Brøndby,DEN.1,Danish Superliga
@@ -2107,6 +2092,7 @@ club_id,club_name,league_url,league_name
 2983,Maccabi Petah-Tikva,ISR.1,Israeli Premier League
 524,Maccabi Tel-Aviv,ISR.1,Israeli Premier League
 5269,Moadon Sport Ashdod,ISR.1,Israeli Premier League
+7589,UCD,IR1.1.PROMOTION.RELEGATION,Irish Premier Division Promotion/Relegation Playoffs
 18968,Waterford,IR1.1.PROMOTION.RELEGATION,Irish Premier Division Promotion/Relegation Playoffs
 615,Bohemians,IRL.1,Irish Premier Division
 2712,Derry City,IRL.1,Irish Premier Division
@@ -2310,6 +2296,7 @@ club_id,club_name,league_url,league_name
 10154,Deportivo Morón,ARG.2,Argentine Nacional B
 9743,Ferro Carril Oeste,ARG.2,Argentine Nacional B
 5263,Gimnasia y Esgrima (Jujuy),ARG.2,Argentine Nacional B
+11674,Guillermo Brown,ARG.2,Argentine Nacional B
 9744,Independiente Rivadavia,ARG.2,Argentine Nacional B
 2975,Instituto (Córdoba),ARG.2,Argentine Nacional B
 236,Nueva Chicago,ARG.2,Argentine Nacional B
@@ -2472,21 +2459,16 @@ club_id,club_name,league_url,league_name
 7635,Sport,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
 4902,Treze,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
 3457,Vitória,BRA.COPA_DO_NORDESTE,Copa Do Nordeste
-9687,Americano Campos,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
-4880,América-RJ,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
+15502,Audax Rio,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 10265,Bangu,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 900,Boavista,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 6086,Botafogo,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
-4801,Cabofriense,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 819,Flamengo,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 3445,Fluminense,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
-4799,Friburguense,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
-9176,Macaé,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 4786,Madureira,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 6087,Nova Iguaçu,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 18134,Portuguesa-RJ,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 9177,Resende,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
-20855,Sampaio Correa RJ,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 3454,Vasco da Gama,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 4806,Volta Redonda,BRA.CAMP.CARIOCA,Brazilian Campeonato Carioca
 10281,Botafogo SP,BRA.CAMP.PAULISTA,Brazilian Campeonato Paulista
@@ -2880,16 +2862,6 @@ club_id,club_name,league_url,league_name
 20035,Santa Lucía Cotzumalguapa,GUA.1,Guatemalan Liga Nacional
 20978,Sololá,GUA.1,Guatemalan Liga Nacional
 7259,Xelaju,GUA.1,Guatemalan Liga Nacional
-20286,Adelaide United ,AUS.W.1,Australian A-League Women
-20281,Brisbane Roar,AUS.W.1,Australian A-League Women
-20288,Canberra United ,AUS.W.1,Australian A-League Women
-20280,Melbourne City,AUS.W.1,Australian A-League Women
-20284,Melbourne Victory ,AUS.W.1,Australian A-League Women
-20287,Newcastle Jets ,AUS.W.1,Australian A-League Women
-20282,Perth Glory,AUS.W.1,Australian A-League Women
-20285,Sydney FC ,AUS.W.1,Australian A-League Women
-21133,Wellington Phoenix,AUS.W.1,Australian A-League Women
-20283,Western Sydney ,AUS.W.1,Australian A-League Women
 7226,Aguila,SLV.1,Salvadoran Primera Division
 7225,Alianza FC,SLV.1,Salvadoran Primera Division
 10509,Atletico Marte,SLV.1,Salvadoran Primera Division
@@ -2911,6 +2883,7 @@ club_id,club_name,league_url,league_name
 7347,Philippines,AFF.CHAMPIONSHIP,AFF Cup
 4384,Singapore,AFF.CHAMPIONSHIP,AFF Cup
 4396,Thailand,AFF.CHAMPIONSHIP,AFF Cup
+8664,Timor-Leste,AFF.CHAMPIONSHIP,AFF Cup
 7349,Vietnam,AFF.CHAMPIONSHIP,AFF Cup
 20774,ATK Mohun Bagan,AFC.CUP,AFC Cup
 21010,Ahal,AFC.CUP,AFC Cup
@@ -3139,12 +3112,20 @@ club_id,club_name,league_url,league_name
 18615,Stellenbosch,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
 7080,SuperSport United,RSA.TELKOM_KNOCKOUT,South African Telkom Knockout
 7072,Black Leopards,RSA.NEDBANK,South African Nedbank Cup
+18612,Cape Town All Stars,RSA.NEDBANK,South African Nedbank Cup
+7075,Cape Town Spurs FC,RSA.NEDBANK,South African Nedbank Cup
+7097,Free State Stars,RSA.NEDBANK,South African Nedbank Cup
+20657,Hungry Lions,RSA.NEDBANK,South African Nedbank Cup
+20069,JDR Stars,RSA.NEDBANK,South African Nedbank Cup
 7078,Jomo Cosmos,RSA.NEDBANK,South African Nedbank Cup
 21094,Platinum City Rovers,RSA.NEDBANK,South African Nedbank Cup
+7099,Polokwane City,RSA.NEDBANK,South African Nedbank Cup
+20816,Pretoria Callies,RSA.NEDBANK,South African Nedbank Cup
 7096,Pretoria Univ,RSA.NEDBANK,South African Nedbank Cup
 18825,Richards Bay,RSA.NEDBANK,South African Nedbank Cup
 19297,TS Sporting,RSA.NEDBANK,South African Nedbank Cup
 21109,Tshakhuma Tsha Madzivhandila,RSA.NEDBANK,South African Nedbank Cup
+18824,Uthongathi,RSA.NEDBANK,South African Nedbank Cup
 21095,Venda Football Acadamy,RSA.NEDBANK,South African Nedbank Cup
 7071,Bloemfontein Celtic,RSA.MTN8,South African MTN 8 Cup
 7100,Cape Town City,RSA.MTN8,South African MTN 8 Cup

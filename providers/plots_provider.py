@@ -13,14 +13,17 @@ class PlotsProvider:
 
     Methods
     -------
-        plot_players_nationality_uefa_champions_league_2020():
+        plot_players_nationality_uefa_champions_league_2020(fast_fetch=True, fast_fetch_clubs=True):
             Shows players nationalities in the UEFA Champions League in 2020 as a plot.
     """
 
     @staticmethod
-    def plot_players_nationality_uefa_champions_league_2020():
+    def plot_players_nationality_uefa_champions_league_2020(fast_fetch=True, fast_fetch_clubs=True):
         """
         Shows players nationalities in the UEFA Champions League in 2020 as a plot.
+
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
         """
 
         # season_years = [datetime.date.today().year]
@@ -33,7 +36,9 @@ class PlotsProvider:
 
         df = SportsScraper.scrap_players(season_years=season_years,
                                          leagues=leagues,
-                                         clubs=clubs
+                                         clubs=clubs,
+                                         fast_fetch=fast_fetch,
+                                         fast_fetch_clubs=fast_fetch_clubs
                                          )
 
         fig, ax = plt.subplots(figsize=(10, 9))

@@ -11,25 +11,12 @@ class DateTimeHandler:
 
     Methods
     -------
-        datetime_from_utc_to_local(utc):
-            Converts UTC time standard to Local time standard.
         get_dates_between(start_date=datetime.date.today() - datetime.timedelta(days=7),
                               end_date=datetime.date.today()):
             Gets dates between two dates in YYYYmmDD format.
+        year_month_day_to_date(date):
+            Gets dates between two dates in YYYYmmDD format.
     """
-
-    @staticmethod
-    def datetime_from_utc_to_local(utc):
-        """
-        Converts UTC time standard to Local time standard.
-
-        :param datetime.date utc: Specify the utc time
-        :return: DateTime in local timing
-        """
-
-        epoch = time.mktime(utc.timetuple())
-        offset = datetime.datetime.fromtimestamp(epoch) - datetime.datetime.utcfromtimestamp(epoch)
-        return utc + offset
 
     @staticmethod
     def get_dates_between(start_date=datetime.date.today() - datetime.timedelta(days=7),
@@ -54,3 +41,14 @@ class DateTimeHandler:
             days_between.append(day.strftime('%Y%m%d'))
 
         return days_between
+
+    @staticmethod
+    def year_month_day_to_date(date):
+        """
+        Converts date string in %Y%m%d format into a date object
+
+        :param str date: Specify the date as a string in %Y%m%d format (20211001)
+        :return: An date object
+        """
+
+        return datetime.datetime.strptime(date, '%Y%m%d')

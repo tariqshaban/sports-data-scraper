@@ -1,6 +1,5 @@
 Data Scraping on Sports Website
 ==============================
-
 This is a submission of **assignment 2** for the **CIS711** course.
 
 It contains the code necessary to scrape data from a well-known sports website.
@@ -26,6 +25,9 @@ install matplotlib
 Install scipy
 `pip install scipy`
 
+Install calplot
+`pip install calplot`
+
 Install requests
 `pip install requests`
 
@@ -39,7 +41,6 @@ No further configuration is required.
 
 Project Structure
 ------------
-
     ├── README.md                 <- The top-level README for developers using this project.
     │
     ├── helpers
@@ -47,8 +48,8 @@ Project Structure
     │   └── progress_handler      <- Set of static methods that aid some progress manipulations
     │
     ├── models
-    │   ├── league                <- A container for storing league url as well as league name.
-    │   └── club                  <- A container for storing club id as well as club name
+    │   ├── league                <- A container for storing league URL as well as league name.
+    │   └── club                  <- A container for storing club id as well as the club name
     │
     ├── providers
     │   ├── plots_provider        <- Static methods which perform the plotting functionality
@@ -56,9 +57,9 @@ Project Structure
     │
     └── main                      <- Acts as a sandbox for methods invocation
 
+
 Report / Findings
 ------------
-
 ### What tools have been used to scrape data off the web?
 
 Beautiful Soup has been used for scraping; it contains abstract out-of-the-box methods that help extract information
@@ -144,7 +145,7 @@ We successfully collected information of the following:
         * Opponents
         * Time
         * TV Channel
-
+        
 ### What manipulations have you made for the data?
 
 * Players
@@ -162,6 +163,32 @@ We successfully collected information of the following:
     * Replaced blank spaces/empty values with nulls
     * Replaced double dashes with nulls
     * Dropped rows that contained less than three non-null values
+
+### What is the difference between collecting data via data scraping and using APIs?
+
+Collecting data via **scraping** allows extracting information from web pages, and then manually filtering
+the needed information
+
+Collecting data via **APIs** allows direct access to the required data
+
+It is highly recommended to use APIs rather than scraping for the following reasons:
+* APIs provide instant data access while scraping requires traversing through multiple webpages
+  (which is resource exhausting)
+* APIs are much less liable to breaking changes while changing an HTML element class will break the scraping process
+* APIs usually include thorough documentation and follows best practices and conventions
+* Web scraping might be illegal under certain circumstances
+* Most websites try to detect and limit/block web scraping
+
+Use web scraping only when:
+* The website does not provide a dedicated API
+* The API is either private or requires an access token/key that cannot be acquired
+* The data required is not spanned within the API
+
+###  Give an example of using an API
+
+Refer to `__get_clubs()` method within `sports_scrapper.py`, it sends an HTTP GET request to
+`http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams`,
+where {league} is the league codename (for instance `ENG.1`)
 
 ### What illustrations have you made?
 

@@ -17,8 +17,8 @@ class SportsScraper:
 
     Attributes
     ----------
-        __clubs        Acts as a cache for storing club   ids/names
         __leagues      Acts as a cache for storing league url/name
+        __clubs        Acts as a cache for storing club   ids/names
 
     Methods
     -------
@@ -28,23 +28,35 @@ class SportsScraper:
             Calls __get_leagues if __leagues is None, otherwise, it retrieves __leagues immediately.
 
         __get_cached_clubs():
-            Retrieves the clubs snapshot.
+            Retrieves the club's snapshot.
         cache_clubs():
             Collects a snapshot of the clubs for faster fetch in the future.
         __get_clubs(leagues, tolerate_too_many_requests=False):
-            Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/clubs iteratively to fetch all clubs ids.
+            Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams iteratively to fetch all clubs ids.
         get_clubs(leagues, tolerate_too_many_requests=False):
             Calls __get_clubs if __clubs is None, otherwise, it retrieves __clubs immediately.
 
-        scrap_players(season_years=None, leagues=None, clubs=None):
+        __get_cached_players():
+            Retrieves the player's snapshot.
+        cache_players():
+            Collects a snapshot of the players for faster fetch in the future.
+        scrap_players(season_years=None, leagues=None, clubs=None, fast_fetch_clubs=False, fast_fetch=False)
+            Scraps data containing information about club's players.
+        __scrap_players(season_years=None, leagues=None, clubs=None, fast_fetch_clubs=False):
             Scraps data containing information about club's players.
 
-        scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
+        __get_cached_matches():
+            Retrieves the match's snapshot.
+        cache_matches():
+            Collects a snapshot of the matches for faster fetch in the future.
+        scrap_matches(start_date=None, end_date=None, fast_fetch=False):
+            Scraps data containing information about the results of the matches.
+        __scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
             Scraps data containing information about the results of the matches.
     """
 
-    __clubs = None
     __leagues = None
+    __clubs = None
 
     @staticmethod
     def __scrap_leagues():
@@ -56,7 +68,9 @@ class SportsScraper:
 
         leagues = []
 
-        res = requests.get('https://www.espn.com/soccer/teams')
+        # Partially prevents scraping detection
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
+        res = requests.get('https://www.espn.com/soccer/teams', headers=headers)
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
         ddl = soup.find('select', attrs={'class': 'dropdown__select'})
 
@@ -87,11 +101,11 @@ class SportsScraper:
     @staticmethod
     def __get_cached_clubs():
         """
-        Retrieves the clubs snapshot.
+        Retrieves the club's snapshot.
         """
 
         clubs = []
-        df = pd.read_csv('cached_clubs.csv', index_col='club_id')
+        df = pd.read_csv('cached_clubs.csv', index_col='club_id', skiprows=1)
 
         for index, row in df.iterrows():
             clubs.append(Club(index, row['club_name'], League(row['league_url'], row['league_name'])))
@@ -116,13 +130,17 @@ class SportsScraper:
 
         df.set_index('club_id', inplace=True)
 
+        f = open('cached_clubs.csv', "w+")
+        f.write(f'# Timestamp: {datetime.datetime.utcnow()}\n')
+        f.close()
+
         # noinspection PyTypeChecker
-        df.to_csv('cached_clubs.csv')
+        df.to_csv('cached_clubs.csv', mode='a')
 
     @staticmethod
     def __get_clubs(tolerate_too_many_requests=False, fast_fetch=False):
         """
-        Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/clubs iteratively to fetch all clubs ids.
+        Calls http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams iteratively to fetch all clubs ids.
 
         :param bool tolerate_too_many_requests: Specify to whether throw an exception if the status code is not 200
         :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
@@ -139,7 +157,10 @@ class SportsScraper:
         for league in scraped_leagues:
             print(ProgressHandler.show_progress(processed, len(scraped_leagues)))
             processed += 1
-            response = requests.get(f'http://site.api.espn.com/apis/site/v2/sports/soccer/{league.url}/teams')
+            # Partially prevents scraping detection
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
+            response = requests.get(f'http://site.api.espn.com/apis/site/v2/sports/soccer/{league.url}/teams',
+                                    headers=headers)
             if response.status_code != 200 and tolerate_too_many_requests:
                 continue
             for club in response.json()['sports'][0]['leagues'][0]['teams']:
@@ -166,7 +187,57 @@ class SportsScraper:
         return SportsScraper.__clubs.copy()
 
     @staticmethod
-    def scrap_players(season_years=None, leagues=None, clubs=None, fast_fetch_clubs=False):
+    def __get_cached_players():
+        """
+        Retrieves the player's snapshot.
+        """
+
+        players = pd.read_csv('cached_players.csv', skiprows=1)
+
+        return players
+
+    @staticmethod
+    def cache_players():
+        """
+        Collects a snapshot of the players for faster fetch in the future.
+        """
+        players = SportsScraper.scrap_players(fast_fetch_clubs=True)
+
+        f = open('cached_clubs.csv', "w+")
+        f.write(f'# Timestamp: {datetime.datetime.utcnow()}\n')
+        f.close()
+
+        # noinspection PyTypeChecker
+        players.to_csv('cached_players.csv', mode='a')
+
+    @staticmethod
+    def scrap_players(season_years=None, leagues=None, clubs=None, fast_fetch_clubs=False, fast_fetch=False):
+        """
+        Scraps data containing information about club's players.
+
+        :param list[int] season_years: Collect the data from the provided year(s)
+        :param list[str] leagues: Specify the desired league(s)
+        :param list[str] clubs: Specify the desired club(s)
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
+        :param bool fast_fetch: Retrieves players from a saved snapshot instantly
+        :return: A dataframe containing club players
+        """
+
+        if fast_fetch:
+            df = SportsScraper.__get_cached_players()
+            if season_years is not None:
+                df = df[df.YEAR.isin(season_years)]
+            if leagues is not None:
+                df = df[df.LEAGUE.isin(leagues)]
+            if clubs is not None:
+                df = df[df.CLUB.isin(clubs)]
+            return df
+
+        else:
+            return SportsScraper.__scrap_players(season_years, leagues, clubs, fast_fetch_clubs)
+
+    @staticmethod
+    def __scrap_players(season_years=None, leagues=None, clubs=None, fast_fetch_clubs=False):
         """
         Scraps data containing information about club's players.
 
@@ -195,9 +266,9 @@ class SportsScraper:
 
         if not all(isinstance(x, np.int32) or isinstance(x, int) for x in season_years):
             raise ValueError('season_year must be a list of integer')
-        if not all(isinstance(x, str) for x in clubs):
+        if clubs is not None and not all(isinstance(x, str) for x in clubs):
             raise ValueError('clubs must be a list of string')
-        if not all(isinstance(x, str) for x in leagues):
+        if leagues is not None and not all(isinstance(x, str) for x in leagues):
             raise ValueError('leagues must be a list of string')
 
         players_df_goalkeeper = pd.DataFrame()
@@ -210,11 +281,14 @@ class SportsScraper:
                 print(ProgressHandler.show_progress(processed,
                                                     len(season_years) * len(scraped_clubs)))
                 processed += 1
+                # Partially prevents scraping detection
+                headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
                 res = requests.get(
                     f'https://www.espn.com/soccer/team/squad/_/'
                     f'id/{club.club_id}/'
                     f'league/{club.league.url}/'
-                    f'season/{season_year}')
+                    f'season/{season_year}',
+                    headers=headers)
 
                 soup = bs4.BeautifulSoup(res.text, 'html.parser')
                 tables = soup.find_all('table', attrs={'class': 'Table'})
@@ -229,14 +303,14 @@ class SportsScraper:
                         cols = row.find_all('td')
                         cols = [ele.text.strip() for ele in cols]  # Strips elements
                         if cols:  # If column is not empty
-                            buff = [club.league.name, club.name] + [ele for ele in cols if
-                                                                    ele]  # If element is not empty
-                            number_list = re.findall(r'\d+$', buff[2])
+                            buff = [club.league.name, club.name, str(season_year)] + \
+                                   [ele for ele in cols if ele]  # If element is not empty
+                            number_list = re.findall(r'\d+$', buff[3])
                             if number_list:  # Checks if there is a number for the player
-                                buff.insert(3, number_list[0])  # Extract player's number
-                                buff[2] = re.findall(r'^([^0-9]*)', buff[2])[0]  # Remove player's name number
+                                buff.insert(4, number_list[0])  # Extract player's number
+                                buff[3] = re.findall(r'^([^0-9]*)', buff[3])[0]  # Remove player's name number
                             else:
-                                buff.insert(3, np.nan)
+                                buff.insert(4, np.nan)
                             data.append(buff)
 
                     if x == 0:
@@ -245,15 +319,17 @@ class SportsScraper:
                         players_df_player = players_df_player.append(data)
 
         if players_df_goalkeeper.empty:
-            players_df_goalkeeper = pd.DataFrame(np.empty((0, 18)))
+            players_df_goalkeeper = pd.DataFrame(np.empty((0, 19)))
 
         if players_df_player.empty:
-            players_df_player = pd.DataFrame(np.empty((0, 19)))
+            players_df_player = pd.DataFrame(np.empty((0, 20)))
 
-        players_df_goalkeeper.columns = ['LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
+        players_df_goalkeeper.columns = ['YEAR', 'LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT',
+                                         'APP', 'SUB',
                                          'SV', 'GA', 'A',
                                          'FC', 'FA', 'YC', 'RC']
-        players_df_player.columns = ['LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP', 'SUB',
+        players_df_player.columns = ['YEAR', 'LEAGUE', 'CLUB', 'NAME', 'NUM', 'POS', 'AGE', 'HT', 'WT', 'NAT', 'APP',
+                                     'SUB',
                                      'G', 'A', 'SH', 'ST',
                                      'FC', 'FA', 'YC', 'RC']
 
@@ -273,11 +349,63 @@ class SportsScraper:
         cols = df.columns.drop(['LEAGUE', 'CLUB', 'NAME', 'POS', 'NAT'])
         df[cols] = df[cols].apply(pd.to_numeric)
 
+        df.set_index(['LEAGUE', 'CLUB', 'YEAR', 'NAME'], inplace=True)
+
         ProgressHandler.reset_progress()
         return df
 
     @staticmethod
-    def scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
+    def __get_cached_matches():
+        """
+        Retrieves the match's snapshot.
+        """
+
+        matches = pd.read_csv('cached_matches.csv', skiprows=1)
+
+        matches['date'] = pd.to_datetime(matches['date']).dt.date
+
+        return matches
+
+    @staticmethod
+    def cache_matches():
+        """
+        Collects a snapshot of the matches for faster fetch in the future.
+        """
+
+        matches = SportsScraper.scrap_matches(start_date=datetime.date(2002, 10, 1),
+                                              end_date=datetime.date(2022, 5, 22))
+
+        f = open('cached_matches.csv', "w+")
+        f.write(f'# Timestamp: {datetime.datetime.utcnow()}\n')
+        f.close()
+
+        # noinspection PyTypeChecker
+        matches.to_csv('cached_matches.csv', index=False, mode='a')
+
+    @staticmethod
+    def scrap_matches(start_date=None, end_date=None, fast_fetch=False):
+        """
+        Scraps data containing information about the results of the matches.
+
+        :param datetime.date start_date: Specify the start date of the search
+        :param datetime.date end_date: Specify the end date of the search
+        :param bool fast_fetch: Retrieves matches from a saved snapshot instantly
+        :return: An array of two dataframe containing match results (0: Elapsed, 1: Fixtures)
+        """
+
+        if fast_fetch:
+            df = SportsScraper.__get_cached_matches()
+            if start_date is not None:
+                df = df[df.date >= start_date]
+            if end_date is not None:
+                df = df[df.date <= end_date]
+            return df
+
+        else:
+            return SportsScraper.__scrap_matches(start_date, end_date)
+
+    @staticmethod
+    def __scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
         """
         Scraps data containing information about the results of the matches.
 
@@ -292,17 +420,20 @@ class SportsScraper:
         elapsed_matches_df = pd.DataFrame()
         fixtures_list_df = pd.DataFrame()
 
-        data = []
         processed = 0
 
         days_between = DateTimeHandler.get_dates_between(start_date, end_date)
 
         for singleDay in DateTimeHandler.get_dates_between(start_date, end_date):
+            data = []
             print(ProgressHandler.show_progress(processed, len(days_between)))
             processed += 1
+            # Partially prevents scraping detection
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
             res = requests.get(
                 f'https://www.espn.in/football/fixtures/_/'
-                f'date/{singleDay}')
+                f'date/{singleDay}',
+                headers=headers)
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
             tables = soup.find_all('tbody')
 
@@ -314,7 +445,7 @@ class SportsScraper:
                 for row in rows:
                     cols = row.find_all('td')
                     if cols:  # If column is not empty
-                        arr = []
+                        arr = [DateTimeHandler.year_month_day_to_date(singleDay)]
                         for col in np.arange(0, len(cols)):
                             if cols[col].find('small'):
                                 continue
@@ -329,42 +460,42 @@ class SportsScraper:
                             elif col == 2:
                                 if cols[col].get('data-date'):
                                     date = datetime.datetime.strptime(cols[col].get('data-date'), '%Y-%m-%dT%H:%MZ')
-                                    local_date = DateTimeHandler.datetime_from_utc_to_local(date)
-                                    arr.append(
-                                        '{:d}:{:02d}'.format(local_date.hour, local_date.minute))
+                                    arr.append('{:d}:{:02d}'.format(date.hour, date.minute))
                                 else:
                                     arr.append(cols[col].find('a').text)
                             else:
                                 arr.append(cols[col].text)
                         data.append(arr)
 
-            data = list(filter(lambda x: len(x) != 0, data))
+            data = list(filter(lambda x: len(x) != 1, data))
 
-            elapsed_matches_list = list(filter(lambda x: x[3] != 'LIVE' or ':' not in x[3], data))
-            fixtures_list = list(filter(lambda x: x[3] == 'LIVE' or ':' in x[3], data))
+            elapsed_matches_list = list(filter(lambda x: x[4] != 'LIVE' or ':' not in x[4], data))
+            fixtures_list = list(filter(lambda x: x[4] == 'LIVE' or ':' in x[4], data))
 
             elapsed_matches_df = elapsed_matches_df.append(elapsed_matches_list)
             fixtures_list_df = fixtures_list_df.append(fixtures_list)
 
         if elapsed_matches_df.empty:
-            elapsed_matches_df = pd.DataFrame(np.empty((0, 6)))
+            elapsed_matches_df = pd.DataFrame(np.empty((0, 7)))
         if fixtures_list_df.empty:
-            fixtures_list_df = pd.DataFrame(np.empty((0, 5)))
+            fixtures_list_df = pd.DataFrame(np.empty((0, 6)))
 
-        elapsed_matches_df.columns = ['club1', 'RESULT', 'club2', 'RESULT', 'LOCATION', 'ATTENDANCE']
-        fixtures_list_df.columns = ['club1', 'RESULT', 'club2', 'TIME', 'TV']
+        elapsed_matches_df.columns = ['date', 'club1', 'SCORE', 'club2', 'DURATION', 'LOCATION', 'ATTENDANCE']
+        fixtures_list_df.columns = ['date', 'club1', 'SCORE', 'club2', 'TIME', 'TV']
 
-        elapsed_matches_df = elapsed_matches_df.replace(r'^\s*$', np.nan, regex=True) \
+        df = elapsed_matches_df.append(fixtures_list_df)
+
+        df = df.replace(r'^\s*$', np.nan, regex=True) \
             .replace('--', np.nan) \
             .fillna(value=np.nan) \
             .dropna(thresh=3) \
             .reset_index(drop=True)
 
-        fixtures_list_df = fixtures_list_df.replace(r'^\s*$', np.nan, regex=True) \
+        df = df.replace(r'^\s*$', np.nan, regex=True) \
             .replace('--', np.nan) \
             .fillna(value=np.nan) \
             .dropna(thresh=3) \
             .reset_index(drop=True)
 
         ProgressHandler.reset_progress()
-        return [elapsed_matches_df, fixtures_list_df]
+        return df
