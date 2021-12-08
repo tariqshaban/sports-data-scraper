@@ -191,7 +191,6 @@ Refer to `__get_clubs()` method within `sports_scrapper.py`, it sends an HTTP GE
 where {league} is the league codename (for instance `ENG.1`)
 
 ### What illustrations have you made?
-
 ***TBA***
 
 ### What experiments have you conducted?
