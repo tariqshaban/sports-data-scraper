@@ -34,8 +34,9 @@ print('--------------------------------------------------')
 
 
 # PlotsProvider.plot_players_nationality_uefa_champions_league_2020()
-# PlotsProvider.barcelona_goals_over_last_10_years_spanish_laliga()
+#PlotsProvider.barcelona_goals_over_last_10_years_spanish_laliga()
 # PlotsProvider.plot_show_relation_between_players_age_and_goals_2019_english_premier_league()
-PlotsProvider.most_league_contain_red_and_yellow_cards()
+#PlotsProvider.most_league_contain_red_and_yellow_cards()
+PlotsProvider.top_scorer_in_leagues()
 print('--------------------------------------------------')
 print('Done.')
