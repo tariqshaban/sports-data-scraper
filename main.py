@@ -3,7 +3,6 @@ import datetime
 from models.club import Club
 from providers.plots_provider import PlotsProvider
 from providers.sports_scraper import SportsScraper
-
 print('Scraping....')
 print('--------------------------------------------------')
 # pd.set_option('display.max_rows', None)
@@ -33,10 +32,14 @@ print('--------------------------------------------------')
 # print(SportsScraper.scrap_matches(fast_fetch=True))
 
 
-# PlotsProvider.plot_players_nationality_uefa_champions_league_2020()
-#PlotsProvider.barcelona_goals_over_last_10_years_spanish_laliga()
-# PlotsProvider.plot_show_relation_between_players_age_and_goals_2019_english_premier_league()
-#PlotsProvider.most_league_contain_red_and_yellow_cards()
+PlotsProvider.matches_result_between_barcelona_real_madrid()
+PlotsProvider.plot_highest_15_countries_attendance_2017()
+PlotsProvider.plot_comparison_between_attendance_number_over_years()
+PlotsProvider.plot_matches_occurrences_from_2017_to_2020()
 PlotsProvider.top_scorer_in_leagues()
+PlotsProvider.barcelona_goals_over_last_10_years_spanish_laliga()
+PlotsProvider.plot_show_relation_between_players_age_and_goals()
+PlotsProvider.most_league_contain_red_and_yellow_cards()
+PlotsProvider.plot_players_nationality_uefa_champions_league_2020()
 print('--------------------------------------------------')
 print('Done.')
