@@ -294,31 +294,31 @@ only watch live matches during weekends would have an impression that alot of ma
 >From `cached_matches.csv` in timestamp `2021-12-11 21:10:31.359935`
 
 > ![significant_difference_between_attendance_2019_and_2020.png](images/hypothesis/matches/significant_difference_between_attendance_2019_and_2020.png)
-**Attendance in 2020 was the same as 2019**
+>**Attendance in 2020 was the same as 2019**
 >* The difference of the means is 7988.238 person.
 >* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
 >* The 95% confidence interval of the difference is from 4347.557 to 5516.467, which does not overlap 0.
-<br>
-<br>
-Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+><br>
+><br>
+>Overall, these statistics indicate you <strong>can reject</strong> the null hypothesis (Significantly different).
 
 > ![significant_difference_between_attendance_2015_and_2016.png](images/hypothesis/matches/significant_difference_between_attendance_2015_and_2016.png)
-**Attendance in 2016 was the same as 2015**
+>**Attendance in 2016 was the same as 2015**
 >* The difference of the means is 168.579004 person.
 >* The P-value is 0.392825, and not effectively 0.
 >* The 95% confidence interval of the difference is from -218.820278 to 555.978286, which does overlap 0.
-<br>
-<br>
-Overall, these statistics indicate you **can NOT reject** the null hypothesis (Significantly indifferent). 
+><br>
+><br>
+>Overall, these statistics indicate you <strong>can NOT reject</strong> the null hypothesis (Significantly indifferent). 
 
 > ![significant_difference_between_attendance_barcelona_and_real_madrid.png](images/hypothesis/matches/significant_difference_between_attendance_barcelona_and_real_madrid.png)
-**Attendance was the same for Barcelona and Real Madrid**
+>**Attendance was the same for Barcelona and Real Madrid**
 >* The difference of the means is 2937.508974 person.
 >* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
 >* The 95% confidence interval of the difference is from 444.785042 to 5430.232907, which does not overlap 0.
-<br>
-<br>
-Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+><br>
+><br>
+>Overall, these statistics indicate you <strong>can reject</strong> the null hypothesis (Significantly different).
 
 </details>
 <br>
@@ -328,31 +328,31 @@ Overall, these statistics indicate you **can reject** the null hypothesis (Signi
 >From `cached_players.csv` in timestamp `2021-12-08 09:20:54.785621`
 
 > ![plot_threads_posting.png](images/hypothesis/players/significant_difference_between_goalkeeper_and_player_height_2020.png)
-**Goalkeepers have the same height as other players**
+>**Goalkeepers have the same height as other players**
 >* The difference of the means is 6.485157 cm.
 >* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
 >* The 95% confidence interval of the difference is from 6.228166 to 6.742147, which does not overlap 0.
-<br>
-<br>
-Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+><br>
+><br>
+>Overall, these statistics indicate you <strong>can reject</strong> the null hypothesis (Significantly different).
 
 > ![plot_views_with_replies_views.png](images/hypothesis/players/significant_difference_between_forward_and_midfielder_players_goals_2020.png)
-**Forward and middle-fielders have no difference in goal scoring**
+>**Forward and middle-fielders have no difference in goal scoring**
 >* The difference of the means is 1.307344 goals.
 >* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
 >* The 95% confidence interval of the difference is from 1.204559 to 1.410130, which does not overlap 0.
-<br>
-<br>
-Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+><br>
+><br>
+>Overall, these statistics indicate you <strong>can reject</strong> the null hypothesis (Significantly different).
 
 > ![plot_daily_views_with_replies.png](images/hypothesis/players/significant_difference_between_defender_and_midfielder_players_yellow_cards_2020.png)
-**Middle-fielders and defenders have the same amount yellow cards**
+>**Middle-fielders and defenders have the same amount yellow cards**
 >* The difference of the means is -0.001883 yellow cards.
 >* The P-value is 0.951904, and not effectively 0.
 >* The 95% confidence interval of the difference is from -0.065055 to 0.061288, which does overlap 0.
-<br>
-<br>
-Overall, these statistics indicate you **can NOT reject** the null hypothesis (Significantly indifferent). 
+><br>
+><br>
+>Overall, these statistics indicate you <strong>can NOT reject</strong> the null hypothesis (Significantly indifferent). 
  
 </details>
 
