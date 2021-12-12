@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import seaborn as sns
+from statsmodels.tsa.seasonal import seasonal_decompose
+
 from providers.sports_scraper import SportsScraper
 import matplotlib.pyplot as plt
 import datetime
@@ -24,6 +26,8 @@ class PlotsProvider:
             Shows worldwide attendance fluctuation across the years.
         plot_matches_occurrences_from_2017_to_2020(fast_fetch=True):
             Shows worldwide matches counts on a daily basis between 2017 and 2020.
+        plot_attendance_time_series(fast_fetch=True):
+            Shows worldwide matches counts on a daily basis between 2017 and 2020.
 
         top_scorer_in_leagues_2020(fast_fetch=True, fast_fetch_clubs=True):
             Shows the highest players who scored for selected leagues in 2020.
@@ -35,6 +39,17 @@ class PlotsProvider:
             Shows the number of attained red and yellow cards for selected leagues in 2020.
         plot_players_nationality_uefa_champions_league_2020(fast_fetch=True, fast_fetch_clubs=True):
             Shows players nationalities in the UEFA Champions League in 2020 as a plot.
+        plot_players_goals_with_assists_scatter(fast_fetch=True, fast_fetch_clubs=True):
+            Shows scattered goals with assists for each club.
+        plot_players_columns_correlation(fast_fetch=True, fast_fetch_clubs=True):
+            Shows correlation for all columns in the players dataframe.
+        plot_german_bundesliga_team_goals_2017(fast_fetch=True, fast_fetch_clubs=True):
+            Compares German Bundesliga teams in total goals during 2017.
+        plot_players_goals_with_assists_stacked_bar(fast_fetch=True, fast_fetch_clubs=True):
+            Compares German Bundesliga teams in total goals and assists during 2017.
+        plot_players_goals_with_assists_box(fast_fetch=True, fast_fetch_clubs=True):
+            Compares German Bundesliga average team player goals during 2017.
+
     """
 
     @staticmethod
@@ -131,6 +146,35 @@ class PlotsProvider:
         calplot(df, colorbar=True, tight_layout=False, cmap='Reds',
                 suptitle='Worldwide Matches Counts on A Daily Basis Between 2017 and 2020')
 
+        plt.show()
+
+    @staticmethod
+    def plot_attendance_time_series(fast_fetch=True):
+        """
+        Shows worldwide daily attendance fluctuation across the years as a time series.
+
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
+        """
+
+        df = SportsScraper.scrap_matches(fast_fetch=fast_fetch,
+                                         start_date=datetime.date(2005, 1, 1),
+                                         end_date=datetime.date(2021, 12, 31)
+                                         )
+
+        df = df[df['ATTENDANCE'].notna() & df['LOCATION'].notna()]
+        fig, ax = plt.subplots()
+        df = df[['date', 'ATTENDANCE']]
+
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.groupby(pd.Grouper(key='date', freq='D')).sum()
+        df = df.dropna()
+        df.sort_index(inplace=True)
+
+        decomposition = seasonal_decompose(df['ATTENDANCE'])
+        plt.plot(decomposition.trend)
+
+        ax.set_yticklabels([str(int(tick) / 1000000) + 'M' for tick in ax.get_yticks()])
+        fig.suptitle('Worldwide Attendance Fluctuation Across The Years')
         plt.show()
 
     @staticmethod
@@ -252,14 +296,136 @@ class PlotsProvider:
 
         df = df[df > 1]  # Removes the clutter from the plot by removing nationalities with only one player
 
-        if df.size != 0:
-            df.plot(kind='bar', ax=ax)
-        else:
-            print('Cannot view the plot; the dataframe is empty')
+        df.plot(kind='bar', ax=ax)
 
         plt.tight_layout()
         ax.set_xticks(np.arange(len(df.index)))
         ax.set_xticklabels(df.index, rotation=45)
         fig.suptitle('Players Nationality in UEFA Champions League 2020', fontsize=20)
         plt.xlabel('Nationality')
+        plt.show()
+
+    @staticmethod
+    def plot_players_goals_with_assists_scatter(fast_fetch=True, fast_fetch_clubs=True):
+        """
+        Shows scattered goals with assists for each club.
+
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
+        """
+
+        df = SportsScraper.scrap_players(fast_fetch=fast_fetch,
+                                         fast_fetch_clubs=fast_fetch_clubs
+                                         )
+
+        df = df.groupby(df['CLUB']).mean()
+        sns.regplot(data=df, x='G', y='A', line_kws={'color': 'b'})
+        sns.scatterplot(data=df, x='G', y='A', hue='AGE')
+
+        plt.suptitle('Scattered Goals With Assists for Each Club')
+        plt.xlabel('Goals')
+        plt.ylabel('Assists')
+        plt.show()
+
+    @staticmethod
+    def plot_players_columns_correlation(fast_fetch=True, fast_fetch_clubs=True):
+        """
+        Shows correlation for all columns in the players dataframe.
+
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
+        """
+
+        df = SportsScraper.scrap_players(fast_fetch=fast_fetch,
+                                         fast_fetch_clubs=fast_fetch_clubs
+                                         )
+
+        sns.heatmap(df.corr(), cmap='Reds')
+
+        plt.suptitle('Correlation for Player\'s Properties')
+        plt.show()
+
+    @staticmethod
+    def plot_german_bundesliga_team_goals_2017(fast_fetch=True, fast_fetch_clubs=True):
+        """
+        Compares German Bundesliga teams in total goals during 2017.
+
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
+        """
+
+        season_years = [2017]
+        leagues = ['German Bundesliga']
+
+        df = SportsScraper.scrap_players(season_years=season_years,
+                                         leagues=leagues,
+                                         fast_fetch=fast_fetch,
+                                         fast_fetch_clubs=fast_fetch_clubs
+                                         )
+        df = df.groupby('CLUB').sum().sort_values('G')
+
+        plt.hlines(y=df.index, xmin=0, xmax=df.G, alpha=0.4, linewidth=5)
+
+        plt.tight_layout(rect=[0.05, 0.03, 1, 0.95])
+        plt.suptitle('German Bundesliga Team\'s Total Goals During 2017')
+        plt.xlabel('Goals')
+        plt.ylabel('Team')
+        plt.show()
+
+    @staticmethod
+    def plot_players_goals_with_assists_stacked_bar(fast_fetch=True, fast_fetch_clubs=True):
+        """
+        Compares German Bundesliga teams in total goals and assists during 2017.
+
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
+        """
+
+        season_years = [2017]
+        leagues = ['German Bundesliga']
+
+        df = SportsScraper.scrap_players(season_years=season_years,
+                                         leagues=leagues,
+                                         fast_fetch=fast_fetch,
+                                         fast_fetch_clubs=fast_fetch_clubs
+                                         )
+        df = df.groupby('CLUB').sum()
+
+        df[['G', 'A']].plot(kind='bar', use_index=True,
+                            stacked=True,
+                            title='Stacked Bar Graph by dataframe')
+
+        plt.tight_layout(rect=[0.05, 0.03, 1, 0.95])
+        plt.suptitle('German Bundesliga Team\'s Total Goals and Assists During 2017')
+        plt.xlabel('Team')
+        plt.legend(['Goals', 'Assists'])
+        plt.show()
+
+    @staticmethod
+    def plot_players_goals_with_assists_box(fast_fetch=True, fast_fetch_clubs=True):
+        """
+        Compares German Bundesliga average team player goals during 2017.
+
+        :param bool fast_fetch: Retrieves clubs from a saved snapshot instantly
+        :param bool fast_fetch_clubs: Retrieves clubs from a saved snapshot instantly
+        """
+
+        season_years = [2017]
+        leagues = ['German Bundesliga']
+
+        df = SportsScraper.scrap_players(season_years=season_years,
+                                         leagues=leagues,
+                                         fast_fetch=fast_fetch,
+                                         fast_fetch_clubs=fast_fetch_clubs
+                                         )
+
+        df['CLUB'] = df['CLUB'] \
+            .apply(lambda x: (x[:10] + '..') if len(x) > 10 else x)
+
+        df.boxplot(column='G', by='CLUB')
+
+        plt.tight_layout(rect=[0.05, 0.03, 1, 0.95])
+        plt.suptitle('German Bundesliga Average Team Player Goals During 2017')
+        plt.xticks(rotation=35)
+        plt.ylabel('Goals')
         plt.show()

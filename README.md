@@ -207,17 +207,20 @@ where {league} is the league codename (for instance `ENG.1`)
 >From `cached_matches.csv` in timestamp `2021-12-11 21:10:31.359935`
 
 > ![matches_result_between_barcelona_real_madrid.png](images/plots/matches/matches_result_between_barcelona_real_madrid.png)
-Barcelona had higher win rate than Real Madrid when they went against each other
+Barcelona had higher win rate than Real Madrid when they went against each other.
 
 > ![plot_highest_15_countries_attendance_2017.png](images/plots/matches/plot_highest_15_countries_attendance_2017.png)
-England had the highest attendance during 2017
+England had the highest attendance during 2017.
 
 > ![plot_comparison_between_attendance_number_over_years.png](images/plots/matches/plot_comparison_between_attendance_number_over_years.png)
 Notice that attendance during 2020 was much less that previous years; this is due to the corona pandemic,
-2002 is also less since scraped data started from Oct, 2002
+2002 is also less since scraped data started from Oct, 2002.
 
 > ![plot_matches_occurrences_from_2017_to_2020.png](images/plots/matches/plot_matches_occurrences_from_2017_to_2020.png)
-Notice that matches occur during Saturdays and Sundays, which happens to be the weekend for most of the world 
+Notice that matches occur during Saturdays and Sundays, which happens to be the weekend for most of the world .
+
+> ![plot_attendance_time_series.png](images/plots/matches/plot_attendance_time_series.png)
+Shows daily attendance fluctuations (in a million), notice the attendance value during 2020 and the beginning of 2021.
 
 </details>
 <br>
@@ -239,8 +242,25 @@ There is a slight correlation between age and the number of goals.
 The Spanish LaLiga had the highest yellow cards during 2020, while the French Ligue had the highest red cards.
 
 > ![plot_players_nationality_uefa_champions_league_2020.png](images/plots/players/plot_players_nationality_uefa_champions_league_2020.png)
-Most players in the UEFA champions league were from Spanish nationality
+Most players in the UEFA champions league were from Spanish nationality.
  
+> ![plot_players_goals_with_assists_scatter.png](images/plots/players/plot_players_goals_with_assists_scatter.png)
+There is a slight correlation between goals and assists.
+
+> ![plot_players_columns_correlation.png](images/plots/players/plot_players_columns_correlation.png)
+Shows the correlation between all columns in the player's dataframe. The identity is always 1; since it compares itself.
+
+> ![plot_german_bundesliga_team_goals_2017.png](images/plots/players/plot_german_bundesliga_team_goals_2017.png)
+Bayern Munich had the highest goals in the German Bundesliga during 2017.
+
+> ![plot_players_goals_with_assists_stacked_bar.png](images/plots/players/plot_players_goals_with_assists_stacked_bar.png)
+Bayern Munich had also the highest assists in the German Bundesliga during 2017.
+
+> ![plot_players_goals_with_assists_box.png](images/plots/players/plot_players_goals_with_assists_box.png)
+Bayern Munich have a relatively higher Q3 value (denoted by the whisker) in terms of average player goals in the 
+German Bundesliga during 2017, this means that we can still (barely) trust having their team an average goals 
+score of 12.
+
 </details>
 
 ### What experiments have you conducted?

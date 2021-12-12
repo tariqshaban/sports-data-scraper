@@ -8,6 +8,7 @@ PlotsProvider.matches_result_between_barcelona_real_madrid()
 PlotsProvider.plot_highest_15_countries_attendance_2017()
 PlotsProvider.plot_comparison_between_attendance_number_over_years()
 PlotsProvider.plot_matches_occurrences_from_2017_to_2020()
+PlotsProvider.plot_attendance_time_series()
 
 # Fetches from players
 PlotsProvider.top_scorer_in_leagues_2020()
@@ -15,6 +16,11 @@ PlotsProvider.barcelona_goals_over_last_10_years_spanish_laliga()
 PlotsProvider.plot_relation_between_players_age_and_goals()
 PlotsProvider.plot_red_and_yellow_cards_2020()
 PlotsProvider.plot_players_nationality_uefa_champions_league_2020()
+PlotsProvider.plot_players_goals_with_assists_scatter()
+PlotsProvider.plot_players_columns_correlation()
+PlotsProvider.plot_german_bundesliga_team_goals_2017()
+PlotsProvider.plot_players_goals_with_assists_stacked_bar()
+PlotsProvider.plot_players_goals_with_assists_box()
 
 #########################################################
 #########################################################
