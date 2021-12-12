@@ -15,7 +15,7 @@ class ProgressHandler:
         show_progress(elapsed=0, total=100):
             Shows scraping progress in a formatted manner.
         reset_progress():
-            Nullifies the attributes in order to receive a new progress.
+            Nullifies the attributes in order to receive new progress.
     """
 
     __last_accessed = None
@@ -56,7 +56,7 @@ class ProgressHandler:
     @staticmethod
     def reset_progress():
         """
-        Nullifies the attributes in order to receive a new progress.
+        Nullifies the attributes in order to receive new progress.
         """
 
         ProgressHandler.__last_accessed = None

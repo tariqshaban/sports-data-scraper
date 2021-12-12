@@ -20,7 +20,7 @@ Install pandas
 `pip install pandas`
 
 install matplotlib
-`pip install matplotlib.pyplot`
+`pip install matplotlib`
 
 Install scipy
 `pip install scipy`
@@ -44,16 +44,25 @@ Project Structure
     ├── README.md                 <- The top-level README for developers using this project.
     │
     ├── helpers
-    │   ├── date_time_handler     <- Set of static methods that aid some time manipulations
-    │   └── progress_handler      <- Set of static methods that aid some progress manipulations
+    │   ├── date_time_handler     <- Set of static methods that aid some time manipulations.
+    │   └── progress_handler      <- Set of static methods that aid some progress manipulations.
     │
+    ├── images                    <- Storing readme image files.
+    │   
     ├── models
     │   ├── league                <- A container for storing league URL as well as league name.
-    │   └── club                  <- A container for storing club id as well as the club name
+    │   └── club                  <- A container for storing club id as well as the club name.
     │
     ├── providers
-    │   ├── plots_provider        <- Static methods which perform the plotting functionality
-    │   └── sports_scraper        <- Static methods which perform the scraping functionality
+    │   │── hypothesis_container  <-Static methods which perform the hypothesis testing.
+    │   ├── plots_provider        <- Static methods which perform the plotting functionality.
+    │   └── sports_scraper        <- Static methods which perform the scraping functionality.
+    │
+    ├── cached_clubs.csv          <- Storing cached clubs from a previous state.
+    │   
+    ├── cached_matches.csv        <- Storing cached matches from a previous state.
+    │   
+    ├── cached_players.csv        <- Storing cached players from a previous state.
     │
     └── main                      <- Acts as a sandbox for methods invocation
 
@@ -191,14 +200,134 @@ Refer to `__get_clubs()` method within `sports_scrapper.py`, it sends an HTTP GE
 where {league} is the league codename (for instance `ENG.1`)
 
 ### What illustrations have you made?
-***TBA***
+
+<details>
+  <summary>Matches Illustrations</summary>
+
+>From `cached_matches.csv` in timestamp `2021-12-11 21:10:31.359935`
+
+> ![matches_result_between_barcelona_real_madrid.png](images/plots/matches/matches_result_between_barcelona_real_madrid.png)
+Barcelona had higher win rate than Real Madrid when they went against each other
+
+> ![plot_highest_15_countries_attendance_2017.png](images/plots/matches/plot_highest_15_countries_attendance_2017.png)
+England had the highest attendance during 2017
+
+> ![plot_comparison_between_attendance_number_over_years.png](images/plots/matches/plot_comparison_between_attendance_number_over_years.png)
+Notice that attendance during 2020 was much less that previous years; this is due to the corona pandemic,
+2002 is also less since scraped data started from Oct, 2002
+
+> ![plot_matches_occurrences_from_2017_to_2020.png](images/plots/matches/plot_matches_occurrences_from_2017_to_2020.png)
+Notice that matches occur during Saturdays and Sundays, which happens to be the weekend for most of the world 
+
+</details>
+<br>
+<details>
+  <summary>Players Illustrations</summary>
+
+>From `cached_players.csv` in timestamp `2021-12-08 09:20:54.785621`
+
+> ![top_scorer_in_leagues_2020.png](images/plots/players/top_scorer_in_leagues_2020.png)
+Robert Lewandowski had the highest goals during 2020 (41).
+
+> ![barcelona_goals_over_last_10_years_spanish_laliga.png](images/plots/players/barcelona_goals_over_last_10_years_spanish_laliga.png)
+Barcelona peaked during 2015.
+
+> ![plot_relation_between_players_age_and_goals.png](images/plots/players/plot_relation_between_players_age_and_goals.png)
+There is a slight correlation between age and the number of goals.
+
+> ![plot_red_and_yellow_cards_2020.png](images/plots/players/plot_red_and_yellow_cards_2020.png)
+The Spanish LaLiga had the highest yellow cards during 2020, while the French Ligue had the highest red cards.
+
+> ![plot_players_nationality_uefa_champions_league_2020.png](images/plots/players/plot_players_nationality_uefa_champions_league_2020.png)
+Most players in the UEFA champions league were from Spanish nationality
+ 
+</details>
 
 ### What experiments have you conducted?
 
-***TBA***
+The study was:
+* Observational: There was no interference
+* Retrospective: The data was already available, and the service adds the data in real-time
+* Longitudinal: Data might be collected multiple times for the same subject (Player's annual performance)
+* Liable to bias: Depending on the data subset, information extracted might be highly biased; due to an event or
+inaccuracy. For instance, the pandemic heavily decreased the attendance, data subset must not only span the event's
+timeframe
+* Blinding: Possible due to inexperience
+
+Refer to ***"plot_comparison_between_attendance_number_over_years"*** plot,
+if data was merely collected from 2020, it would have given a false indication that interest in soccer is overall low.
+
+Same as in ***"plot_matches_occurrences_from_2017_to_2020"*** plot, people who
+only watch live matches during weekends would have an impression that alot of matches occur each day.
 
 ### What hypothesis have you formulated?
 
-***TBA***
+<details>
+  <summary>Matches Hypothesis</summary>
+
+>From `cached_matches.csv` in timestamp `2021-12-11 21:10:31.359935`
+
+> ![significant_difference_between_attendance_2019_and_2020.png](images/hypothesis/matches/significant_difference_between_attendance_2019_and_2020.png)
+**Attendance in 2020 was the same as 2019**
+>* The difference of the means is 7988.238 person.
+>* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
+>* The 95% confidence interval of the difference is from 4347.557 to 5516.467, which does not overlap 0.
+<br>
+<br>
+Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+
+> ![significant_difference_between_attendance_2015_and_2016.png](images/hypothesis/matches/significant_difference_between_attendance_2015_and_2016.png)
+**Attendance in 2016 was the same as 2015**
+>* The difference of the means is 168.579004 person.
+>* The P-value is 0.392825, and not effectively 0.
+>* The 95% confidence interval of the difference is from -218.820278 to 555.978286, which does overlap 0.
+<br>
+<br>
+Overall, these statistics indicate you **can NOT reject** the null hypothesis (Significantly indifferent). 
+
+> ![significant_difference_between_attendance_barcelona_and_real_madrid.png](images/hypothesis/matches/significant_difference_between_attendance_barcelona_and_real_madrid.png)
+**Attendance was the same for Barcelona and Real Madrid**
+>* The difference of the means is 2937.508974 person.
+>* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
+>* The 95% confidence interval of the difference is from 444.785042 to 5430.232907, which does not overlap 0.
+<br>
+<br>
+Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+
+</details>
+<br>
+<details>
+  <summary>Players Hypothesis</summary>
+
+>From `cached_players.csv` in timestamp `2021-12-08 09:20:54.785621`
+
+> ![plot_threads_posting.png](images/hypothesis/players/significant_difference_between_goalkeeper_and_player_height_2020.png)
+**Goalkeepers have the same height as other players**
+>* The difference of the means is 6.485157 cm.
+>* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
+>* The 95% confidence interval of the difference is from 6.228166 to 6.742147, which does not overlap 0.
+<br>
+<br>
+Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+
+> ![plot_views_with_replies_views.png](images/hypothesis/players/significant_difference_between_forward_and_midfielder_players_goals_2020.png)
+**Forward and middle-fielders have no difference in goal scoring**
+>* The difference of the means is 1.307344 goals.
+>* The P-value is effectively 0, which is smaller than the confidence level of 0.05.
+>* The 95% confidence interval of the difference is from 1.204559 to 1.410130, which does not overlap 0.
+<br>
+<br>
+Overall, these statistics indicate you **can reject** the null hypothesis (Significantly different).
+
+> ![plot_daily_views_with_replies.png](images/hypothesis/players/significant_difference_between_defender_and_midfielder_players_yellow_cards_2020.png)
+**Middle-fielders and defenders have the same amount yellow cards**
+>* The difference of the means is -0.001883 yellow cards.
+>* The P-value is 0.951904, and not effectively 0.
+>* The 95% confidence interval of the difference is from -0.065055 to 0.061288, which does overlap 0.
+<br>
+<br>
+Overall, these statistics indicate you **can NOT reject** the null hypothesis (Significantly indifferent). 
+ 
+</details>
 
 --------

@@ -360,8 +360,17 @@ class SportsScraper:
         Retrieves the match's snapshot.
         """
 
-        matches = pd.read_csv('cached_matches.csv', skiprows=1)
+        matches = pd.read_csv('cached_matches.csv', skiprows=1, dtype={'date': object,
+                                                                       'club1': str,
+                                                                       'SCORE': str,
+                                                                       'club2': str,
+                                                                       'DURATION': str,
+                                                                       'LOCATION': str,
+                                                                       'ATTENDANCE': str,
+                                                                       'TIME': str,
+                                                                       'TV': np.float})
 
+        matches['ATTENDANCE'] = pd.to_numeric(matches['ATTENDANCE'].str.replace(',', ''), downcast='integer')
         matches['date'] = pd.to_datetime(matches['date']).dt.date
 
         return matches
@@ -373,7 +382,7 @@ class SportsScraper:
         """
 
         matches = SportsScraper.scrap_matches(start_date=datetime.date(2002, 10, 1),
-                                              end_date=datetime.date(2022, 5, 22))
+                                              end_date=datetime.date(2022, 5, 29))
 
         f = open('cached_matches.csv', "w+")
         f.write(f'# Timestamp: {datetime.datetime.utcnow()}\n')
@@ -405,12 +414,15 @@ class SportsScraper:
             return SportsScraper.__scrap_matches(start_date, end_date)
 
     @staticmethod
-    def __scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today()):
+    def __scrap_matches(start_date=datetime.date.today() - datetime.timedelta(days=7),
+                        end_date=datetime.date.today(),
+                        request_tries=8):
         """
         Scraps data containing information about the results of the matches.
 
         :param datetime.date start_date: Specify the start date of the search
         :param datetime.date end_date: Specify the end date of the search
+        :param int request_tries: Determine to number of tries for each webpage request whenever it fails
         :return: An array of two dataframe containing match results (0: Elapsed, 1: Fixtures)
         """
 
@@ -424,7 +436,7 @@ class SportsScraper:
 
         days_between = DateTimeHandler.get_dates_between(start_date, end_date)
 
-        for singleDay in DateTimeHandler.get_dates_between(start_date, end_date):
+        for singleDay in days_between:
             data = []
             print(ProgressHandler.show_progress(processed, len(days_between)))
             processed += 1
@@ -436,6 +448,22 @@ class SportsScraper:
                 headers=headers)
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
             tables = soup.find_all('tbody')
+
+            tries = 0
+            print(singleDay)
+            while soup.find('h1', {'class': 'Error404__Title'}) is not None and tries < request_tries:
+                print(f'try {tries + 1}')
+                tries += 1
+                headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
+                res = requests.get(
+                    f'https://www.espn.in/football/fixtures/_/'
+                    f'date/{singleDay}',
+                    headers=headers)
+                soup = bs4.BeautifulSoup(res.text, 'html.parser')
+                tables = soup.find_all('tbody')
+
+            if tries == request_tries:
+                print('giving up...')
 
             if not tables:
                 continue
