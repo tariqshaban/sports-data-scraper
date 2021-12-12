@@ -22,11 +22,17 @@ Install pandas
 install matplotlib
 `pip install matplotlib`
 
-Install scipy
-`pip install scipy`
+install seaborn
+`pip install seaborn`
 
 Install calplot
 `pip install calplot`
+
+install statsmodels
+`pip install statsmodels`
+
+Install scipy
+`pip install scipy`
 
 Install requests
 `pip install requests`
