@@ -6,6 +6,7 @@ It contains the code necessary to scrape data from a well-known sports website.
 
 This repository is merely a demonstration of how web scraping performs.
 
+### Refer to [sports-data-visualizer](https://github.com/tariqshaban/sports-data-visualizer) repository to view a [live example](https://tariqshaban.github.io/sports-data-visualizer/).
 
 Getting Started
 ------------
